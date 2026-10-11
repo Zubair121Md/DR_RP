@@ -1,0 +1,295 @@
+{
+  "run_id": "baseline_efficientnet_b0_green_clahe_coral_20260918_203508",
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/baseline_efficientnet_b0_green_clahe_coral_20260918_203508/best.pt",
+  "device": "mps",
+  "head": "coral",
+  "preprocess": "green_clahe",
+  "cache_root": "/Users/zubairishaq/Desktop/dr- research/datasets/cache",
+  "note": "IDRiD / Messidor-2 / DeepDRiD evaluated as unseen external tests only. Temperature T fit on APTOS val only.",
+  "bootstrap": {
+    "n_boot": 200,
+    "seed": 42,
+    "alpha": 0.05
+  },
+  "temperature": {
+    "value": 0.05000000074505806,
+    "fit_on": "aptos_val",
+    "n": 366
+  },
+  "aptos_test": {
+    "n": 366,
+    "metrics": {
+      "n_samples": 366,
+      "accuracy": 0.8060109289617486,
+      "macro_f1": 0.6182001684946012,
+      "quadratic_weighted_kappa": 0.9040736233231687,
+      "mae": 0.23224043715846995,
+      "per_class_precision": [
+        0.9609756097560975,
+        0.41935483870967744,
+        0.7045454545454546,
+        0.32,
+        0.8823529411764706
+      ],
+      "per_class_recall": [
+        0.9899497487437185,
+        0.43333333333333335,
+        0.7126436781609196,
+        0.47058823529411764,
+        0.45454545454545453
+      ],
+      "per_class_f1": [
+        0.9752475247524752,
+        0.4262295081967213,
+        0.7085714285714285,
+        0.38095238095238093,
+        0.6
+      ],
+      "mild_dr_recall": 0.43333333333333335,
+      "mild_dr_precision": 0.41935483870967744,
+      "mild_dr_f1": 0.4262295081967213,
+      "grade1_f1": 0.4262295081967213,
+      "confusion_matrix": [
+        [
+          197,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          7,
+          13,
+          9,
+          1,
+          0
+        ],
+        [
+          1,
+          16,
+          62,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          8,
+          2
+        ],
+        [
+          0,
+          1,
+          9,
+          8,
+          15
+        ]
+      ],
+      "confusion_0_1": {
+        "0_predicted_as_1": 1,
+        "1_predicted_as_0": 7,
+        "total_bidirectional": 8
+      },
+      "confusion_1_2": {
+        "1_predicted_as_2": 9,
+        "2_predicted_as_1": 16,
+        "total_bidirectional": 25
+      },
+      "ece": 0.18462638125393563,
+      "bootstrap_cis": {
+        "accuracy": {
+          "mean": 0.8071311475409837,
+          "ci_low": 0.7704234972677595,
+          "ci_high": 0.8443989071038253,
+          "std": 0.020256708558012867
+        },
+        "macro_f1": {
+          "mean": 0.6151546630389056,
+          "ci_low": 0.5472307618667475,
+          "ci_high": 0.677759685624863,
+          "std": 0.035215256123473496
+        },
+        "quadratic_weighted_kappa": {
+          "mean": 0.9036582327189535,
+          "ci_low": 0.8720495821365728,
+          "ci_high": 0.9296314060978135,
+          "std": 0.015287787352310114
+        },
+        "mae": {
+          "mean": 0.23153005464480875,
+          "ci_low": 0.17759562841530055,
+          "ci_high": 0.2869535519125683,
+          "std": 0.02811444994514728
+        },
+        "mild_dr_recall": {
+          "mean": 0.4346168898601192,
+          "ci_low": 0.2855714285714286,
+          "ci_high": 0.6112179487179488,
+          "std": 0.0836447173443848
+        },
+        "mild_dr_precision": {
+          "mean": 0.4171726649300719,
+          "ci_low": 0.2607994389901823,
+          "ci_high": 0.5887079831932774,
+          "std": 0.08523078099067867
+        },
+        "mild_dr_f1": {
+          "mean": 0.42153644351415265,
+          "ci_low": 0.29250871080139373,
+          "ci_high": 0.5769927536231884,
+          "std": 0.07294802805932712
+        },
+        "ece": {
+          "mean": 0.18691457261397537,
+          "ci_low": 0.15369554811406655,
+          "ci_high": 0.21366070314753252,
+          "std": 0.016189085434034786
+        }
+      },
+      "ece_temperature_scaled": 0.20961513154493652,
+      "temperature": 0.05000000074505806
+    }
+  },
+  "idrid_external": {
+    "n": 516,
+    "metrics": {
+      "n_samples": 516,
+      "accuracy": 0.5096899224806202,
+      "macro_f1": 0.44420305167388197,
+      "quadratic_weighted_kappa": 0.7374847374847375,
+      "mae": 0.622093023255814,
+      "per_class_precision": [
+        0.7746478873239436,
+        0.08641975308641975,
+        0.5493827160493827,
+        0.3488372093023256,
+        0.6
+      ],
+      "per_class_recall": [
+        0.6547619047619048,
+        0.28,
+        0.5297619047619048,
+        0.3225806451612903,
+        0.43548387096774194
+      ],
+      "per_class_f1": [
+        0.7096774193548387,
+        0.1320754716981132,
+        0.5393939393939394,
+        0.33519553072625696,
+        0.5046728971962616
+      ],
+      "mild_dr_recall": 0.28,
+      "mild_dr_precision": 0.08641975308641975,
+      "mild_dr_f1": 0.1320754716981132,
+      "grade1_f1": 0.1320754716981132,
+      "confusion_matrix": [
+        [
+          110,
+          38,
+          12,
+          6,
+          2
+        ],
+        [
+          15,
+          7,
+          3,
+          0,
+          0
+        ],
+        [
+          16,
+          32,
+          89,
+          29,
+          2
+        ],
+        [
+          1,
+          3,
+          45,
+          30,
+          14
+        ],
+        [
+          0,
+          1,
+          13,
+          21,
+          27
+        ]
+      ],
+      "confusion_0_1": {
+        "0_predicted_as_1": 38,
+        "1_predicted_as_0": 15,
+        "total_bidirectional": 53
+      },
+      "confusion_1_2": {
+        "1_predicted_as_2": 3,
+        "2_predicted_as_1": 32,
+        "total_bidirectional": 35
+      },
+      "ece": 0.2506910809712816,
+      "bootstrap_cis": {
+        "accuracy": {
+          "mean": 0.5105329457364342,
+          "ci_low": 0.4689437984496124,
+          "ci_high": 0.5504360465116279,
+          "std": 0.022339857344128654
+        },
+        "macro_f1": {
+          "mean": 0.4434731745363319,
+          "ci_low": 0.4002841518491109,
+          "ci_high": 0.48228647871796076,
+          "std": 0.021528358790449002
+        },
+        "quadratic_weighted_kappa": {
+          "mean": 0.7380594451397152,
+          "ci_low": 0.6862280929997735,
+          "ci_high": 0.7792854986416141,
+          "std": 0.022698480172788443
+        },
+        "mae": {
+          "mean": 0.6205426356589148,
+          "ci_low": 0.562015503875969,
+          "ci_high": 0.6939437984496124,
+          "std": 0.03283125200301301
+        },
+        "mild_dr_recall": {
+          "mean": 0.27596796761144643,
+          "ci_low": 0.11477272727272729,
+          "ci_high": 0.4507500000000002,
+          "std": 0.09026453378883899
+        },
+        "mild_dr_precision": {
+          "mean": 0.08428950738501097,
+          "ci_low": 0.026275178687459388,
+          "ci_high": 0.14125000000000004,
+          "std": 0.03151946929893763
+        },
+        "mild_dr_f1": {
+          "mean": 0.12793492082913305,
+          "ci_low": 0.042925582880868736,
+          "ci_high": 0.21375242718446605,
+          "std": 0.044653868107712234
+        },
+        "ece": {
+          "mean": 0.25377194236588574,
+          "ci_low": 0.219354347494799,
+          "ci_high": 0.2904368770099426,
+          "std": 0.01848301299137595
+        }
+      },
+      "ece_temperature_scaled": 0.2849809086137964,
+      "temperature": 0.05000000074505806
+    }
+  },
+  "messidor2_external": {
+    "error": "Missing preprocess cache frame: /Users/zubairishaq/Desktop/dr- research/datasets/cache/green_clahe/messidor2/20051020_44400_0100_PP.png"
+  },
+  "deepdrid_external": {
+    "error": "DeepDRiD regular_fundus_images missing under /Users/zubairishaq/Desktop/dr- research/datasets/datasets/DeepDRiD"
+  }
+}

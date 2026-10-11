@@ -1,0 +1,28 @@
+{
+  "run_id": "hybrid_h4_s44_v1",
+  "experiment_name": "hybrid_mobilevit_s_green_clahe_mild_coral_s44",
+  "device": "cpu",
+  "epochs": 20,
+  "best_epoch": 20,
+  "best_selection_metric": "quadratic_weighted_kappa",
+  "best_selection_score": 0.8435935630387537,
+  "best_val_metrics": {
+    "epoch": 20,
+    "train_loss": 0.8532665142646203,
+    "val_loss": 0.829960046093101,
+    "val_accuracy": 0.5655737704918032,
+    "val_macro_f1": 0.3576759650605804,
+    "val_qwk": 0.7263529636346282,
+    "val_mae": 0.7759562841530054,
+    "lr": 8.838242053965854e-05
+  },
+  "final_train_loss": 0.8532665142646203,
+  "final_val_loss": 0.829960046093101,
+  "elapsed_sec": 24.864923000335693,
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/hybrid_h4_s44_v1/best.pt",
+  "results_dir": "/Users/zubairishaq/Desktop/dr- research/results/hybrid_h4_s44_v1",
+  "experiments_dir": "/Users/zubairishaq/Desktop/dr- research/experiments/hybrid_h4_s44_v1",
+  "aptos_train_size": 2930,
+  "aptos_val_size": 366,
+  "note": "IDRiD / Messidor-2 / DeepDRiD were not used for training or validation."
+}

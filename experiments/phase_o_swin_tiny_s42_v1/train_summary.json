@@ -1,0 +1,28 @@
+{
+  "run_id": "phase_o_swin_tiny_s42_v1",
+  "experiment_name": "phase_o_swin_tiny_green_clahe_ce_s42",
+  "device": "cpu",
+  "epochs": 20,
+  "best_epoch": 20,
+  "best_selection_metric": "quadratic_weighted_kappa",
+  "best_selection_score": 0.9032835092759476,
+  "best_val_metrics": {
+    "epoch": 20,
+    "train_loss": 0.40562970821674,
+    "val_loss": 0.6231172727378219,
+    "val_accuracy": 0.76775956284153,
+    "val_macro_f1": 0.6232394329734952,
+    "val_qwk": 0.867394777507137,
+    "val_mae": 0.3005464480874317,
+    "lr": 8.838242053965854e-05
+  },
+  "final_train_loss": 0.40562970821674,
+  "final_val_loss": 0.6231172727378219,
+  "elapsed_sec": 28.133784770965576,
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/phase_o_swin_tiny_s42_v1/best.pt",
+  "results_dir": "/Users/zubairishaq/Desktop/dr- research/results/phase_o_swin_tiny_s42_v1",
+  "experiments_dir": "/Users/zubairishaq/Desktop/dr- research/experiments/phase_o_swin_tiny_s42_v1",
+  "aptos_train_size": 2930,
+  "aptos_val_size": 366,
+  "note": "IDRiD / Messidor-2 / DeepDRiD were not used for training or validation."
+}

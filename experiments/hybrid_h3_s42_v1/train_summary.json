@@ -1,0 +1,28 @@
+{
+  "run_id": "hybrid_h3_s42_v1",
+  "experiment_name": "hybrid_mobilevit_s_rgb_mild_coral_s42",
+  "device": "cpu",
+  "epochs": 20,
+  "best_epoch": 20,
+  "best_selection_metric": "quadratic_weighted_kappa",
+  "best_selection_score": 0.8057507386796688,
+  "best_val_metrics": {
+    "epoch": 20,
+    "train_loss": 0.7136461941095499,
+    "val_loss": 0.8198032969527919,
+    "val_accuracy": 0.6092896174863388,
+    "val_macro_f1": 0.4019429921997787,
+    "val_qwk": 0.7682619884805008,
+    "val_mae": 0.6092896174863388,
+    "lr": 8.838242053965854e-05
+  },
+  "final_train_loss": 0.7136461941095499,
+  "final_val_loss": 0.8198032969527919,
+  "elapsed_sec": 26.19117283821106,
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/hybrid_h3_s42_v1/best.pt",
+  "results_dir": "/Users/zubairishaq/Desktop/dr- research/results/hybrid_h3_s42_v1",
+  "experiments_dir": "/Users/zubairishaq/Desktop/dr- research/experiments/hybrid_h3_s42_v1",
+  "aptos_train_size": 2930,
+  "aptos_val_size": 366,
+  "note": "IDRiD / Messidor-2 / DeepDRiD were not used for training or validation."
+}

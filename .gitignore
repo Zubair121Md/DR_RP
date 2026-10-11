@@ -1,0 +1,63 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Experiment artifacts (keep folders, ignore heavy outputs)
+checkpoints/**
+!checkpoints/.gitkeep
+results/**
+!results/.gitkeep
+
+# Local env
+.env
+*.pt
+*.pth
+*.ckpt
+
+# Preprocess cache (lossless 224 frames; rebuildable)
+datasets/cache/
+
+# Large external datasets (clone / download separately)
+datasets/DeepDRiD/
+datasets/archive/
+datasets/archive.zip
+datasets/idrid/
+datasets/*.tar
+datasets/*.zip
+Messidor*/
+
+# Local experiment logs (rebuildable)
+logs/
+
+
+# Outputs containing dataset fundus pixels (example images, preprocessing and augmentation panels,
+# Grad-CAM overlays, and documents that embed them). Dataset licences do not all permit redistribution;
+# these are regenerated locally by the figure scripts, which print SKIP when the datasets are absent.
+experiments/results/preprocessing_diagnostics/*.png
+paper/figures/gradcam/**/*.png
+paper/figures/pack/06_*
+paper/figures/pack/06b_*
+paper/figures/pack/07_*
+paper/figures/main/fig02_preprocess*.png
+paper/figures/main/fig02_preprocess*.pdf
+paper/figures/main/fig03_dataset*.png
+paper/figures/main/fig03_dataset*.pdf
+paper/figures/main/fig08_gradcam*
+paper/figures/main/fig10_gradcam*.png
+paper/figures/main/fig10_gradcam*.pdf
+paper/figures/supp/figS04_augmentation.*
+paper/figures/supp/figS06_dataset_examples.*
+paper/figures/supp/figS17_gradcam*
+paper/figures/supp/figS19_gradcam*
+*.docx
+submission/

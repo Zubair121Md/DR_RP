@@ -1,0 +1,12 @@
+dataset,split,n_images,n0,n1,n2,n3,n4,label_source,note
+APTOS,train,2930,1434,300,808,154,234,datasets/archive/train_1.csv,ICDR diagnosis column
+APTOS,val,366,172,40,104,22,28,datasets/archive/valid.csv,ICDR diagnosis column
+APTOS,test,366,199,30,87,17,33,datasets/archive/test.csv,ICDR diagnosis column
+IDRiD,train,413,134,20,136,74,49,datasets/idrid/B. Disease Grading/2. Groundtruths/a. IDRiD_Disease Grading_Training Labels.csv,official disease grading
+IDRiD,test,103,34,5,32,19,13,datasets/idrid/B. Disease Grading/2. Groundtruths/b. IDRiD_Disease Grading_Testing Labels.csv,official disease grading
+IDRiD,external_all,516,,,,,,results/hybrid_h2_s42_v1/idrid_external_metrics.json,n_samples from eval (train+test union)
+Messidor-2,external_gradable,1744,1017,270,347,75,35,Messidor /messidor_data.csv,adjudicated_gradable=1
+DeepDRiD,train,1200,,,,,,datasets/DeepDRiD/regular_fundus_images/regular-fundus-training/regular-fundus-training.csv,CSV rows (patient-level rows; eye grades in left/right columns)
+DeepDRiD,val,400,,,,,,datasets/DeepDRiD/regular_fundus_images/regular-fundus-validation/regular-fundus-validation.csv,CSV rows (patient-level rows; eye grades in left/right columns)
+DeepDRiD,external_eval,1589,,,,,,results/hybrid_h2_s42_v1/deepdrid_external_metrics.json,n_samples from hybrid eval
+APTOS,test_eval_n,366,,,,,,results/hybrid_h2_s42_v1/aptos_test_metrics.json,n_samples from hybrid eval

@@ -1,0 +1,13 @@
+cell,image_size,seed,pred_frac_grade0,n,source
+H1,224,42,1.000000,1744,results/hybrid_h1_s42_v1/messidor2_external_predictions.json
+H1,224,43,0.998280,1744,results/hybrid_h1_s43_v1/messidor2_external_predictions.json
+H1,224,44,0.967317,1744,results/hybrid_h1_s44_v1/messidor2_external_predictions.json
+H1,448,42,0.967890,1744,results/hybrid_h1_448_s42_v3/messidor2_external_predictions.json
+H1,448,43,0.996560,1744,results/hybrid_h1_448_s43_v3/messidor2_external_predictions.json
+H1,448,44,0.994266,1744,results/hybrid_h1_448_s44_v3/messidor2_external_predictions.json
+H2,224,42,0.978211,1744,results/hybrid_h2_s42_v1/messidor2_external_predictions.json
+H2,224,43,0.966743,1744,results/hybrid_h2_s43_v1/messidor2_external_predictions.json
+H2,224,44,0.963876,1744,results/hybrid_h2_s44_v1/messidor2_external_predictions.json
+H2,448,42,0.234518,1744,results/hybrid_h2_448_s42_v3/messidor2_external_predictions.json
+H2,448,43,0.305046,1744,results/hybrid_h2_448_s43_v3/messidor2_external_predictions.json
+H2,448,44,0.206422,1744,results/hybrid_h2_448_s44_v3/messidor2_external_predictions.json

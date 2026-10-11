@@ -1,0 +1,19 @@
+# Declared sampling for Fig 3 (dataset gallery). Seeded random; no hand-picking.
+
+selection:
+  rule_seed: 42
+  grades: [0, 2]   # one image per grade per dataset
+  datasets:
+    - name: APTOS
+      role: test
+      # use APTOS test CSV labels + image dir
+    - name: IDRiD
+      role: all
+    - name: Messidor-2
+      role: all
+    - name: DeepDRiD
+      role: regular_train_val
+
+output:
+  figure_stem: fig03_datasets
+  out_dir: paper/figures/main

@@ -1,0 +1,13 @@
+cell,seed,accuracy,macro_f1,quadratic_weighted_kappa,mild_dr_precision,mild_dr_recall,mild_dr_f1,source
+H1,42,0.754098,0.445429,0.825135,0.714286,0.166667,0.270270,results/hybrid_h1_s42_v1/aptos_test_metrics.json
+H1,43,0.770492,0.564077,0.828732,0.560000,0.466667,0.509091,results/hybrid_h1_s43_v1/aptos_test_metrics.json
+H1,44,0.795082,0.562718,0.836963,0.500000,0.500000,0.500000,results/hybrid_h1_s44_v1/aptos_test_metrics.json
+H2,42,0.775956,0.526390,0.882583,0.714286,0.166667,0.270270,results/hybrid_h2_s42_v1/aptos_test_metrics.json
+H2,43,0.806011,0.565831,0.883780,0.833333,0.166667,0.277778,results/hybrid_h2_s43_v1/aptos_test_metrics.json
+H2,44,0.784153,0.516752,0.861179,0.833333,0.166667,0.277778,results/hybrid_h2_s44_v1/aptos_test_metrics.json
+H3,42,0.647541,0.409677,0.817694,0.363636,0.666667,0.470588,results/hybrid_h3_s42_v1/aptos_test_metrics.json
+H3,43,0.650273,0.456005,0.819014,0.367347,0.600000,0.455696,results/hybrid_h3_s43_v1/aptos_test_metrics.json
+H3,44,0.625683,0.410343,0.826809,0.333333,0.300000,0.315789,results/hybrid_h3_s44_v1/aptos_test_metrics.json
+H4,42,0.680328,0.494532,0.854001,0.387755,0.633333,0.481013,results/hybrid_h4_s42_v1/aptos_test_metrics.json
+H4,43,0.691257,0.470208,0.828570,0.363636,0.666667,0.470588,results/hybrid_h4_s43_v1/aptos_test_metrics.json
+H4,44,0.642077,0.397620,0.830574,0.181818,0.133333,0.153846,results/hybrid_h4_s44_v1/aptos_test_metrics.json

@@ -1,0 +1,98 @@
+{
+  "run_id": "hybrid_d2_mildce_clahe_s42_v3",
+  "experiment_name": "hybrid_mobilevit_s_green_clahe_mild_weighted_ce_s42_v3",
+  "device": "cpu",
+  "epochs": 20,
+  "best_epoch": 18,
+  "best_selection_metric": "quadratic_weighted_kappa",
+  "best_selection_score": 0.8384753892478325,
+  "best_val_metrics": {
+    "n_samples": 366,
+    "accuracy": 0.7950819672131147,
+    "macro_f1": 0.6046097891192249,
+    "quadratic_weighted_kappa": 0.8384753892478325,
+    "mae": 0.28688524590163933,
+    "per_class_precision": [
+      0.9491525423728814,
+      0.7058823529411765,
+      0.671875,
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "per_class_recall": [
+      0.9767441860465116,
+      0.6,
+      0.8269230769230769,
+      0.22727272727272727,
+      0.2857142857142857
+    ],
+    "per_class_f1": [
+      0.9627507163323782,
+      0.6486486486486487,
+      0.7413793103448276,
+      0.2702702702702703,
+      0.4
+    ],
+    "mild_dr_recall": 0.6,
+    "mild_dr_precision": 0.7058823529411765,
+    "mild_dr_f1": 0.6486486486486487,
+    "grade1_f1": 0.6486486486486487,
+    "confusion_matrix": [
+      [
+        168,
+        1,
+        3,
+        0,
+        0
+      ],
+      [
+        2,
+        24,
+        12,
+        1,
+        1
+      ],
+      [
+        6,
+        8,
+        86,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        5,
+        3
+      ],
+      [
+        1,
+        1,
+        13,
+        5,
+        8
+      ]
+    ],
+    "confusion_0_1": {
+      "0_predicted_as_1": 1,
+      "1_predicted_as_0": 2,
+      "total_bidirectional": 3
+    },
+    "confusion_1_2": {
+      "1_predicted_as_2": 12,
+      "2_predicted_as_1": 8,
+      "total_bidirectional": 20
+    },
+    "loss": 0.6464450640765869
+  },
+  "final_train_loss": 0.5567106722970434,
+  "final_val_loss": 0.6378037834074348,
+  "elapsed_sec": 7104.0485010147095,
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/hybrid_d2_mildce_clahe_s42_v3/best.pt",
+  "results_dir": "/Users/zubairishaq/Desktop/dr- research/results/hybrid_d2_mildce_clahe_s42_v3",
+  "experiments_dir": "/Users/zubairishaq/Desktop/dr- research/experiments/hybrid_d2_mildce_clahe_s42_v3",
+  "aptos_train_size": 2930,
+  "aptos_val_size": 366,
+  "note": "IDRiD / Messidor-2 / DeepDRiD were not used for training or validation."
+}

@@ -1,0 +1,98 @@
+{
+  "run_id": "baseline_efficientnet_b0_green_clahe_mild_coral_20260919_182333",
+  "experiment_name": "baseline_efficientnet_b0_green_clahe_mild_coral",
+  "device": "mps",
+  "epochs": 20,
+  "best_epoch": 6,
+  "best_selection_metric": "quadratic_weighted_kappa",
+  "best_selection_score": 0.870342254804147,
+  "best_val_metrics": {
+    "n_samples": 366,
+    "accuracy": 0.6420765027322405,
+    "macro_f1": 0.48890559732664995,
+    "quadratic_weighted_kappa": 0.870342254804147,
+    "mae": 0.41530054644808745,
+    "per_class_precision": [
+      1.0,
+      0.75,
+      0.5208333333333334,
+      0.1111111111111111,
+      0.42857142857142855
+    ],
+    "per_class_recall": [
+      0.9883720930232558,
+      0.3,
+      0.2403846153846154,
+      0.45454545454545453,
+      0.6428571428571429
+    ],
+    "per_class_f1": [
+      0.9941520467836257,
+      0.42857142857142855,
+      0.32894736842105265,
+      0.17857142857142858,
+      0.5142857142857142
+    ],
+    "mild_dr_recall": 0.3,
+    "mild_dr_precision": 0.75,
+    "mild_dr_f1": 0.42857142857142855,
+    "grade1_f1": 0.42857142857142855,
+    "confusion_matrix": [
+      [
+        170,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        21,
+        6,
+        1
+      ],
+      [
+        0,
+        3,
+        25,
+        65,
+        11
+      ],
+      [
+        0,
+        0,
+        0,
+        10,
+        12
+      ],
+      [
+        0,
+        0,
+        1,
+        9,
+        18
+      ]
+    ],
+    "confusion_0_1": {
+      "0_predicted_as_1": 1,
+      "1_predicted_as_0": 0,
+      "total_bidirectional": 1
+    },
+    "confusion_1_2": {
+      "1_predicted_as_2": 21,
+      "2_predicted_as_1": 3,
+      "total_bidirectional": 24
+    },
+    "loss": 1.223455399274826
+  },
+  "final_train_loss": 1.0867112965687462,
+  "final_val_loss": 1.1981561680634816,
+  "elapsed_sec": 2403.9639637470245,
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/baseline_efficientnet_b0_green_clahe_mild_coral_20260919_182333/best.pt",
+  "results_dir": "/Users/zubairishaq/Desktop/dr- research/results/baseline_efficientnet_b0_green_clahe_mild_coral_20260919_182333",
+  "experiments_dir": "/Users/zubairishaq/Desktop/dr- research/experiments/baseline_efficientnet_b0_green_clahe_mild_coral_20260919_182333",
+  "aptos_train_size": 2930,
+  "aptos_val_size": 366,
+  "note": "IDRiD / Messidor-2 / DeepDRiD were not used for training or validation."
+}

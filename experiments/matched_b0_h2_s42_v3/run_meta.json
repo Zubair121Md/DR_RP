@@ -1,0 +1,19 @@
+{
+  "run_id": "matched_b0_h2_s42_v3",
+  "group": "core",
+  "family": "matched_b0",
+  "cell": "H2",
+  "seed": 42,
+  "stage": "train",
+  "git_commit": "unknown",
+  "config_hash": "2e1e2bf6cec6083b",
+  "config_rel": "configs/paper_v3/matched_b0_h2_s42_v3.yaml",
+  "batch_size": 4,
+  "device": "cpu",
+  "freeze_bn": true,
+  "image_size": 224,
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "date_utc": "2026-09-29T09:44:23Z"
+}

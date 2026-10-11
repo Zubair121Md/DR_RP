@@ -1,0 +1,466 @@
+{
+  "note": "PHASE B synthetic MV/hybrid audit \u2014 no training, no checkpoint overwrite",
+  "definition": {
+    "MV": "timm mobilevit_s + Linear/CoralLayer",
+    "cnn_transformer_hybrid_alias": "MobileViTS",
+    "swin_tiny": "NotImplementedError"
+  },
+  "params": {
+    "trainable": 215,
+    "frozen": 0
+  },
+  "cases": [
+    {
+      "model": "mobilevit_s",
+      "head": "ce",
+      "batch": 1,
+      "logits_shape": [
+        1,
+        5
+      ],
+      "expected_logits_dim": 5,
+      "shape_ok": true,
+      "loss": 1.6889517307281494,
+      "loss_finite": true,
+      "grad_norm": 10.358414208573873,
+      "grad_nonzero": true,
+      "params_updated": 201,
+      "params_trainable": 215,
+      "preds_shape": [
+        1
+      ],
+      "probs_shape": [
+        1,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 32,
+        "BatchNorm1d": 0,
+        "LayerNorm": 21,
+        "GroupNorm": 0,
+        "Dropout": 37
+      },
+      "num_features": 640,
+      "train_eval_logit_absdiff_mean": 0.12119215726852417,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "mobilevit_s",
+      "head": "ce",
+      "batch": 8,
+      "logits_shape": [
+        8,
+        5
+      ],
+      "expected_logits_dim": 5,
+      "shape_ok": true,
+      "loss": 1.5957683324813843,
+      "loss_finite": true,
+      "grad_norm": 12.558764650534274,
+      "grad_nonzero": true,
+      "params_updated": 201,
+      "params_trainable": 215,
+      "preds_shape": [
+        8
+      ],
+      "probs_shape": [
+        8,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 32,
+        "BatchNorm1d": 0,
+        "LayerNorm": 21,
+        "GroupNorm": 0,
+        "Dropout": 37
+      },
+      "num_features": 640,
+      "train_eval_logit_absdiff_mean": 0.17406199872493744,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "mobilevit_s",
+      "head": "ce",
+      "batch": 32,
+      "logits_shape": [
+        32,
+        5
+      ],
+      "expected_logits_dim": 5,
+      "shape_ok": true,
+      "loss": 1.6020623445510864,
+      "loss_finite": true,
+      "grad_norm": 6.99445127266998,
+      "grad_nonzero": true,
+      "params_updated": 201,
+      "params_trainable": 215,
+      "preds_shape": [
+        32
+      ],
+      "probs_shape": [
+        32,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 32,
+        "BatchNorm1d": 0,
+        "LayerNorm": 21,
+        "GroupNorm": 0,
+        "Dropout": 37
+      },
+      "num_features": 640,
+      "train_eval_logit_absdiff_mean": 0.13748733699321747,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "mobilevit_s",
+      "head": "coral",
+      "batch": 1,
+      "logits_shape": [
+        1,
+        4
+      ],
+      "expected_logits_dim": 4,
+      "shape_ok": true,
+      "loss": 1.6049050092697144,
+      "loss_finite": true,
+      "grad_norm": 0.7044505766436242,
+      "grad_nonzero": true,
+      "params_updated": 201,
+      "params_trainable": 215,
+      "preds_shape": [
+        1
+      ],
+      "probs_shape": [
+        1,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 32,
+        "BatchNorm1d": 0,
+        "LayerNorm": 21,
+        "GroupNorm": 0,
+        "Dropout": 37
+      },
+      "num_features": 640,
+      "train_eval_logit_absdiff_mean": 0.10135260224342346,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "mobilevit_s",
+      "head": "coral",
+      "batch": 8,
+      "logits_shape": [
+        8,
+        4
+      ],
+      "expected_logits_dim": 4,
+      "shape_ok": true,
+      "loss": 1.4416756629943848,
+      "loss_finite": true,
+      "grad_norm": 9.683689510814997,
+      "grad_nonzero": true,
+      "params_updated": 201,
+      "params_trainable": 215,
+      "preds_shape": [
+        8
+      ],
+      "probs_shape": [
+        8,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 32,
+        "BatchNorm1d": 0,
+        "LayerNorm": 21,
+        "GroupNorm": 0,
+        "Dropout": 37
+      },
+      "num_features": 640,
+      "train_eval_logit_absdiff_mean": 0.5232938528060913,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "mobilevit_s",
+      "head": "coral",
+      "batch": 32,
+      "logits_shape": [
+        32,
+        4
+      ],
+      "expected_logits_dim": 4,
+      "shape_ok": true,
+      "loss": 1.1789344549179077,
+      "loss_finite": true,
+      "grad_norm": 6.715685587423593,
+      "grad_nonzero": true,
+      "params_updated": 201,
+      "params_trainable": 215,
+      "preds_shape": [
+        32
+      ],
+      "probs_shape": [
+        32,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 32,
+        "BatchNorm1d": 0,
+        "LayerNorm": 21,
+        "GroupNorm": 0,
+        "Dropout": 37
+      },
+      "num_features": 640,
+      "train_eval_logit_absdiff_mean": 0.25590044260025024,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "efficientnet_b0",
+      "head": "ce",
+      "batch": 1,
+      "logits_shape": [
+        1,
+        5
+      ],
+      "expected_logits_dim": 5,
+      "shape_ok": true,
+      "loss": 1.5225615501403809,
+      "loss_finite": true,
+      "grad_norm": 32.55046957043192,
+      "grad_nonzero": true,
+      "params_updated": 187,
+      "params_trainable": 213,
+      "preds_shape": [
+        1
+      ],
+      "probs_shape": [
+        1,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 49,
+        "BatchNorm1d": 0,
+        "LayerNorm": 0,
+        "GroupNorm": 0,
+        "Dropout": 1
+      },
+      "num_features": null,
+      "train_eval_logit_absdiff_mean": 0.06797652691602707,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "efficientnet_b0",
+      "head": "ce",
+      "batch": 8,
+      "logits_shape": [
+        8,
+        5
+      ],
+      "expected_logits_dim": 5,
+      "shape_ok": true,
+      "loss": 1.6218664646148682,
+      "loss_finite": true,
+      "grad_norm": 74.27354087544366,
+      "grad_nonzero": true,
+      "params_updated": 213,
+      "params_trainable": 213,
+      "preds_shape": [
+        8
+      ],
+      "probs_shape": [
+        8,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 49,
+        "BatchNorm1d": 0,
+        "LayerNorm": 0,
+        "GroupNorm": 0,
+        "Dropout": 1
+      },
+      "num_features": null,
+      "train_eval_logit_absdiff_mean": 0.10614793002605438,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "efficientnet_b0",
+      "head": "ce",
+      "batch": 32,
+      "logits_shape": [
+        32,
+        5
+      ],
+      "expected_logits_dim": 5,
+      "shape_ok": true,
+      "loss": 1.6563587188720703,
+      "loss_finite": true,
+      "grad_norm": 45.55844059491745,
+      "grad_nonzero": true,
+      "params_updated": 213,
+      "params_trainable": 213,
+      "preds_shape": [
+        32
+      ],
+      "probs_shape": [
+        32,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 49,
+        "BatchNorm1d": 0,
+        "LayerNorm": 0,
+        "GroupNorm": 0,
+        "Dropout": 1
+      },
+      "num_features": null,
+      "train_eval_logit_absdiff_mean": 0.1621284782886505,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "efficientnet_b0",
+      "head": "coral",
+      "batch": 1,
+      "logits_shape": [
+        1,
+        4
+      ],
+      "expected_logits_dim": 4,
+      "shape_ok": true,
+      "loss": 1.6041827201843262,
+      "loss_finite": true,
+      "grad_norm": 0.9377707722950259,
+      "grad_nonzero": true,
+      "params_updated": 187,
+      "params_trainable": 213,
+      "preds_shape": [
+        1
+      ],
+      "probs_shape": [
+        1,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 49,
+        "BatchNorm1d": 0,
+        "LayerNorm": 0,
+        "GroupNorm": 0,
+        "Dropout": 1
+      },
+      "num_features": null,
+      "train_eval_logit_absdiff_mean": 0.11550113558769226,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "efficientnet_b0",
+      "head": "coral",
+      "batch": 8,
+      "logits_shape": [
+        8,
+        4
+      ],
+      "expected_logits_dim": 4,
+      "shape_ok": true,
+      "loss": 1.2995333671569824,
+      "loss_finite": true,
+      "grad_norm": 58.71483069445772,
+      "grad_nonzero": true,
+      "params_updated": 213,
+      "params_trainable": 213,
+      "preds_shape": [
+        8
+      ],
+      "probs_shape": [
+        8,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 49,
+        "BatchNorm1d": 0,
+        "LayerNorm": 0,
+        "GroupNorm": 0,
+        "Dropout": 1
+      },
+      "num_features": null,
+      "train_eval_logit_absdiff_mean": 0.4880352020263672,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    },
+    {
+      "model": "efficientnet_b0",
+      "head": "coral",
+      "batch": 32,
+      "logits_shape": [
+        32,
+        4
+      ],
+      "expected_logits_dim": 4,
+      "shape_ok": true,
+      "loss": 1.2657806873321533,
+      "loss_finite": true,
+      "grad_norm": 42.64653875553796,
+      "grad_nonzero": true,
+      "params_updated": 213,
+      "params_trainable": 213,
+      "preds_shape": [
+        32
+      ],
+      "probs_shape": [
+        32,
+        5
+      ],
+      "probs_sum_mean": 1.0,
+      "module_counts": {
+        "BatchNorm2d": 49,
+        "BatchNorm1d": 0,
+        "LayerNorm": 0,
+        "GroupNorm": 0,
+        "Dropout": 1
+      },
+      "num_features": null,
+      "train_eval_logit_absdiff_mean": 0.3798346519470215,
+      "nan_in_logits": false,
+      "inf_in_logits": false
+    }
+  ],
+  "critical_findings": [
+    {
+      "id": "MV_BN_BATCH1",
+      "file": "src/models.py :: MobileViTS",
+      "problem": "MobileViT-S contains 32 BatchNorm2d layers. Historical hybrid *_stable runs used batch_size=1 on CPU. BatchNorm with batch=1 yields ill-defined batch statistics and corrupts running stats.",
+      "scientific_consequence": "All 6 MobileViT seed-42 stable external results are protocol-confounded and MUST NOT be used for architecture claims. Mark REQUIRES RERUN with batch>=16.",
+      "proposed_correction": "Retrain hybrid grid with batch_size>=16 (prefer 32 to match B0), GPU/MPS if available; or document SyncBatchNorm/GroupNorm alternative \u2014 do not silently change architecture.",
+      "experiments_affected": [
+        "hybrid_mobilevit_s_*_s42_stable (all 6 cells)",
+        "results/external_eval_sweep.json rows for those runs"
+      ]
+    }
+  ],
+  "warnings": [
+    "All synthetic CE/CORAL forward-backward checks passed for batch in {1,8,32}."
+  ],
+  "bn_train_eval_gap": {
+    "batch1": 0.12119215726852417,
+    "batch32": 0.13748733699321747
+  }
+}

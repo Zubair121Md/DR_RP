@@ -1,0 +1,18 @@
+# Headline paired tests (n=3 seeds)
+
+| Comparison | mean_delta | std_delta | wilcoxon_p | sign_flip_p |
+| --- | --- | --- | --- | --- |
+| B0 green_clahe_ce vs H2 APTOS QWK | +0.0197 | 0.0029 | 0.250 | 0.250 |
+| B0 green_clahe_ce vs H2 IDRiD QWK | +0.3469 | 0.1448 | 0.250 | 0.250 |
+| B0 green_clahe_coral vs H4 APTOS QWK | +0.0669 | 0.0149 | 0.250 | 0.250 |
+| B0 green_clahe_coral vs H4 IDRiD QWK | +0.1896 | 0.1806 | 0.250 | 0.250 |
+| H2−H1 APTOS (CLAHE under CE) | +0.0456 | 0.0185 | 0.250 | 0.250 |
+| H2−H1 DeepDRiD (CLAHE under CE) | +0.1796 | 0.1099 | 0.250 | 0.250 |
+| H4−H3 IDRiD (CLAHE under mildCORAL) | +0.2119 | 0.1645 | 0.250 | 0.250 |
+| H4−H2 APTOS (mildCORAL under CLAHE) | -0.0381 | 0.0148 | 0.250 | 0.250 |
+| H4−H2 IDRiD (mildCORAL under CLAHE) | +0.2010 | 0.1162 | 0.250 | 0.250 |
+| H3−H1 APTOS mild recall | +0.1444 | 0.3501 | 0.750 | 0.750 |
+| H4−H2 APTOS mild recall | +0.3111 | 0.2988 | 0.500 | 0.500 |
+| H4−H2 APTOS ECE | +0.1326 | 0.0044 | 0.250 | 0.250 |
+
+Full report: `experiments/results/paired_stats.md`

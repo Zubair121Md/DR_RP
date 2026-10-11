@@ -1,0 +1,7 @@
+# Phase O — CNN vs Hybrid vs Transformer, green_clahe × CE (mean±std, n=3)
+
+| Model | APTOS | IDRiD | Messidor-2 | DeepDRiD |
+| --- | --- | --- | --- | --- |
+| EfficientNet-B0 | 0.896±0.010 | 0.711±0.010 | — | — |
+| MobileViT-S H2 | 0.876±0.013 | 0.364±0.148 | 0.050±0.046 | 0.417±0.112 |
+| Swin-Tiny | 0.904±0.016 | 0.634±0.041 | 0.262±0.154 | 0.514±0.021 |

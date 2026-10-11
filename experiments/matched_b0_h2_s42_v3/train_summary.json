@@ -1,0 +1,98 @@
+{
+  "run_id": "matched_b0_h2_s42_v3",
+  "experiment_name": "matched_efficientnet_b0_green_clahe_cross_entropy_s42_v3",
+  "device": "cpu",
+  "epochs": 20,
+  "best_epoch": 15,
+  "best_selection_metric": "quadratic_weighted_kappa",
+  "best_selection_score": 0.9146048797211588,
+  "best_val_metrics": {
+    "n_samples": 366,
+    "accuracy": 0.8442622950819673,
+    "macro_f1": 0.6761941643016652,
+    "quadratic_weighted_kappa": 0.9146048797211588,
+    "mae": 0.1912568306010929,
+    "per_class_precision": [
+      0.9941520467836257,
+      0.7931034482758621,
+      0.7089552238805971,
+      0.4444444444444444,
+      0.7391304347826086
+    ],
+    "per_class_recall": [
+      0.9883720930232558,
+      0.575,
+      0.9134615384615384,
+      0.18181818181818182,
+      0.6071428571428571
+    ],
+    "per_class_f1": [
+      0.9912536443148688,
+      0.6666666666666666,
+      0.7983193277310925,
+      0.25806451612903225,
+      0.6666666666666666
+    ],
+    "mild_dr_recall": 0.575,
+    "mild_dr_precision": 0.7931034482758621,
+    "mild_dr_f1": 0.6666666666666666,
+    "grade1_f1": 0.6666666666666666,
+    "confusion_matrix": [
+      [
+        170,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        23,
+        16,
+        0,
+        1
+      ],
+      [
+        1,
+        5,
+        95,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        14,
+        4,
+        4
+      ],
+      [
+        0,
+        0,
+        8,
+        3,
+        17
+      ]
+    ],
+    "confusion_0_1": {
+      "0_predicted_as_1": 1,
+      "1_predicted_as_0": 0,
+      "total_bidirectional": 1
+    },
+    "confusion_1_2": {
+      "1_predicted_as_2": 16,
+      "2_predicted_as_1": 5,
+      "total_bidirectional": 21
+    },
+    "loss": 0.6126237559234561
+  },
+  "final_train_loss": 0.042226018489802467,
+  "final_val_loss": 0.6656208983946498,
+  "elapsed_sec": 7693.45951628685,
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/matched_b0_h2_s42_v3/best.pt",
+  "results_dir": "/Users/zubairishaq/Desktop/dr- research/results/matched_b0_h2_s42_v3",
+  "experiments_dir": "/Users/zubairishaq/Desktop/dr- research/experiments/matched_b0_h2_s42_v3",
+  "aptos_train_size": 2930,
+  "aptos_val_size": 366,
+  "note": "IDRiD / Messidor-2 / DeepDRiD were not used for training or validation."
+}

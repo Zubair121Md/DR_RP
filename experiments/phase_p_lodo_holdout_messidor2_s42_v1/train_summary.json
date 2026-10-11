@@ -1,0 +1,90 @@
+{
+  "run_id": "phase_p_lodo_holdout_messidor2_s42_v1",
+  "holdout": "messidor2",
+  "train_size": 5035,
+  "val_size": 366,
+  "best_epoch": 20,
+  "best_selection_score": 0.8751723437295909,
+  "best_val_metrics": {
+    "n_samples": 366,
+    "accuracy": 0.8060109289617486,
+    "macro_f1": 0.6247467488275982,
+    "quadratic_weighted_kappa": 0.8751723437295909,
+    "mae": 0.2540983606557377,
+    "per_class_precision": [
+      0.9881656804733728,
+      0.6153846153846154,
+      0.6796875,
+      0.5,
+      0.5909090909090909
+    ],
+    "per_class_recall": [
+      0.9709302325581395,
+      0.6,
+      0.8365384615384616,
+      0.18181818181818182,
+      0.4642857142857143
+    ],
+    "per_class_f1": [
+      0.9794721407624634,
+      0.6075949367088608,
+      0.75,
+      0.26666666666666666,
+      0.52
+    ],
+    "mild_dr_recall": 0.6,
+    "mild_dr_precision": 0.6153846153846154,
+    "mild_dr_f1": 0.6075949367088608,
+    "grade1_f1": 0.6075949367088608,
+    "confusion_matrix": [
+      [
+        167,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        24,
+        15,
+        0,
+        1
+      ],
+      [
+        2,
+        9,
+        87,
+        3,
+        3
+      ],
+      [
+        0,
+        0,
+        13,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        13,
+        1,
+        13
+      ]
+    ],
+    "confusion_0_1": {
+      "0_predicted_as_1": 5,
+      "1_predicted_as_0": 0,
+      "total_bidirectional": 5
+    },
+    "confusion_1_2": {
+      "1_predicted_as_2": 15,
+      "2_predicted_as_1": 9,
+      "total_bidirectional": 24
+    },
+    "loss": 0.5220959607914151
+  },
+  "elapsed_sec": 49.85313010215759,
+  "note": "Phase P LODO \u2014 externals used in training except held-out fold"
+}

@@ -1,0 +1,19 @@
+{
+  "run_id": "matched_b0_h4_s44_v3",
+  "group": "core",
+  "family": "matched_b0",
+  "cell": "H4",
+  "seed": 44,
+  "stage": "train",
+  "git_commit": "unknown",
+  "config_hash": "3180b4d7c6883241",
+  "config_rel": "configs/paper_v3/matched_b0_h4_s44_v3.yaml",
+  "batch_size": 4,
+  "device": "cpu",
+  "freeze_bn": true,
+  "image_size": 224,
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "date_utc": "2026-09-30T07:31:34Z"
+}

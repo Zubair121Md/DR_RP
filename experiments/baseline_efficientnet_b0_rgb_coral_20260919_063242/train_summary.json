@@ -1,0 +1,88 @@
+{
+  "run_id": "baseline_efficientnet_b0_rgb_coral_20260919_063242",
+  "experiment_name": "baseline_efficientnet_b0_rgb_coral",
+  "device": "mps",
+  "epochs": 20,
+  "best_epoch": 18,
+  "best_selection_metric": "quadratic_weighted_kappa",
+  "best_selection_score": 0.9032806961005478,
+  "best_val_metrics": {
+    "n_samples": 366,
+    "accuracy": 0.7595628415300546,
+    "macro_f1": 0.6139845428203637,
+    "quadratic_weighted_kappa": 0.9032806961005478,
+    "mae": 0.27049180327868855,
+    "per_class_precision": [
+      0.9606741573033708,
+      0.5789473684210527,
+      0.7564102564102564,
+      0.2222222222222222,
+      0.5925925925925926
+    ],
+    "per_class_recall": [
+      0.9941860465116279,
+      0.55,
+      0.5673076923076923,
+      0.45454545454545453,
+      0.5714285714285714
+    ],
+    "mild_dr_recall": 0.55,
+    "confusion_matrix": [
+      [
+        171,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        22,
+        10,
+        1,
+        1
+      ],
+      [
+        1,
+        15,
+        59,
+        25,
+        4
+      ],
+      [
+        0,
+        0,
+        6,
+        10,
+        6
+      ],
+      [
+        0,
+        0,
+        3,
+        9,
+        16
+      ]
+    ],
+    "confusion_0_1": {
+      "0_predicted_as_1": 1,
+      "1_predicted_as_0": 6,
+      "total_bidirectional": 7
+    },
+    "confusion_1_2": {
+      "1_predicted_as_2": 10,
+      "2_predicted_as_1": 15,
+      "total_bidirectional": 25
+    },
+    "loss": 0.7094062467416128
+  },
+  "final_train_loss": 0.6346137186755305,
+  "final_val_loss": 0.7089948058128357,
+  "elapsed_sec": 5540.806765794754,
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/baseline_efficientnet_b0_rgb_coral_20260919_063242/best.pt",
+  "results_dir": "/Users/zubairishaq/Desktop/dr- research/results/baseline_efficientnet_b0_rgb_coral_20260919_063242",
+  "experiments_dir": "/Users/zubairishaq/Desktop/dr- research/experiments/baseline_efficientnet_b0_rgb_coral_20260919_063242",
+  "aptos_train_size": 2930,
+  "aptos_val_size": 366,
+  "note": "IDRiD was not used for training or validation."
+}

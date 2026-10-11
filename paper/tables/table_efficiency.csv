@@ -1,0 +1,6 @@
+backbone,head,params_m,flops_g,device,batch1_ms_mean,reps,note
+efficientnet_b0,ce,4.014,0.769,mps,10.801,50,from efficiency_models.json
+efficientnet_b0,coral,4.009,0.769,mps,10.933,50,from efficiency_models.json
+mobilevit_s,ce,4.941,3.042,mps,11.026,50,from efficiency_models.json
+mobilevit_s,coral,4.938,3.042,mps,10.897,50,from efficiency_models.json
+swin_tiny,ce,MISSING,MISSING,MISSING,MISSING,MISSING,not measured in efficiency_models.json

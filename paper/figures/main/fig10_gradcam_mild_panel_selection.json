@@ -1,0 +1,21 @@
+{
+  "config": "configs/paper/gradcam_mild_panel.yaml",
+  "correct_ids": [
+    "ead23cc922ed",
+    "fca931da5c5e",
+    "fecf4c5ae84b"
+  ],
+  "miss_ids": [
+    "e9286ddf6ffe",
+    "f762c272c522",
+    "fb6b8200b7f8"
+  ],
+  "cam_score": {
+    "ce": "predicted_class_logit",
+    "coral": "sum_of_four_ordinal_logits"
+  },
+  "outputs": [
+    "paper/figures/main/fig10_gradcam_mild_panel.png",
+    "paper/figures/main/fig10_gradcam_mild_panel.pdf"
+  ]
+}

@@ -1,0 +1,34 @@
+item,value
+train images,2930
+train grade 0,1434
+train grade 1,300
+train grade 2,808
+train grade 3,154
+train grade 4,234
+val images,366
+val grade 0,172
+val grade 1,40
+val grade 2,104
+val grade 3,22
+val grade 4,28
+test images,366
+test grade 0,199
+test grade 1,30
+test grade 2,87
+test grade 3,17
+test grade 4,33
+total images,3662
+id overlap train-val,0
+id overlap train-test,0
+id overlap val-test,0
+"exact duplicate pairs, all",134
+exact duplicate pairs found only by decoded pixels,0
+exact duplicate pairs train-train,84
+exact duplicate pairs train-val,22
+exact duplicate pairs train-test,23
+exact duplicate pairs val-test,2
+exact duplicate pairs val-val,1
+exact duplicate pairs test-test,2
+cross-split exact pairs with different labels,12
+test images with an exact duplicate in train or validation,24
+validation images with an exact duplicate in train,22

@@ -1,0 +1,12 @@
+NOTE train_summary.json best_epoch=20 for H1 s42, but best.pt (the evaluated checkpoint) is from epoch 18
+NOTE train_summary.json best_epoch=20 for H1 s43, but best.pt (the evaluated checkpoint) is from epoch 19
+NOTE train_summary.json best_epoch=20 for H2 s42, but best.pt (the evaluated checkpoint) is from epoch 18
+NOTE train_summary.json best_epoch=20 for H2 s43, but best.pt (the evaluated checkpoint) is from epoch 17
+NOTE train_summary.json best_epoch=20 for H2 s44, but best.pt (the evaluated checkpoint) is from epoch 16
+NOTE train_summary.json best_epoch=20 for H3 s42, but best.pt (the evaluated checkpoint) is from epoch 19
+NOTE train_summary.json best_epoch=20 for H3 s43, but best.pt (the evaluated checkpoint) is from epoch 14
+NOTE train_summary.json best_epoch=20 for H3 s44, but best.pt (the evaluated checkpoint) is from epoch 13
+NOTE train_summary.json best_epoch=20 for H4 s42, but best.pt (the evaluated checkpoint) is from epoch 15
+NOTE train_summary.json best_epoch=20 for H4 s43, but best.pt (the evaluated checkpoint) is from epoch 14
+NOTE train_summary.json best_epoch=20 for H4 s44, but best.pt (the evaluated checkpoint) is from epoch 10
+checks finished, mismatches=0

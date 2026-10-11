@@ -1,0 +1,12 @@
+datasets/archive/train_1.csv
+datasets/archive/valid.csv
+datasets/archive/test.csv
+datasets/idrid/B. Disease Grading/2. Groundtruths/a. IDRiD_Disease Grading_Training Labels.csv
+datasets/idrid/B. Disease Grading/2. Groundtruths/b. IDRiD_Disease Grading_Testing Labels.csv
+results/hybrid_h2_s42_v1/idrid_external_metrics.json
+Messidor /messidor_data.csv
+results/hybrid_h2_s42_v1/messidor2_external_metrics.json
+datasets/DeepDRiD/regular_fundus_images/regular-fundus-training/regular-fundus-training.csv
+datasets/DeepDRiD/regular_fundus_images/regular-fundus-validation/regular-fundus-validation.csv
+results/hybrid_h2_s42_v1/deepdrid_external_metrics.json
+results/hybrid_h2_s42_v1/aptos_test_metrics.json

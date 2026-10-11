@@ -1,0 +1,17 @@
+# Declared selection for Fig 2 (preprocessing). No hand-picking of display image.
+
+selection:
+  dataset: aptos
+  split: test
+  image_id: ead23cc922ed   # APTOS mild (grade 1) used in Grad-CAM audit trail
+  true_grade: 1
+  crop:
+    # fraction of min(h,w) for zoom square; same location on RGB and CLAHE
+    size_frac: 0.20
+    # centre of crop as fraction of width/height (declared, not interactive)
+    cx_frac: 0.50
+    cy_frac: 0.50
+
+output:
+  figure_stem: fig02_preprocess
+  out_dir: paper/figures/main

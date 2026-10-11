@@ -1,0 +1,22 @@
+# Declared image-selection rules for Grad-CAM paper figure (no hand-picking).
+# Selection uses only archived H2 APTOS-test predictions (seed 42 for the rule RNG).
+
+selection:
+  split: aptos_test
+  true_grade: 1
+  rule_seed: 42
+  n_correct: 3          # mild images that H2 predicts correctly
+  n_incorrect: 3        # mild images that H2 misses
+  reference_cell: H2
+  reference_seed: 42
+  cells_in_figure: [H1, H2, H3, H4]
+  include_b0: false     # set true only when matched B0 v2 exists; archived B0 not auto-added
+  cam_score:
+    ce: predicted_class_logit
+    coral: sum_of_four_ordinal_logits
+  target_layer: mobilevit_last_conv2d
+  note: final_conv spatial map is coarse (typically 7x7 before upsample)
+
+output:
+  figure_stem: fig10_gradcam_mild_panel
+  out_dir: paper/figures/main

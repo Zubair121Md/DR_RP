@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "APTOS",
+    "grade": 0,
+    "path": "datasets/archive/test_images/test_images/fa9f1bc03f21.png",
+    "native_wh": [
+      1050,
+      1050
+    ]
+  },
+  {
+    "dataset": "APTOS",
+    "grade": 2,
+    "path": "datasets/archive/test_images/test_images/e7defafeb957.png",
+    "native_wh": [
+      3388,
+      2588
+    ]
+  },
+  {
+    "dataset": "IDRiD",
+    "grade": 0,
+    "path": "datasets/idrid/B. Disease Grading/1. Original Images/a. Training Set/IDRiD_143.jpg",
+    "native_wh": [
+      4288,
+      2848
+    ]
+  },
+  {
+    "dataset": "IDRiD",
+    "grade": 2,
+    "path": "datasets/idrid/B. Disease Grading/1. Original Images/a. Training Set/IDRiD_183.jpg",
+    "native_wh": [
+      4288,
+      2848
+    ]
+  },
+  {
+    "dataset": "Messidor-2",
+    "grade": 0,
+    "path": "Messidor /IMAGES/20051216_45992_0200_PP.png",
+    "native_wh": [
+      1440,
+      960
+    ]
+  },
+  {
+    "dataset": "Messidor-2",
+    "grade": 2,
+    "path": "Messidor /IMAGES/20051214_56269_0100_PP.png",
+    "native_wh": [
+      2240,
+      1488
+    ]
+  },
+  {
+    "dataset": "DeepDRiD",
+    "grade": 0,
+    "path": "datasets/DeepDRiD/regular_fundus_images/regular-fundus-training/Images/85/85_l2.jpg",
+    "native_wh": [
+      1736,
+      1824
+    ]
+  },
+  {
+    "dataset": "DeepDRiD",
+    "grade": 2,
+    "path": "datasets/DeepDRiD/regular_fundus_images/regular-fundus-training/Images/52/52_r1.jpg",
+    "native_wh": [
+      1976,
+      1984
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "title": "Green-Channel CLAHE and a Mild-Weighted Threshold Objective for Cross-Dataset Diabetic Retinopathy Grading with MobileViT-S: An Exploratory Evaluation (code and metrics)",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0-exploratory",
+  "creators": [
+    {
+      "name": "Ishaq, Zubair Md",
+      "affiliation": "Independent researcher",
+      "orcid": ""
+    }
+  ],
+  "description": "Code, configuration files, training logs metadata, metric tables, prediction summaries, and figure/table generation scripts accompanying an exploratory, schedule-stratified MobileViT-S study of green-channel CLAHE and a mild-weighted shared-weight threshold objective for cross-dataset diabetic retinopathy grading (APTOS-only training; external evaluation on IDRiD, Messidor-2, and DeepDRiD). Dataset images are not included. Seeds 42-44 and 45-47 are not exchangeable replicates because of a truncated versus full cosine learning-rate schedule. Threshold-head models are not rank-consistent CORAL; calibration is reported only for cross-entropy models.",
+  "keywords": [
+    "diabetic retinopathy",
+    "MobileViT",
+    "CLAHE",
+    "ordinal regression",
+    "domain shift",
+    "quadratic weighted kappa",
+    "calibration",
+    "exploratory evaluation",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.kaggle.com/datasets/mariaherrerot/aptos2019",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.kaggle.com/c/aptos2019-blindness-detection",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/Zubair121Md/DR_RP",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.3390/data3030025",
+      "relation": "references",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "10.1016/j.patter.2022.100512",
+      "relation": "references",
+      "resource_type": "publication"
+    }
+  ],
+  "notes": "Do not upload restricted fundus images. Fill ORCID and the manuscript DOI after publication. APTOS partition archive SHA-256 is recorded in data_manifest/aptos_archive_hash.csv."
+}

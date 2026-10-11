@@ -1,0 +1,179 @@
+{
+  "note": "PHASE C ordinal / CE audit",
+  "tasks": "P(y>=1), P(y>=2), P(y>=3), P(y>=4) via targets 1{y>k} for k=0..3",
+  "target_generation": {
+    "0": {
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "got": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ok": true
+    },
+    "1": {
+      "expected": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "got": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ok": true
+    },
+    "2": {
+      "expected": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "got": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "ok": true
+    },
+    "3": {
+      "expected": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "got": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "ok": true
+    },
+    "4": {
+      "expected": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "got": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ok": true
+    }
+  },
+  "decode_monotonic": [
+    {
+      "bits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "expected_grade": 0,
+      "pred": 0,
+      "ok": true
+    },
+    {
+      "bits": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "expected_grade": 1,
+      "pred": 1,
+      "ok": true
+    },
+    {
+      "bits": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "expected_grade": 2,
+      "pred": 2,
+      "ok": true
+    },
+    {
+      "bits": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "expected_grade": 3,
+      "pred": 3,
+      "ok": true
+    },
+    {
+      "bits": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "expected_grade": 4,
+      "pred": 4,
+      "ok": true
+    }
+  ],
+  "non_monotonic": {
+    "logits_pattern": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "decode_sum_gt_0.5": 2,
+    "argmax_probs": 1,
+    "probs": [
+      0.0,
+      0.5,
+      0.0,
+      0.5,
+      1.030576846083875e-09
+    ],
+    "decode_vs_argmax_agree": false
+  },
+  "mild_aware_coral": {
+    "description": "MildAwareCORAL = mean( BCE_none(logits, 1{y>k}) * threshold_weights[k] * sample_w[i] ). Default threshold_weights boost k=0 (Y>0) and k=1 (Y>1). sample_w = mild_sample_weight when y==mild_class else 1.",
+    "default_threshold_weights": [
+      2.0,
+      2.0,
+      1.0,
+      1.0
+    ],
+    "default_mild_sample_weight": 2.0,
+    "mild_class": 1,
+    "coral_loss_zero_logits": 0.6931471824645996,
+    "mild_loss_zero_logits": 1.2476648092269897,
+    "manual_mild_matches_impl": true,
+    "differs_from_coral": true,
+    "train_infer_consistent": "Same CoralLayer head and decode_predictions as CORAL; only the training loss weighting differs."
+  },
+  "coral_layer_out_shape_ok": true,
+  "ce_loss_finite": true,
+  "issues": [],
+  "warnings": [
+    "Non-monotonic CORAL: decode_predictions (threshold-sum) disagrees with argmax(class probs). Inference uses threshold-sum; calibration uses probs. Document this; do not silently change without re-eval."
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,98 @@
+{
+  "run_id": "hybrid_h2_s45_v3",
+  "experiment_name": "hybrid_mobilevit_s_green_clahe_cross_entropy_s45_v3",
+  "device": "cpu",
+  "epochs": 20,
+  "best_epoch": 14,
+  "best_selection_metric": "quadratic_weighted_kappa",
+  "best_selection_score": 0.843699428201532,
+  "best_val_metrics": {
+    "n_samples": 366,
+    "accuracy": 0.8005464480874317,
+    "macro_f1": 0.6460181555187192,
+    "quadratic_weighted_kappa": 0.843699428201532,
+    "mae": 0.29508196721311475,
+    "per_class_precision": [
+      0.9392265193370166,
+      0.7931034482758621,
+      0.7314814814814815,
+      0.42857142857142855,
+      0.4444444444444444
+    ],
+    "per_class_recall": [
+      0.9883720930232558,
+      0.575,
+      0.7596153846153846,
+      0.4090909090909091,
+      0.42857142857142855
+    ],
+    "per_class_f1": [
+      0.9631728045325779,
+      0.6666666666666666,
+      0.7452830188679245,
+      0.4186046511627907,
+      0.43636363636363634
+    ],
+    "mild_dr_recall": 0.575,
+    "mild_dr_precision": 0.7931034482758621,
+    "mild_dr_f1": 0.6666666666666666,
+    "grade1_f1": 0.6666666666666666,
+    "confusion_matrix": [
+      [
+        170,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        23,
+        12,
+        1,
+        2
+      ],
+      [
+        8,
+        4,
+        79,
+        7,
+        6
+      ],
+      [
+        0,
+        0,
+        6,
+        9,
+        7
+      ],
+      [
+        1,
+        1,
+        10,
+        4,
+        12
+      ]
+    ],
+    "confusion_0_1": {
+      "0_predicted_as_1": 1,
+      "1_predicted_as_0": 2,
+      "total_bidirectional": 3
+    },
+    "confusion_1_2": {
+      "1_predicted_as_2": 12,
+      "2_predicted_as_1": 4,
+      "total_bidirectional": 16
+    },
+    "loss": 0.5746541848183488
+  },
+  "final_train_loss": 0.45731151968819717,
+  "final_val_loss": 0.5525802933995653,
+  "elapsed_sec": 7348.638005018234,
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/hybrid_h2_s45_v3/best.pt",
+  "results_dir": "/Users/zubairishaq/Desktop/dr- research/results/hybrid_h2_s45_v3",
+  "experiments_dir": "/Users/zubairishaq/Desktop/dr- research/experiments/hybrid_h2_s45_v3",
+  "aptos_train_size": 2930,
+  "aptos_val_size": 366,
+  "note": "IDRiD / Messidor-2 / DeepDRiD were not used for training or validation."
+}

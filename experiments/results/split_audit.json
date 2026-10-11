@@ -1,0 +1,155 @@
+{
+  "note": "PHASE E split/leakage audit \u2014 read-only",
+  "aptos_csv": {
+    "splits": {
+      "train": {
+        "n_rows": 2930,
+        "n_unique_ids": 2930,
+        "dup_ids": 0,
+        "class_counts": {
+          "2": 808,
+          "1": 300,
+          "4": 234,
+          "0": 1434,
+          "3": 154
+        }
+      },
+      "val": {
+        "n_rows": 366,
+        "n_unique_ids": 366,
+        "dup_ids": 0,
+        "class_counts": {
+          "2": 104,
+          "4": 28,
+          "1": 40,
+          "0": 172,
+          "3": 22
+        }
+      },
+      "test": {
+        "n_rows": 366,
+        "n_unique_ids": 366,
+        "dup_ids": 0,
+        "class_counts": {
+          "0": 199,
+          "2": 87,
+          "4": 33,
+          "3": 17,
+          "1": 30
+        }
+      }
+    },
+    "id_overlaps": {
+      "train\u2229val": 0,
+      "train\u2229test": 0,
+      "val\u2229test": 0
+    }
+  },
+  "selection_rules": {
+    "checkpoint_selection": "APTOS validation QWK only (src/train.py)",
+    "temperature_fit": "APTOS validation only (src/evaluate.py)",
+    "externals_in_train": false,
+    "test_in_selection": false,
+    "hyperparam_tuning_on_externals": "Not observed in code; mild-CORAL weights are fixed defaults"
+  },
+  "dataset_hash_samples": {
+    "aptos_train": {
+      "n_scanned": 80,
+      "n_unique_hashes": 80,
+      "duplicate_hash_groups": 0,
+      "class_counts_scanned": {
+        "2": 26,
+        "1": 8,
+        "4": 5,
+        "0": 39,
+        "3": 2
+      },
+      "n_dataset": 2930
+    },
+    "aptos_val": {
+      "n_scanned": 80,
+      "n_unique_hashes": 80,
+      "duplicate_hash_groups": 0,
+      "class_counts_scanned": {
+        "2": 25,
+        "4": 8,
+        "1": 9,
+        "0": 34,
+        "3": 4
+      },
+      "n_dataset": 366
+    },
+    "aptos_test": {
+      "n_scanned": 80,
+      "n_unique_hashes": 80,
+      "duplicate_hash_groups": 0,
+      "class_counts_scanned": {
+        "0": 38,
+        "2": 26,
+        "4": 6,
+        "3": 4,
+        "1": 6
+      },
+      "n_dataset": 366
+    },
+    "idrid": {
+      "n_scanned": 80,
+      "n_unique_hashes": 80,
+      "duplicate_hash_groups": 0,
+      "class_counts_scanned": {
+        "3": 22,
+        "2": 34,
+        "4": 22,
+        "1": 2
+      },
+      "n_dataset": 516
+    },
+    "messidor2": {
+      "n_scanned": 80,
+      "n_unique_hashes": 80,
+      "duplicate_hash_groups": 0,
+      "class_counts_scanned": {
+        "0": 27,
+        "1": 15,
+        "2": 23,
+        "3": 10,
+        "4": 5
+      },
+      "n_dataset": 1744
+    },
+    "deepdrid": {
+      "n_scanned": 80,
+      "n_unique_hashes": 80,
+      "duplicate_hash_groups": 0,
+      "class_counts_scanned": {
+        "0": 34,
+        "2": 16,
+        "1": 8,
+        "3": 16,
+        "4": 6
+      },
+      "n_dataset": 1589
+    }
+  },
+  "issues": [],
+  "warnings": [
+    "DeepDRiD has patient_id; evaluation uses image-level metrics. Patient-level clustering not applied (document as limitation).",
+    "APTOS/IDRiD/Messidor-2: no patient IDs in provided labels \u2014 patient leakage cannot be audited."
+  ],
+  "status": "PASS_WITH_WARNINGS",
+  "cross_dataset_md5_probe": {
+    "n_each": 50,
+    "overlaps": {
+      "aptos_train\u2229aptos_test": 0,
+      "aptos_train\u2229idrid": 0,
+      "aptos_train\u2229messidor2": 0,
+      "aptos_train\u2229deepdrid": 0,
+      "aptos_test\u2229idrid": 0,
+      "aptos_test\u2229messidor2": 0,
+      "aptos_test\u2229deepdrid": 0,
+      "idrid\u2229messidor2": 0,
+      "idrid\u2229deepdrid": 0,
+      "messidor2\u2229deepdrid": 0
+    }
+  }
+}

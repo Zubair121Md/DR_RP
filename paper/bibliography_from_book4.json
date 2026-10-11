@@ -1,0 +1,542 @@
+[
+  {
+    "n": 1,
+    "pid": "Paper 49",
+    "authors": "Varun Gulshan; Lily Peng; Marc Coram; Martin C. Stumpe; Derek Wu; Arunachalam Narayanaswamy; Subhashini Venugopalan; Kasumi Widner; Tom Madams; Jorge Cuadros; Ramasamy Kim; Rajiv Raman; Philip C. Nelson; Jessica L. Mega; Dale R. Webster",
+    "year": 2016,
+    "title": "Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs",
+    "venue": "JAMA (Innovations in Health Care Delivery)",
+    "doi": "JAMA Network article (Gulshan et al.)"
+  },
+  {
+    "n": 2,
+    "pid": "Paper 54",
+    "authors": "Yuxin Wu; Kaiming He",
+    "year": 2018,
+    "title": "Group Normalization",
+    "venue": "arXiv:1803.08494 / FAIR (CVPR-era GroupNorm paper)",
+    "doi": "https://arxiv.org/abs/1803.08494"
+  },
+  {
+    "n": 3,
+    "pid": "Paper 46",
+    "authors": "Xiaofeng Liu; Yang Zou; Yuhang Song; Chao Yang; Jane You; B.V.K. Vijaya Kumar",
+    "year": 2018,
+    "title": "Ordinal Regression with Neuron Stick-breaking for Medical Diagnosis",
+    "venue": "ECCV Workshop (ECCVW) 2018",
+    "doi": "ECCVW 2018 paper"
+  },
+  {
+    "n": 4,
+    "pid": "P001",
+    "authors": "S. Qummar et al.",
+    "year": 2019,
+    "title": "A Deep Learning Ensemble Approach for Diabetic Retinopathy Detection",
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2019.2947484"
+  },
+  {
+    "n": 5,
+    "pid": "Paper 40",
+    "authors": "Mihir Rao; Michelle Zhu; Tianyang Wang",
+    "year": 2020,
+    "title": "Conversion and Implementation of State-of-the-Art Deep Learning Algorithms for the Classification of Diabetic Retinopathy",
+    "venue": "arXiv preprint arXiv:2010.11692",
+    "doi": "https://arxiv.org/abs/2010.11692"
+  },
+  {
+    "n": 6,
+    "pid": "P004",
+    "authors": "Quang H. Nguyen; Ramasamy Muthuraman; Laxman Singh; Gopa Sen; Anh Cuong Tran; Binh P. Nguyen; Matthew Chua",
+    "year": 2020,
+    "title": "Diabetic Retinopathy Detection using Deep Learning",
+    "venue": "4th International Conference on Machine Learning and Soft Computing (ICMLSC 2020)",
+    "doi": "https://doi.org/10.1145/3380688.3380709"
+  },
+  {
+    "n": 7,
+    "pid": "P002",
+    "authors": "Wejdan L. Alyoubi; Wafaa M. Shalash; Maysoon F. Abulkhair",
+    "year": 2020,
+    "title": "Diabetic retinopathy detection through deep learning techniques: A review",
+    "venue": "Informatics in Medicine Unlocked",
+    "doi": "https://doi.org/10.1016/j.imu.2020.100377"
+  },
+  {
+    "n": 8,
+    "pid": "Paper 48",
+    "authors": "Li Tian; Liyan Ma; Zhijie Wen; Shaorong Xie; Yupeng Xu",
+    "year": 2020,
+    "title": "Learning Discriminative Representations for Fine-Grained Diabetic Retinopathy Grading",
+    "venue": "arXiv:2011.02120",
+    "doi": "https://arxiv.org/abs/2011.02120"
+  },
+  {
+    "n": 9,
+    "pid": "Paper 52",
+    "authors": "Wenzhi Cao; Vahid Mirjalili; Sebastian Raschka",
+    "year": 2020,
+    "title": "Rank consistent ordinal regression for neural networks with application to age estimation",
+    "venue": "Pattern Recognition Letters 140 (2020) 325\u2013331",
+    "doi": "https://doi.org/10.1016/j.patrec.2020.11.008"
+  },
+  {
+    "n": 10,
+    "pid": "Paper 51",
+    "authors": "Payal Shah; Divyansh K Mishra; Mahesh P Shanmugam; Bindiya Doshi; Hariprasad Jayaraj; Rajesh Ramanjulu",
+    "year": 2020,
+    "title": "Validation of Deep Convolutional Neural Network-based algorithm for detection of diabetic retinopathy \u2013 Artificial intelligence versus clinician for screening",
+    "venue": "Indian Journal of Ophthalmology",
+    "doi": "https://doi.org/10.4103/ijo.IJO_966_19"
+  },
+  {
+    "n": 11,
+    "pid": "Paper 60",
+    "authors": "Ling Dai; Liang Wu; Huating Li; Chun Cai; Qiang Wu; Hongyu Kong; Ruhan Liu; Xiangning Wang; Xuhong Hou; Yuexing Liu; Xiaoxue Long; Yang Wen; Lina Lu; Yaxin Shen; Yan Chen; Dinggang Shen; Xiaokang Yang; Haidong Zou; Bin Sheng; Weiping Jia",
+    "year": 2021,
+    "title": "A deep learning system for detecting diabetic retinopathy across the disease spectrum",
+    "venue": "Nature Communications 12, Article (s41467-021-23458-5)",
+    "doi": "https://doi.org/10.1038/s41467-021-23458-5"
+  },
+  {
+    "n": 12,
+    "pid": "Paper 55",
+    "authors": "Xintong Shi; Wenzhi Cao; Sebastian Raschka",
+    "year": 2021,
+    "title": "Deep Neural Networks for Rank-Consistent Ordinal Regression Based On Conditional Probabilities",
+    "venue": "arXiv:2111.08851 (CORN)",
+    "doi": "https://arxiv.org/abs/2111.08851"
+  },
+  {
+    "n": 13,
+    "pid": "P012",
+    "authors": "Anas Bilal; Guangmin Sun; Yu Li; Sarah Mazhar; Abdul Qadir Khan",
+    "year": 2021,
+    "title": "Diabetic Retinopathy Detection and Classification Using Mixed Models for a Disease Grading Database",
+    "venue": "IEEE Access, Vol. 9",
+    "doi": "10.1109/ACCESS.2021.3056186"
+  },
+  {
+    "n": 14,
+    "pid": "Paper 56",
+    "authors": "Yuxin Wu; Justin Johnson",
+    "year": 2021,
+    "title": "Rethinking \u201cBatch\u201d in BatchNorm",
+    "venue": "arXiv:2105.07576 (Facebook AI Research)",
+    "doi": "https://arxiv.org/abs/2105.07576"
+  },
+  {
+    "n": 15,
+    "pid": "Paper 31",
+    "authors": "Shalini R; Sasikala S",
+    "year": 2022,
+    "title": "Artificial Intelligence Approach for Diabetic Retinopathy Severity Detection",
+    "venue": "Informatica",
+    "doi": "https://doi.org/10.31449/inf.v46i8.4425; Informatica 46 (2022) 195-204"
+  },
+  {
+    "n": 16,
+    "pid": "Paper 59",
+    "authors": "Cailey I. Kerley; Leon Y. Cai; Yucheng Tang; Lori L. Beason-Held; et al.",
+    "year": 2022,
+    "title": "Batch size: go big or go home? Counterintuitive improvement in medical autoencoders with smaller batch size",
+    "venue": "NIHMS / medical imaging conference-style paper",
+    "doi": "nihms-1858227"
+  },
+  {
+    "n": 17,
+    "pid": "Paper 34",
+    "authors": "Maria Tariq; Vasile Palade; YingLiang Ma",
+    "year": 2022,
+    "title": "Transfer Learning based Classification of Diabetic Retinopathy on the Kaggle EyePACS dataset",
+    "venue": "MICAD 2022",
+    "doi": "Not clearly reported in extracted text"
+  },
+  {
+    "n": 18,
+    "pid": "P008",
+    "authors": "Mohaimenul Azam Khan Raiaan; Kaniz Fatema; Inam Ullah Khan; Sami Azam; Md. Rafi Ur Rashid; Md. Saddam Hossain Mukta; Mirjam Jonkman; Friso de Boer",
+    "year": 2023,
+    "title": "A Lightweight Robust Deep Learning Model Gained High Accuracy in Classifying a Wide Range of Diabetic Retinopathy Images",
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2023.3272228"
+  },
+  {
+    "n": 19,
+    "pid": "Paper 57",
+    "authors": "Zhijiang Wan; Jiachen Wan; Wangxinjun Cheng; Junqi Yu; Yiqun Yan; Hai Tan; Jianhua Wu",
+    "year": 2023,
+    "title": "A Wireless Sensor System for Diabetic Retinopathy Grading Using MobileViT-Plus and ResNet-Based Hybrid Deep Learning Framework",
+    "venue": "Applied Sciences 2023, 13, 6569",
+    "doi": "https://doi.org/10.3390/app13116569"
+  },
+  {
+    "n": 20,
+    "pid": "Paper 35",
+    "authors": "Usharani Bhimavarapu; Gopi Battineni",
+    "year": 2023,
+    "title": "Deep Learning for the Detection and Classification of Diabetic Retinopathy with an Improved Activation Function",
+    "venue": "Healthcare (MDPI), 11, 97",
+    "doi": "https://doi.org/10.3390/healthcare11010097"
+  },
+  {
+    "n": 21,
+    "pid": "Paper 13",
+    "authors": "Ijaz Bashir; Muhammad Zaheer Sajid; Rizwana Kalsoom; Nauman Ali Khan; Imran Qureshi; Fakhar Abbas; Qaisar Abbas",
+    "year": 2023,
+    "title": "RDS-DR: An Improved Deep Learning Model for Classifying Severity Levels of Diabetic Retinopathy",
+    "venue": "Diagnostics, 13, 3116",
+    "doi": "https://doi.org/10.3390/diagnostics13193116"
+  },
+  {
+    "n": 22,
+    "pid": "P003",
+    "authors": "Ayesha Jabbar; Hannan Bin Liaqat; Aftab Akram; Muhammad Usman Sana; Irma Dom\u00ednguez Azp\u00edroz; Isabel de la Torre Diez; Imran Ashraf",
+    "year": 2024,
+    "title": "A Lesion-Based Diabetic Retinopathy Detection Through Hybrid Deep Learning Model",
+    "venue": "IEEE Access",
+    "doi": "https://doi.org/10.1109/ACCESS.2024.3373467"
+  },
+  {
+    "n": 23,
+    "pid": "Paper 15",
+    "authors": "Jeremiah Fadugba; Patrick Kohler; Lisa Koch; Petru Manescu; Philipp Berens",
+    "year": 2024,
+    "title": "Benchmarking Retinal Blood Vessel Segmentation Models for Cross-Dataset and Cross-Disease Generalization",
+    "venue": "arXiv (eess.IV)",
+    "doi": "https://arxiv.org/abs/2406.14994"
+  },
+  {
+    "n": 24,
+    "pid": "Paper 28",
+    "authors": "Inas Al-Kamachy; Reza Hassanpour; Roya Choupani",
+    "year": 2024,
+    "title": "Classification of Diabetic Retinopathy using Pre-Trained Deep Learning Models",
+    "venue": "arXiv preprint arXiv:2403.19905v1 [cs.CV]",
+    "doi": "https://arxiv.org/abs/2403.19905"
+  },
+  {
+    "n": 25,
+    "pid": "P009",
+    "authors": "Pranajit Kumar Das; Suree Pumrin",
+    "year": 2024,
+    "title": "Diabetic Retinopathy Classification: Performance Evaluation of Pre-trained Lightweight CNN using Imbalance Dataset",
+    "venue": "Engineering Journal",
+    "doi": "https://doi.org/10.4186/ej.2024.28.7.13"
+  },
+  {
+    "n": 26,
+    "pid": "Paper 29",
+    "authors": "Mujadded Al Rabbani Alif",
+    "year": 2024,
+    "title": "Enhancing Diabetic Retinopathy Diagnosis: A Lightweight CNN Architecture for Efficient Exudate Detection in Retinal Fundus Images",
+    "venue": "arXiv preprint (eess.IV)",
+    "doi": "arXiv:2408.06784v1"
+  },
+  {
+    "n": 27,
+    "pid": "Paper 39",
+    "authors": "Lakshay Arora; Sunil K. Singh; Sudhakar Kumar; Hardik Gupta; Wadee Alhalabi; Varsha Arya; Shavi Bansal; Kwok Tai Chui; Brij B. Gupta",
+    "year": 2024,
+    "title": "Ensemble deep learning and EfficientNet for accurate diagnosis of diabetic retinopathy",
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-024-81132-4"
+  },
+  {
+    "n": 28,
+    "pid": "P010",
+    "authors": "Le Tong; Tianjiu Li; Qian Zhang; Qin Zhang; Renchaoli Zhu; Wei Du; Pengwei Hu",
+    "year": 2024,
+    "title": "LiViT-Net: A U-Net-like, lightweight Transformer network for retinal vessel segmentation",
+    "venue": "Computational and Structural Biotechnology Journal",
+    "doi": "https://doi.org/10.1016/j.csbj.2024.03.003"
+  },
+  {
+    "n": 29,
+    "pid": "Paper 47",
+    "authors": "Krit Sriporn; Cheng-Fa Tsai; Li-Jia Rong; Paohsi Wang; Tso-Yen Tsai; Chih-Wen Chen",
+    "year": 2024,
+    "title": "Optimizing Deep Learning for Diabetic Retinopathy Diagnosis",
+    "venue": "IJACSA, Vol. 15, No. 11, 2024",
+    "doi": "www.ijacsa.thesai.org"
+  },
+  {
+    "n": 30,
+    "pid": "P011",
+    "authors": "Sijia Zhu; Pinxiu Wang; Ke Shen",
+    "year": 2024,
+    "title": "ProNet Adaptive Retinal Vessel Segmentation Algorithm Based on Improved UperNet Network",
+    "venue": "Computers, Materials & Continua (CMC), Vol. 78, No. 1",
+    "doi": "10.32604/cmc.2023.045506"
+  },
+  {
+    "n": 31,
+    "pid": "Paper 17",
+    "authors": "Samia Akhtar; Shabib Aftab; Oualid Ali; Munir Ahmad; Muhammad Adnan Khan; Sagheer Abbas; Taher M. Ghazal",
+    "year": 2025,
+    "title": "A deep learning based model for diabetic retinopathy grading",
+    "venue": "Scientific Reports",
+    "doi": "https://doi.org/10.1038/s41598-025-87171-9"
+  },
+  {
+    "n": 32,
+    "pid": "Paper 18",
+    "authors": "Saif Ur Rehman Khan; Muhammad Nabeel Asim; Sebastian Vollmer; Andreas Dengel",
+    "year": 2025,
+    "title": "AI-Driven Diabetic Retinopathy Diagnosis Enhancement through Image Processing and Salp Swarm Algorithm-Optimized Ensemble Network",
+    "venue": "arXiv preprint, arXiv:2503.14209v1",
+    "doi": "https://arxiv.org/abs/2503.14209"
+  },
+  {
+    "n": 33,
+    "pid": "Paper 19",
+    "authors": "David Remyes; Daniel Nasef; Sarah Remyes; Joseph Tawfellos; Michael Sher; Demarcus Nasef; Milan Toma",
+    "year": 2025,
+    "title": "Clinical Applicability and Cross-Dataset Validation of Machine Learning Models for Binary Glaucoma Detection",
+    "venue": "Information",
+    "doi": "https://doi.org/10.3390/info16060432"
+  },
+  {
+    "n": 34,
+    "pid": "Paper 53",
+    "authors": "Md Ilias Bappi; Jannat Afrin Juthy; Kyungbaek Kim",
+    "year": 2025,
+    "title": "Deep learning-based diabetic retinopathy recognition and grading: Challenges, gaps, and an improved approach \u2014 A survey",
+    "venue": "ICT Express",
+    "doi": "ScienceDirect ICT Express"
+  },
+  {
+    "n": 35,
+    "pid": "Paper 32",
+    "authors": "Yogesh Tewari; Nitin Singh Parihar; Karan Rautela; Nishant Kaundal; Manoj Diwakar; Neeraj Kumar Pandey",
+    "year": 2025,
+    "title": "Diabetic Retinopathy Detection and Analysis with Convolutional Neural Networks and Vision Transformer",
+    "venue": "Biomedical Informatics and Smart Healthcare",
+    "doi": "http://dx.doi.org/10.62762/BISH.2025.724307; Vol.1 No.1 pp.18-26"
+  },
+  {
+    "n": 36,
+    "pid": "Paper 37",
+    "authors": "Nur Nadirah Harun; Shahida Jamaludin; Nur Hafizati Mohtar",
+    "year": 2025,
+    "title": "Diabetic Retinopathy Detection with Deep Learning: A ResNet-CNN Model Enhanced by Attention Mechanism and Ensemble Learning",
+    "venue": "Open Journal of Applied Sciences",
+    "doi": "10.4236/ojapps.2025.153044"
+  },
+  {
+    "n": 37,
+    "pid": "Paper 43",
+    "authors": "Muskaan Chopra; Lorenz Sparrenberg; Armin Berger; Sarthak Khanna; Jan H. Terheyden; Rafet Sifa",
+    "year": 2025,
+    "title": "From Retinal Pixels to Patients: Evolution of Deep Learning Research in Diabetic Retinopathy Screening",
+    "venue": "arXiv:2511.11065",
+    "doi": "https://arxiv.org/abs/2511.11065"
+  },
+  {
+    "n": 38,
+    "pid": "Paper 36",
+    "authors": "Zarin Akter; Jawad Ibn Ahad; Md. Mutasim Farhan; Riasat Khan",
+    "year": 2025,
+    "title": "Graph-enhanced deep learning for diabetic retinopathy diagnosis: A quality-aware and uncertainty-driven approach",
+    "venue": "PLOS Computational Biology 21(12): e1013745",
+    "doi": "https://doi.org/10.1371/journal.pcbi.1013745"
+  },
+  {
+    "n": 39,
+    "pid": "Paper 45",
+    "authors": "D. Ramana Kumar; G. Divya Mahathy; G. Vishnu Murthy",
+    "year": 2025,
+    "title": "Hybrid Deep Learning Framework For Accurate Diabetic Retinopathy Classification",
+    "venue": "International Journal of Environmental Sciences, Vol. 11 No. 20s, 2025",
+    "doi": "https://theaspd.com/index.php"
+  },
+  {
+    "n": 40,
+    "pid": "Paper 33",
+    "authors": "Olufunke Catherine Olayemi; Olasehinde Olayemi Olasehinde; Olugbenga O. Akinade",
+    "year": 2025,
+    "title": "Lightweight Deep Learning for Early Diabetic Retinopathy Detection: Benchmarking, Efficiency, and Applicability in Resource-Constrained Healthcare",
+    "venue": "Journal of Computer Science Research, Vol. 07, Issue 03",
+    "doi": "https://doi.org/10.30564/jcsr.v7i3.12251"
+  },
+  {
+    "n": 41,
+    "pid": "Paper 50",
+    "authors": "Mona Duggal; Anshul Chauhan; Vishali Gupta; Ankita Kankaria; Deepmala Budhija; Priyanka Verma; Vaibhav Miglani; Preeti Syal; Gagandeep Kaur; Lakshay Kumar; Naveen Mutyala; Rishabh Bezbaruah; Nayanshi Sood; Ashleigh Kernohan; Geeta Menon; Luke Vale",
+    "year": 2025,
+    "title": "Real-World Evaluation of AI-Driven Diabetic Retinopathy Screening in Public Health Settings: Validation and Implementation Study",
+    "venue": "JMIR Medical Informatics (Implementation Report) medinform-2025-1-e67529",
+    "doi": "medinform-2025-1-e67529"
+  },
+  {
+    "n": 42,
+    "pid": "Paper 30",
+    "authors": "Faisal Ahmed; Mohammad Alfrad Nobel Bhuiyan",
+    "year": 2025,
+    "title": "Robust Five-Class and binary Diabetic Retinopathy Classification Using Transfer Learning and Data Augmentation",
+    "venue": "arXiv preprint (cs.CV); Elsevier preprint format",
+    "doi": "arXiv:2507.17121v1; code https://github.com/FaisalAhmed77/Aug_Pretrain_APTOS"
+  },
+  {
+    "n": 43,
+    "pid": "Paper 58",
+    "authors": "Hao Wang; Ting Ke; Hui Lv",
+    "year": 2026,
+    "title": "A CNN-ViT Hybrid Architecture Res101-MViT-Ens for Accurate and Lightweight Automated Ocular Disease Diagnosis",
+    "venue": "Applied Sciences (MDPI) applsci-16-02905",
+    "doi": "MDPI Applied Sciences 2026"
+  },
+  {
+    "n": 44,
+    "pid": "Paper 26",
+    "authors": "Shashikala Basavpur Murigaiah; Rajeshwari D; Nagesh M S; Dharmaraj K B; Raghavendra M Ichangi; Yathiraj G R",
+    "year": 2026,
+    "title": "A Lightweight CNN Framework for Automated Diabetic Retinopathy Detection and Severity Grading Using Fundus Images",
+    "venue": "Journal of Intelligent Decision Making and Information Science, Vol. 3(11s), 2026, pp. 795-821",
+    "doi": "eISSN: 3079-0875; www.jidmis.org"
+  },
+  {
+    "n": 45,
+    "pid": "Paper 42",
+    "authors": "Khirod Kumar Ghadai; Subrat Kumar Nayak; Biswa Ranjan Senapati",
+    "year": 2026,
+    "title": "A clinically interpretable deep learning pipeline for diabetic retinopathy classification using EfficientNet, advanced data augmentation and GradCAM",
+    "venue": "BMC Ophthalmology (2026) 26:406",
+    "doi": "https://doi.org/10.1186/s12886-026-04897-4"
+  },
+  {
+    "n": 46,
+    "pid": "P005",
+    "authors": "Majida Kazmi; Bisma Imran; Saad A. Qazi; M. A. Rehman Siddiqui",
+    "year": 2026,
+    "title": "A generalizability analysis framework for bias resilience in convolution neural network and transformer models for diabetic retinopathy screening",
+    "venue": "PLOS One",
+    "doi": "10.1371/journal.pone.0351225"
+  },
+  {
+    "n": 47,
+    "pid": "Paper 14",
+    "authors": "Hrijuta Datta; Ashish Kumar Bhandari",
+    "year": 2026,
+    "title": "A multimodal hybrid retinopathy classification model for diagnosis and grading of diabetic disease from fundus images",
+    "venue": "Intelligence-Based Medicine",
+    "doi": "10.1016/j.ibmed.2026.100379"
+  },
+  {
+    "n": 48,
+    "pid": "Paper 22",
+    "authors": "Deepak Chandra Uprety; Jyotirmay Patel; Manju Ramrao Bhosle; Navpreet Kaur; Suresh Kumar; Jamal Akhtar Khan",
+    "year": 2026,
+    "title": "An Explainable AI-Based Predictive Modeling Framework for Early Detection of Diabetic Retinopathy",
+    "venue": "International Journal of Computer Information Systems and Industrial Management Applications",
+    "doi": "10.70917/ijcisim-2026-3980"
+  },
+  {
+    "n": 49,
+    "pid": "Paper 38",
+    "authors": "Javier Civit-Masot; Francisco Luna-Perejon; Luis Mu\u00f1oz-Saavedra; Jos\u00e9 Mar\u00eda Rodr\u00edguez Corral; Manuel Dom\u00ednguez-Morales; Anton Civit",
+    "year": 2026,
+    "title": "An explainable ensemble for diabetic retinopathy grading with a novel confidence quality factor and configurable heatmaps",
+    "venue": "Medical & Biological Engineering & Computing",
+    "doi": "10.1007/s11517-026-03514-2"
+  },
+  {
+    "n": 50,
+    "pid": "Paper 23",
+    "authors": "Yuli Astuti; Siti Nurhaisah",
+    "year": 2026,
+    "title": "EfficientNet-B0 Convolutional Network for Early Detection and Severity Classification of Diabetic Retinopathy",
+    "venue": "Journal of Applied Computer Science and Software Engineering (ACSSE)",
+    "doi": "https://doi.org/10.63254/acsse.v2i1.32"
+  },
+  {
+    "n": 51,
+    "pid": "Paper 20",
+    "authors": "Nithya B A; Marimuthu Karuppiah",
+    "year": 2026,
+    "title": "Genetic Fire Hawk Optimizer-Guided Entropy Segmentation with Deep Residual Autoencoder and Heterogeneous Ensemble Learning for Multi-Stage Diabetic Retinopathy Classification",
+    "venue": "International Journal of Computer Information Systems and Industrial Management Applications",
+    "doi": "10.70917/ijcisim-2026-3775"
+  },
+  {
+    "n": 52,
+    "pid": "Paper 27",
+    "authors": "Muhammad Suleman Memon; Mumtaz Qabulio; Nazish Basir; Asia Khatoon Soomro; Syeda Hira Fatima Naqvi",
+    "year": 2026,
+    "title": "Hybrid Convolutional Transformer Learning Utilizing Ordinal Sensitive Loss for Automated Grading of Diabetic Retinopathy",
+    "venue": "VFAST Transactions on Software Engineering, Vol. 14(1), Jan-Mar 2026, pp. 124-136",
+    "doi": "DOI: 10.21015/vtse.v14i1.2344"
+  },
+  {
+    "n": 53,
+    "pid": "P007",
+    "authors": "Shabnam Jafarpoor Nesheli; Saleh Rouhi; Alireza Motamedi; Maryam Rashidi; Fatemeh Salamat; Sara Mardani; Salar Bijari; Masoumeh Kheirkhahzadeh; Seyed Masoud Rezaeijo",
+    "year": 2026,
+    "title": "Joint multi-task deep learning with cross-task attention for simultaneous lesion segmentation, detection, and severity grading of diabetic retinopathy on fundus images: An external validation study",
+    "venue": "Photodiagnosis and Photodynamic Therapy 61 (2026) 105600",
+    "doi": "https://doi.org/10.1016/j.pdpdt.2026.105600"
+  },
+  {
+    "n": 54,
+    "pid": "P006",
+    "authors": "Usman Ali; Abdullahi Abubakar Imam; Rosyzie Anna Apong",
+    "year": 2026,
+    "title": "MoCo-DRG: Patch and Image-Level Self-Supervision for Generalizable Diabetic Retinopathy Grading",
+    "venue": "17th ACM Intl Conf. on Bioinformatics, Computational Biology and Health Informatics (ACM-BCB 2026)",
+    "doi": "https://doi.org/10.1145/3807503.3819353"
+  },
+  {
+    "n": 55,
+    "pid": "Paper 24",
+    "authors": "Ashish Trivedi; Pankaj Diwan; Chhanendra Sahu; Devprakash Verma",
+    "year": 2026,
+    "title": "Multi-Stage Grading of Diabetic Retinopathy Severity Using EfficientNet-B0 Architecture on Retinal Fundus Images",
+    "venue": "Anusandhanvallari, Vol. 2026 No.1",
+    "doi": "Not reported"
+  },
+  {
+    "n": 56,
+    "pid": "Paper 21",
+    "authors": "Mujidat Jibrin; Abdsamad Benkrid",
+    "year": 2026,
+    "title": "Optimized Deep Learning Framework for Diabetic Retinopathy Based on Systematic Multi-Stage Transfer Learning and Predictive Risk Stratification",
+    "venue": "Applied AI Letters",
+    "doi": "10.1002/ail2.70035"
+  },
+  {
+    "n": 57,
+    "pid": "Paper 16",
+    "authors": "Tahasin Ahmed Fahim; Fatema Binte Alam; Md Shamim Ahmed; Yu Jia",
+    "year": 2026,
+    "title": "PhysioSpeck-Net: Physics-Guided Feature Separation for Parameter-Efficient and Uncertainty-Aware Retinal OCT Classification Under Cross-Dataset Shift",
+    "venue": "Computers, MDPI, 15, 630",
+    "doi": "https://doi.org/10.3390/computers15090630"
+  },
+  {
+    "n": 58,
+    "pid": "Paper 41",
+    "authors": "Afshan Hashmi",
+    "year": 2026,
+    "title": "Robust Diabetic Retinopathy Grading Using Dual-Resolution Attention-Based Deep Learning with Ordinal Regression",
+    "venue": "arXiv preprint arXiv:2604.17341",
+    "doi": "https://arxiv.org/abs/2604.17341"
+  },
+  {
+    "n": 59,
+    "pid": "Paper 44",
+    "authors": "Ali El Bellaj; Aya Benradi; Salman El Youssoufi; Taha El Marzouki; Mohammed-Amine Cheddadi",
+    "year": 2026,
+    "title": "Uncertainty-Aware Ordinal Deep Learning for cross-Dataset Diabetic Retinopathy Grading",
+    "venue": "arXiv:2602.10315",
+    "doi": "https://arxiv.org/abs/2602.10315"
+  },
+  {
+    "n": 60,
+    "pid": "Paper 25",
+    "authors": "Qinkai Yu; Wei Zhou; Hantao Liu; Yanyu Xu; Meng Wang; Yitian Zhao; Huazhu Fu; Xujiong Ye; Yalin Zheng; Yanda Meng",
+    "year": "n.d.",
+    "title": "Parameterized Diffusion Optimization enabled Autoregressive Ordinal Regression for Diabetic Retinopathy Grading",
+    "venue": "MICCAI-style LNCS conference paper; code https://github.com/Qinkaiyu/AOR-DR",
+    "doi": "https://github.com/Qinkaiyu/AOR-DR"
+  }
+]

@@ -1,0 +1,4 @@
+backbone,weights,batchnorm_layers,layernorm_layers,groupnorm_layers,affected_by_freeze_bn
+MobileViT-S,timm mobilevit_s.cvnets_in1k,32,21,0,True
+EfficientNet-B0,torchvision EfficientNet_B0_Weights.IMAGENET1K_V1,49,0,0,True
+Swin-Tiny,timm swin_tiny_patch4_window7_224.ms_in1k,0,29,0,False

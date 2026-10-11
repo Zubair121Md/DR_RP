@@ -1,0 +1,2 @@
+file,source_url,sha256,size_bytes,local_mtime,n_image_members,csv_members_and_zip_dates
+archive.zip,https://www.kaggle.com/datasets/mariaherrerot/aptos2019,ffdf1300357080f0d493d2bdb2857511fedd827e6ee4021a8c4966459ac874dc,8602506535,2026-09-16,3662,test.csv=2021-11-17; train_1.csv=2021-11-17; valid.csv=2021-11-17

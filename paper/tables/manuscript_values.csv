@@ -1,0 +1,1963 @@
+placeholder,value,source
+sb:H2:APTOS:QWK:a,0.876 ± 0.013,seed_batch_summary.csv
+sb:H2:DeepDRiD:QWK:a,0.417 ± 0.112,seed_batch_summary.csv
+sb:H2:APTOS:QWK:b,0.836 ± 0.009,seed_batch_summary.csv
+sb:H2:DeepDRiD:QWK:b,0.366 ± 0.024,seed_batch_summary.csv
+sb:H2:APTOS:mild recall:a,0.167 ± 0.000,seed_batch_summary.csv
+sb:H2:APTOS:mild recall:b,0.422 ± 0.019,seed_batch_summary.csv
+g1n:APTOS,30,external_grade1_recall_summary.csv
+n:APTOS:train,"2,930",dataset_manifest.csv
+n:APTOS:val,366,dataset_manifest.csv
+n:APTOS:test,366,dataset_manifest.csv
+aud:total,"3,662",aptos_split_audit.csv
+aud:pairs,134,aptos_split_audit.csv
+aud:trte,23,aptos_split_audit.csv
+aud:testdup,24,aptos_split_audit.csv
+n:IDRiD:train,413,dataset_manifest.csv
+n:IDRiD:test,103,dataset_manifest.csv
+n:IDRiD:external_all,516,dataset_manifest.csv
+n:Messidor-2:external_gradable,"1,744",dataset_manifest.csv
+n:DeepDRiD:external_eval,"1,589",dataset_manifest.csv
+table:datasets,0,table:datasets
+table:datasets,1,table:datasets
+table:datasets,2,table:datasets
+table:datasets,3,table:datasets
+table:datasets,4,table:datasets
+table:datasets,"2,930",table:datasets
+table:datasets,"1,434",table:datasets
+table:datasets,300,table:datasets
+table:datasets,808,table:datasets
+table:datasets,154,table:datasets
+table:datasets,234,table:datasets
+table:datasets,366,table:datasets
+table:datasets,172,table:datasets
+table:datasets,40,table:datasets
+table:datasets,104,table:datasets
+table:datasets,22,table:datasets
+table:datasets,28,table:datasets
+table:datasets,366,table:datasets
+table:datasets,199,table:datasets
+table:datasets,30,table:datasets
+table:datasets,87,table:datasets
+table:datasets,17,table:datasets
+table:datasets,33,table:datasets
+table:datasets,516,table:datasets
+table:datasets,168,table:datasets
+table:datasets,25,table:datasets
+table:datasets,168,table:datasets
+table:datasets,93,table:datasets
+table:datasets,62,table:datasets
+table:datasets,-2,table:datasets
+table:datasets,"1,744",table:datasets
+table:datasets,"1,017",table:datasets
+table:datasets,270,table:datasets
+table:datasets,347,table:datasets
+table:datasets,75,table:datasets
+table:datasets,35,table:datasets
+table:datasets,"1,589",table:datasets
+table:datasets,706,table:datasets
+table:datasets,185,table:datasets
+table:datasets,324,table:datasets
+table:datasets,282,table:datasets
+table:datasets,92,table:datasets
+n:APTOS:val,366,dataset_manifest.csv
+steps:trunc,60,training_schedule_audit.csv
+env:resumes,239–240,environment.csv
+bestep:min,10,master_results_per_run.csv
+bestep:max,20,master_results_per_run.csv
+env:cpu,Apple M2,environment.csv
+env:cores,8,environment.csv
+env:ram,8,environment.csv
+env:os,macOS 26.3,environment.csv
+env:python,3.13.2,environment.csv
+env:torch,2.7.1,environment.csv
+env:torchvision,0.22.1,environment.csv
+env:timm,1.0.29,environment.csv
+table:settings,1,table:settings
+table:settings,4,table:settings
+table:settings,0,table:settings
+table:settings,1,table:settings
+table:settings,0,table:settings
+table:settings,1,table:settings
+table:settings,1,table:settings
+table:settings,4,table:settings
+table:settings,7,table:settings
+table:settings,224,table:settings
+table:settings,1,table:settings
+table:settings,224,table:settings
+table:settings,224,table:settings
+table:settings,224,table:settings
+table:settings,224,table:settings
+table:settings,224,table:settings
+table:settings,224,table:settings
+table:settings,1,table:settings
+table:settings,10,table:settings
+table:settings,1,table:settings
+table:settings,10,table:settings
+table:settings,1,table:settings
+table:settings,10,table:settings
+table:settings,1,table:settings
+table:settings,10,table:settings
+table:settings,1,table:settings
+table:settings,10,table:settings
+table:settings,1,table:settings
+table:settings,10,table:settings
+table:settings,20,table:settings
+table:settings,20,table:settings
+table:settings,20,table:settings
+table:settings,8.84,table:settings
+table:settings,10,table:settings
+table:settings,42,table:settings
+table:settings,44,table:settings
+table:settings,0,table:settings
+table:settings,45,table:settings
+table:settings,47,table:settings
+table:settings,0,table:settings
+table:settings,8.84,table:settings
+table:settings,10,table:settings
+table:settings,4,table:settings
+table:settings,4,table:settings
+table:settings,4,table:settings
+table:settings,32,table:settings
+table:settings,21,table:settings
+table:settings,49,table:settings
+table:settings,29,table:settings
+table:settings,2,table:settings
+table:settings,2,table:settings
+table:settings,2,table:settings
+table:settings,60,table:settings
+table:settings,42,table:settings
+table:settings,44,table:settings
+table:settings,800,table:settings
+table:settings,45,table:settings
+table:settings,47,table:settings
+table:settings,800,table:settings
+table:settings,60,table:settings
+table:settings,42,table:settings
+table:settings,47,table:settings
+table:settings,42,table:settings
+table:settings,44,table:settings
+table:settings,42,table:settings
+table:settings,44,table:settings
+coral:init,"(−2, −0.67, 0.67, 2)",src/models.py
+coral:nordered,0,coral_verification_runs.csv
+coral:nruns,21,coral_verification_runs.csv
+coral:minnonmono,97.3%,coral_verification_runs.csv
+sched:lrfinal:trunc,8.84 × 10⁻⁵,training_schedule_audit.csv
+sb:H2:APTOS:QWK:a,0.876 ± 0.013,seed_batch_summary.csv
+sb:H1:APTOS:QWK:a,0.830 ± 0.006,seed_batch_summary.csv
+sb:H2:APTOS:QWK:b,0.836 ± 0.009,seed_batch_summary.csv
+sb:H1:APTOS:QWK:b,0.806 ± 0.005,seed_batch_summary.csv
+sb:H2:IDRiD:QWK:a,0.364 ± 0.148,seed_batch_summary.csv
+sb:H1:IDRiD:QWK:a,0.395 ± 0.147,seed_batch_summary.csv
+sb:H2:IDRiD:QWK:b,0.336 ± 0.015,seed_batch_summary.csv
+sb:H1:IDRiD:QWK:b,0.136 ± 0.021,seed_batch_summary.csv
+pgrp:qwk:H2-H1:DeepDRiD:a:d,+0.180 ± 0.110,master_results_per_run.csv; external_grade1_recall_per_run.csv
+pgrp:qwk:H2-H1:DeepDRiD:b:d,+0.363 ± 0.028,master_results_per_run.csv; external_grade1_recall_per_run.csv
+sb:H1:IDRiD:QWK:b,0.136 ± 0.021,seed_batch_summary.csv
+sb:H1:Messidor-2:QWK:b,0.000 ± 0.000,seed_batch_summary.csv
+sb:H1:DeepDRiD:QWK:b,0.002 ± 0.004,seed_batch_summary.csv
+mp0:H1:45-47,1.000 ± 0.000,messidor_pred0_n6_summary.csv
+b0m:H1:IDRiD,0.641 ± 0.057,table_v3_matched_b0_vs_hybrid.csv
+b0m:H1:Messidor-2,0.363 ± 0.093,table_v3_matched_b0_vs_hybrid.csv
+b0m:H1:DeepDRiD,0.613 ± 0.007,table_v3_matched_b0_vs_hybrid.csv
+table:qwk,-2,table:qwk
+table:qwk,1,table:qwk
+table:qwk,42,table:qwk
+table:qwk,"44,",table:qwk
+table:qwk,0.830 ± 0.006,table:qwk
+table:qwk,0.395 ± 0.147,table:qwk
+table:qwk,0.040 ± 0.053,table:qwk
+table:qwk,0.238 ± 0.039,table:qwk
+table:qwk,1,table:qwk
+table:qwk,45,table:qwk
+table:qwk,"47,",table:qwk
+table:qwk,0.806 ± 0.005,table:qwk
+table:qwk,0.136 ± 0.021,table:qwk
+table:qwk,0.000 ± 0.000,table:qwk
+table:qwk,0.002 ± 0.004,table:qwk
+table:qwk,2,table:qwk
+table:qwk,42,table:qwk
+table:qwk,"44,",table:qwk
+table:qwk,0.876 ± 0.013,table:qwk
+table:qwk,0.364 ± 0.148,table:qwk
+table:qwk,0.050 ± 0.046,table:qwk
+table:qwk,0.417 ± 0.112,table:qwk
+table:qwk,2,table:qwk
+table:qwk,45,table:qwk
+table:qwk,"47,",table:qwk
+table:qwk,0.836 ± 0.009,table:qwk
+table:qwk,0.336 ± 0.015,table:qwk
+table:qwk,−0.026 ± 0.056,table:qwk
+table:qwk,0.366 ± 0.024,table:qwk
+table:qwk,3,table:qwk
+table:qwk,42,table:qwk
+table:qwk,"44,",table:qwk
+table:qwk,0.821 ± 0.005,table:qwk
+table:qwk,0.353 ± 0.222,table:qwk
+table:qwk,0.017 ± 0.024,table:qwk
+table:qwk,0.050 ± 0.039,table:qwk
+table:qwk,3,table:qwk
+table:qwk,45,table:qwk
+table:qwk,"47,",table:qwk
+table:qwk,0.807 ± 0.006,table:qwk
+table:qwk,0.262 ± 0.130,table:qwk
+table:qwk,−0.002 ± 0.002,table:qwk
+table:qwk,0.017 ± 0.010,table:qwk
+table:qwk,4,table:qwk
+table:qwk,42,table:qwk
+table:qwk,"44,",table:qwk
+table:qwk,0.838 ± 0.014,table:qwk
+table:qwk,0.565 ± 0.172,table:qwk
+table:qwk,−0.009 ± 0.093,table:qwk
+table:qwk,0.247 ± 0.040,table:qwk
+table:qwk,4,table:qwk
+table:qwk,45,table:qwk
+table:qwk,"47,",table:qwk
+table:qwk,0.850 ± 0.006,table:qwk
+table:qwk,0.527 ± 0.071,table:qwk
+table:qwk,−0.139 ± 0.038,table:qwk
+table:qwk,0.221 ± 0.049,table:qwk
+g1n:APTOS,30,external_grade1_recall_summary.csv
+g1n:IDRiD,25,external_grade1_recall_summary.csv
+sb:H2:APTOS:mild recall:a,0.167 ± 0.000,seed_batch_summary.csv
+mildk:H2:a,5,master_results_per_run.csv
+g1n:APTOS,30,external_grade1_recall_summary.csv
+sb:H2:APTOS:mild recall:b,0.422 ± 0.019,seed_batch_summary.csv
+g1grp:H3:IDRiD:a,0.333 ± 0.577,external_grade1_recall_per_run.csv
+g1run:H3:42:IDRiD,25 of 25,external_grade1_recall_per_run.csv
+predshare:H3:42:idrid_external:1,305 of 516 (59.1%),results/hybrid_h3_s42_v1/idrid_external_predictions.json
+g1run:H3:43:IDRiD,0 of 25,external_grade1_recall_per_run.csv
+g1run:H3:44:IDRiD,0 of 25,external_grade1_recall_per_run.csv
+table:mild,1,table:mild
+table:mild,1,table:mild
+table:mild,1,table:mild
+table:mild,42,table:mild
+table:mild,"44,",table:mild
+table:mild,0.591 ± 0.111,table:mild
+table:mild,0.378 ± 0.184,table:mild
+table:mild,0.426 ± 0.135,table:mild
+table:mild,0.524 ± 0.068,table:mild
+table:mild,0.773 ± 0.021,table:mild
+table:mild,1,table:mild
+table:mild,45,table:mild
+table:mild,"47,",table:mild
+table:mild,0.570 ± 0.092,table:mild
+table:mild,0.344 ± 0.241,table:mild
+table:mild,0.374 ± 0.219,table:mild
+table:mild,0.488 ± 0.036,table:mild
+table:mild,0.769 ± 0.026,table:mild
+table:mild,2,table:mild
+table:mild,42,table:mild
+table:mild,"44,",table:mild
+table:mild,0.794 ± 0.069,table:mild
+table:mild,0.167 ± 0.000,table:mild
+table:mild,0.275 ± 0.004,table:mild
+table:mild,0.536 ± 0.026,table:mild
+table:mild,0.789 ± 0.016,table:mild
+table:mild,2,table:mild
+table:mild,45,table:mild
+table:mild,"47,",table:mild
+table:mild,0.469 ± 0.021,table:mild
+table:mild,0.422 ± 0.019,table:mild
+table:mild,0.444 ± 0.020,table:mild
+table:mild,0.557 ± 0.020,table:mild
+table:mild,0.791 ± 0.004,table:mild
+table:mild,3,table:mild
+table:mild,42,table:mild
+table:mild,"44,",table:mild
+table:mild,0.355 ± 0.019,table:mild
+table:mild,0.522 ± 0.195,table:mild
+table:mild,0.414 ± 0.085,table:mild
+table:mild,0.425 ± 0.027,table:mild
+table:mild,0.641 ± 0.013,table:mild
+table:mild,3,table:mild
+table:mild,45,table:mild
+table:mild,"47,",table:mild
+table:mild,0.340 ± 0.106,table:mild
+table:mild,0.278 ± 0.102,table:mild
+table:mild,0.305 ± 0.102,table:mild
+table:mild,0.400 ± 0.009,table:mild
+table:mild,0.642 ± 0.014,table:mild
+table:mild,4,table:mild
+table:mild,42,table:mild
+table:mild,"44,",table:mild
+table:mild,0.311 ± 0.113,table:mild
+table:mild,0.478 ± 0.299,table:mild
+table:mild,0.368 ± 0.186,table:mild
+table:mild,0.454 ± 0.050,table:mild
+table:mild,0.671 ± 0.026,table:mild
+table:mild,4,table:mild
+table:mild,45,table:mild
+table:mild,"47,",table:mild
+table:mild,0.373 ± 0.036,table:mild
+table:mild,0.411 ± 0.019,table:mild
+table:mild,0.390 ± 0.016,table:mild
+table:mild,0.483 ± 0.003,table:mild
+table:mild,0.679 ± 0.007,table:mild
+table:g1,30,table:g1
+table:g1,25,table:g1
+table:g1,-2,table:g1
+table:g1,270,table:g1
+table:g1,185,table:g1
+table:g1,1,table:g1
+table:g1,42,table:g1
+table:g1,"44,",table:g1
+table:g1,0.378 ± 0.184,table:g1
+table:g1,0.227 ± 0.220,table:g1
+table:g1,0.000 ± 0.000,table:g1
+table:g1,0.000 ± 0.000,table:g1
+table:g1,1,table:g1
+table:g1,45,table:g1
+table:g1,"47,",table:g1
+table:g1,0.344 ± 0.241,table:g1
+table:g1,0.000 ± 0.000,table:g1
+table:g1,0.000 ± 0.000,table:g1
+table:g1,0.000 ± 0.000,table:g1
+table:g1,2,table:g1
+table:g1,42,table:g1
+table:g1,"44,",table:g1
+table:g1,0.167 ± 0.000,table:g1
+table:g1,0.000 ± 0.000,table:g1
+table:g1,0.000 ± 0.000,table:g1
+table:g1,0.000 ± 0.000,table:g1
+table:g1,2,table:g1
+table:g1,45,table:g1
+table:g1,"47,",table:g1
+table:g1,0.422 ± 0.019,table:g1
+table:g1,0.067 ± 0.046,table:g1
+table:g1,0.000 ± 0.000,table:g1
+table:g1,0.020 ± 0.011,table:g1
+table:g1,3,table:g1
+table:g1,42,table:g1
+table:g1,"44,",table:g1
+table:g1,0.522 ± 0.195,table:g1
+table:g1,0.333 ± 0.577,table:g1
+table:g1,0.014 ± 0.012,table:g1
+table:g1,0.018 ± 0.017,table:g1
+table:g1,3,table:g1
+table:g1,45,table:g1
+table:g1,"47,",table:g1
+table:g1,0.278 ± 0.102,table:g1
+table:g1,0.107 ± 0.061,table:g1
+table:g1,0.006 ± 0.011,table:g1
+table:g1,0.036 ± 0.020,table:g1
+table:g1,4,table:g1
+table:g1,42,table:g1
+table:g1,"44,",table:g1
+table:g1,0.478 ± 0.299,table:g1
+table:g1,0.507 ± 0.272,table:g1
+table:g1,0.202 ± 0.078,table:g1
+table:g1,0.043 ± 0.024,table:g1
+table:g1,4,table:g1
+table:g1,45,table:g1
+table:g1,"47,",table:g1
+table:g1,0.411 ± 0.019,table:g1
+table:g1,0.387 ± 0.023,table:g1
+table:g1,0.147 ± 0.034,table:g1
+table:g1,0.085 ± 0.035,table:g1
+table:ece,-2,table:ece
+table:ece,1,table:ece
+table:ece,42,table:ece
+table:ece,"44,",table:ece
+table:ece,0.052 ± 0.013,table:ece
+table:ece,0.059 ± 0.008,table:ece
+table:ece,0.209 ± 0.044,table:ece
+table:ece,0.217 ± 0.063,table:ece
+table:ece,0.384 ± 0.034,table:ece
+table:ece,0.389 ± 0.022,table:ece
+table:ece,0.413 ± 0.096,table:ece
+table:ece,0.413 ± 0.107,table:ece
+table:ece,0.977 ± 0.113,table:ece
+table:ece,1,table:ece
+table:ece,45,table:ece
+table:ece,"47,",table:ece
+table:ece,0.043 ± 0.005,table:ece
+table:ece,0.042 ± 0.007,table:ece
+table:ece,0.316 ± 0.050,table:ece
+table:ece,0.321 ± 0.056,table:ece
+table:ece,0.397 ± 0.018,table:ece
+table:ece,0.398 ± 0.016,table:ece
+table:ece,0.526 ± 0.015,table:ece
+table:ece,0.527 ± 0.013,table:ece
+table:ece,0.988 ± 0.020,table:ece
+table:ece,2,table:ece
+table:ece,42,table:ece
+table:ece,"44,",table:ece
+table:ece,0.052 ± 0.006,table:ece
+table:ece,0.043 ± 0.008,table:ece
+table:ece,0.187 ± 0.066,table:ece
+table:ece,0.162 ± 0.057,table:ece
+table:ece,0.360 ± 0.018,table:ece
+table:ece,0.352 ± 0.019,table:ece
+table:ece,0.374 ± 0.076,table:ece
+table:ece,0.356 ± 0.084,table:ece
+table:ece,1.112 ± 0.021,table:ece
+table:ece,2,table:ece
+table:ece,45,table:ece
+table:ece,"47,",table:ece
+table:ece,0.052 ± 0.016,table:ece
+table:ece,0.042 ± 0.019,table:ece
+table:ece,0.204 ± 0.028,table:ece
+table:ece,0.208 ± 0.024,table:ece
+table:ece,0.400 ± 0.008,table:ece
+table:ece,0.400 ± 0.009,table:ece
+table:ece,0.388 ± 0.009,table:ece
+table:ece,0.391 ± 0.009,table:ece
+table:ece,0.987 ± 0.055,table:ece
+aud:pairs,134,aptos_split_audit.csv
+aud:testdup,24,aptos_split_audit.csv
+aud:difflabel,12,aptos_split_audit.csv
+aud:testdup,24,aptos_split_audit.csv
+dedup:nkept,342,aptos_dedup_sensitivity.csv
+dedup:grpmax,0.007,aptos_dedup_sensitivity.csv
+dedup:runmax,0.015,aptos_dedup_sensitivity.csv
+dedup:sb:H2:a:all,0.876 ± 0.013,aptos_dedup_sensitivity.csv
+dedup:sb:H2:a:dedup,0.873 ± 0.013,aptos_dedup_sensitivity.csv
+dedup:sb:H2:b:all,0.836 ± 0.009,aptos_dedup_sensitivity.csv
+dedup:sb:H2:b:dedup,0.829 ± 0.011,aptos_dedup_sensitivity.csv
+mp0:H2:42-44,0.970 ± 0.008,messidor_pred0_n6_summary.csv
+mess:n,"1,744",messidor_pred0_n6_per_run.csv
+mess:pred0:H2:42,"1,706",messidor_pred0_n6_per_run.csv
+mp0:H2:45-47,0.959 ± 0.063,messidor_pred0_n6_summary.csv
+mp0:H4:42-44,0.658 ± 0.178,messidor_pred0_n6_summary.csv
+mp0:H4:45-47,0.652 ± 0.059,messidor_pred0_n6_summary.csv
+table:b0,-2,table:b0
+table:b0,1,table:b0
+table:b0,0,table:b0
+table:b0,42,table:b0
+table:b0,"44,",table:b0
+table:b0,0.917 ± 0.010,table:b0
+table:b0,0.641 ± 0.057,table:b0
+table:b0,0.363 ± 0.093,table:b0
+table:b0,0.613 ± 0.007,table:b0
+table:b0,1,table:b0
+table:b0,42,table:b0
+table:b0,"44,",table:b0
+table:b0,0.830 ± 0.006,table:b0
+table:b0,0.395 ± 0.147,table:b0
+table:b0,0.040 ± 0.053,table:b0
+table:b0,0.238 ± 0.039,table:b0
+table:b0,1,table:b0
+table:b0,45,table:b0
+table:b0,"47,",table:b0
+table:b0,0.806 ± 0.005,table:b0
+table:b0,0.136 ± 0.021,table:b0
+table:b0,0.000 ± 0.000,table:b0
+table:b0,0.002 ± 0.004,table:b0
+table:b0,2,table:b0
+table:b0,0,table:b0
+table:b0,42,table:b0
+table:b0,"44,",table:b0
+table:b0,0.900 ± 0.006,table:b0
+table:b0,0.638 ± 0.024,table:b0
+table:b0,0.430 ± 0.073,table:b0
+table:b0,0.604 ± 0.033,table:b0
+table:b0,2,table:b0
+table:b0,42,table:b0
+table:b0,"44,",table:b0
+table:b0,0.876 ± 0.013,table:b0
+table:b0,0.364 ± 0.148,table:b0
+table:b0,0.050 ± 0.046,table:b0
+table:b0,0.417 ± 0.112,table:b0
+table:b0,2,table:b0
+table:b0,45,table:b0
+table:b0,"47,",table:b0
+table:b0,0.836 ± 0.009,table:b0
+table:b0,0.336 ± 0.015,table:b0
+table:b0,−0.026 ± 0.056,table:b0
+table:b0,0.366 ± 0.024,table:b0
+table:b0,3,table:b0
+table:b0,0,table:b0
+table:b0,42,table:b0
+table:b0,"44,",table:b0
+table:b0,0.878 ± 0.012,table:b0
+table:b0,0.730 ± 0.088,table:b0
+table:b0,0.446 ± 0.030,table:b0
+table:b0,0.579 ± 0.061,table:b0
+table:b0,3,table:b0
+table:b0,42,table:b0
+table:b0,"44,",table:b0
+table:b0,0.821 ± 0.005,table:b0
+table:b0,0.353 ± 0.222,table:b0
+table:b0,0.017 ± 0.024,table:b0
+table:b0,0.050 ± 0.039,table:b0
+table:b0,3,table:b0
+table:b0,45,table:b0
+table:b0,"47,",table:b0
+table:b0,0.807 ± 0.006,table:b0
+table:b0,0.262 ± 0.130,table:b0
+table:b0,−0.002 ± 0.002,table:b0
+table:b0,0.017 ± 0.010,table:b0
+table:b0,4,table:b0
+table:b0,0,table:b0
+table:b0,42,table:b0
+table:b0,"44,",table:b0
+table:b0,0.891 ± 0.007,table:b0
+table:b0,0.764 ± 0.013,table:b0
+table:b0,0.403 ± 0.122,table:b0
+table:b0,0.613 ± 0.020,table:b0
+table:b0,4,table:b0
+table:b0,42,table:b0
+table:b0,"44,",table:b0
+table:b0,0.838 ± 0.014,table:b0
+table:b0,0.565 ± 0.172,table:b0
+table:b0,−0.009 ± 0.093,table:b0
+table:b0,0.247 ± 0.040,table:b0
+table:b0,4,table:b0
+table:b0,45,table:b0
+table:b0,"47,",table:b0
+table:b0,0.850 ± 0.006,table:b0
+table:b0,0.527 ± 0.071,table:b0
+table:b0,−0.139 ± 0.038,table:b0
+table:b0,0.221 ± 0.049,table:b0
+table:paired,-1,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,0.046 ± 0.019,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,−0.211 ± 0.184,table:paired
+table:paired,0,table:paired
+table:paired,2,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,−0.030 ± 0.271,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,−0.227 ± 0.220,table:paired
+table:paired,0,table:paired
+table:paired,2,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,-2,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,0.010 ± 0.071,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,0.000 ± 0.000,table:paired
+table:paired,0,table:paired
+table:paired,0,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,0.180 ± 0.110,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.000 ± 0.000,table:paired
+table:paired,0,table:paired
+table:paired,0,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.029 ± 0.014,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.078 ± 0.222,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.201 ± 0.035,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.067 ± 0.046,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,-2,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,−0.026 ± 0.056,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,0.000 ± 0.000,table:paired
+table:paired,0,table:paired
+table:paired,0,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.363 ± 0.028,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.020 ± 0.011,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,3,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,0.017 ± 0.017,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,−0.044 ± 0.117,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,4,table:paired
+table:paired,3,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,0.212 ± 0.165,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.173 ± 0.441,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,4,table:paired
+table:paired,3,table:paired
+table:paired,-2,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,−0.026 ± 0.069,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,0.189 ± 0.069,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,3,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,0.197 ± 0.042,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.025 ± 0.040,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,4,table:paired
+table:paired,3,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.043 ± 0.009,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.133 ± 0.100,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,3,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.266 ± 0.172,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.280 ± 0.080,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,3,table:paired
+table:paired,-2,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,−0.138 ± 0.039,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,0.141 ± 0.029,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,3,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.204 ± 0.045,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.049 ± 0.048,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,1,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,−0.009 ± 0.001,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,0.144 ± 0.350,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,3,table:paired
+table:paired,1,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,−0.041 ± 0.346,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,0.107 ± 0.780,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,3,table:paired
+table:paired,1,table:paired
+table:paired,-2,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,−0.023 ± 0.072,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,0.014 ± 0.012,table:paired
+table:paired,2,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,1,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,−0.187 ± 0.008,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,0.018 ± 0.017,table:paired
+table:paired,2,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,1,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.001 ± 0.009,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,−0.067 ± 0.273,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,3,table:paired
+table:paired,1,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.126 ± 0.151,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,0.107 ± 0.061,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,1,table:paired
+table:paired,-2,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,−0.002 ± 0.002,table:paired
+table:paired,0,table:paired
+table:paired,2,table:paired
+table:paired,0.006 ± 0.011,table:paired
+table:paired,1,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,1,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.015 ± 0.012,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.036 ± 0.020,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,2,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,−0.038 ± 0.015,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,0.311 ± 0.299,table:paired
+table:paired,2,table:paired
+table:paired,1,table:paired
+table:paired,4,table:paired
+table:paired,2,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,0.201 ± 0.116,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.507 ± 0.272,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,2,table:paired
+table:paired,-2,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,−0.059 ± 0.128,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,0.202 ± 0.078,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,2,table:paired
+table:paired,42,table:paired
+table:paired,"44,",table:paired
+table:paired,−0.170 ± 0.071,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,0.043 ± 0.024,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,2,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.014 ± 0.015,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,−0.011 ± 0.038,table:paired
+table:paired,1,table:paired
+table:paired,2,table:paired
+table:paired,4,table:paired
+table:paired,2,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,0.191 ± 0.086,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,0.320 ± 0.040,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,2,table:paired
+table:paired,-2,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,−0.113 ± 0.085,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,0.147 ± 0.034,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:paired,4,table:paired
+table:paired,2,table:paired
+table:paired,45,table:paired
+table:paired,"47,",table:paired
+table:paired,−0.144 ± 0.030,table:paired
+table:paired,0,table:paired
+table:paired,3,table:paired
+table:paired,0.065 ± 0.038,table:paired
+table:paired,3,table:paired
+table:paired,0,table:paired
+table:arch,-2,table:arch
+table:arch,42,table:arch
+table:arch,"44,",table:arch
+table:arch,0.904 ± 0.016,table:arch
+table:arch,0.634 ± 0.041,table:arch
+table:arch,0.262 ± 0.154,table:arch
+table:arch,0.514 ± 0.021,table:arch
+table:arch,42,table:arch
+table:arch,"44,",table:arch
+table:arch,0.876 ± 0.013,table:arch
+table:arch,0.364 ± 0.148,table:arch
+table:arch,0.050 ± 0.046,table:arch
+table:arch,0.417 ± 0.112,table:arch
+table:arch,45,table:arch
+table:arch,"47,",table:arch
+table:arch,0.836 ± 0.009,table:arch
+table:arch,0.336 ± 0.015,table:arch
+table:arch,−0.026 ± 0.056,table:arch
+table:arch,0.366 ± 0.024,table:arch
+table:arch,0,table:arch
+table:arch,42,table:arch
+table:arch,"44,",table:arch
+table:arch,0.900 ± 0.006,table:arch
+table:arch,0.638 ± 0.024,table:arch
+table:arch,0.430 ± 0.073,table:arch
+table:arch,0.604 ± 0.033,table:arch
+table:lodo,42,table:lodo
+table:lodo,44,table:lodo
+table:lodo,2,table:lodo
+table:lodo,42,table:lodo
+table:lodo,44,table:lodo
+table:lodo,2,table:lodo
+table:lodo,45,table:lodo
+table:lodo,47,table:lodo
+table:lodo,"2,930",table:lodo
+table:lodo,-2,table:lodo
+table:lodo,"1,744",table:lodo
+table:lodo,"1,589",table:lodo
+table:lodo,"6,263",table:lodo
+table:lodo,0.678 ± 0.071,table:lodo
+table:lodo,0.364 ± 0.148,table:lodo
+table:lodo,0.314 ± 0.078,table:lodo
+table:lodo,0.336 ± 0.015,table:lodo
+table:lodo,-2,table:lodo
+table:lodo,"2,930",table:lodo
+table:lodo,516,table:lodo
+table:lodo,"1,589",table:lodo
+table:lodo,"5,035",table:lodo
+table:lodo,0.223 ± 0.066,table:lodo
+table:lodo,0.050 ± 0.046,table:lodo
+table:lodo,0.173 ± 0.102,table:lodo
+table:lodo,−0.026 ± 0.056,table:lodo
+table:lodo,"2,930",table:lodo
+table:lodo,516,table:lodo
+table:lodo,-2,table:lodo
+table:lodo,"1,744",table:lodo
+table:lodo,"5,190",table:lodo
+table:lodo,0.454 ± 0.023,table:lodo
+table:lodo,0.417 ± 0.112,table:lodo
+table:lodo,0.037 ± 0.089,table:lodo
+table:lodo,0.366 ± 0.024,table:lodo
+decomp:D2:APTOS:mild,0.489 ± 0.069,table_v3_decomp_clahe.csv
+sb:H2:APTOS:mild recall:a,0.167 ± 0.000,seed_batch_summary.csv
+sb:H2:APTOS:mild recall:b,0.422 ± 0.019,seed_batch_summary.csv
+table:decomp,2,table:decomp
+table:decomp,42,table:decomp
+table:decomp,"44,",table:decomp
+table:decomp,0.876 ± 0.013,table:decomp
+table:decomp,0.167 ± 0.000,table:decomp
+table:decomp,0.052 ± 0.006,table:decomp
+table:decomp,0.364 ± 0.148,table:decomp
+table:decomp,0.417 ± 0.112,table:decomp
+table:decomp,2,table:decomp
+table:decomp,45,table:decomp
+table:decomp,"47,",table:decomp
+table:decomp,0.836 ± 0.009,table:decomp
+table:decomp,0.422 ± 0.019,table:decomp
+table:decomp,0.052 ± 0.016,table:decomp
+table:decomp,0.336 ± 0.015,table:decomp
+table:decomp,0.366 ± 0.024,table:decomp
+table:decomp,2,table:decomp
+table:decomp,42,table:decomp
+table:decomp,"44,",table:decomp
+table:decomp,0.839 ± 0.010,table:decomp
+table:decomp,0.489 ± 0.069,table:decomp
+table:decomp,0.047 ± 0.009,table:decomp
+table:decomp,0.443 ± 0.029,table:decomp
+table:decomp,0.333 ± 0.094,table:decomp
+table:decomp,1,table:decomp
+table:decomp,42,table:decomp
+table:decomp,"44,",table:decomp
+table:decomp,0.850 ± 0.007,table:decomp
+table:decomp,0.556 ± 0.084,table:decomp
+table:decomp,0.600 ± 0.016,table:decomp
+table:decomp,0.249 ± 0.109,table:decomp
+table:decomp,4,table:decomp
+table:decomp,42,table:decomp
+table:decomp,"44,",table:decomp
+table:decomp,0.838 ± 0.014,table:decomp
+table:decomp,0.478 ± 0.299,table:decomp
+table:decomp,0.565 ± 0.172,table:decomp
+table:decomp,0.247 ± 0.040,table:decomp
+table:decomp,4,table:decomp
+table:decomp,45,table:decomp
+table:decomp,"47,",table:decomp
+table:decomp,0.850 ± 0.006,table:decomp
+table:decomp,0.411 ± 0.019,table:decomp
+table:decomp,0.527 ± 0.071,table:decomp
+table:decomp,0.221 ± 0.049,table:decomp
+res448:H2:448:IDRiD,0.616 ± 0.013,table_v3_res448_vs_224.csv
+sb:H2:IDRiD:QWK:a,0.364 ± 0.148,seed_batch_summary.csv
+sb:H2:IDRiD:QWK:b,0.336 ± 0.015,seed_batch_summary.csv
+res448:H2:448:mild recall,0.467 ± 0.033,table_v3_res448_vs_224.csv
+sb:H2:APTOS:mild recall:b,0.422 ± 0.019,seed_batch_summary.csv
+mess448:H2:448,0.249 ± 0.051,table_v3_messidor_pred0_res_summary.csv
+mp0:H2:42-44,0.970 ± 0.008,messidor_pred0_n6_summary.csv
+mp0:H2:45-47,0.959 ± 0.063,messidor_pred0_n6_summary.csv
+table:res448,-2,table:res448
+table:res448,-2,table:res448
+table:res448,0,table:res448
+table:res448,1,table:res448
+table:res448,224,table:res448
+table:res448,224,table:res448
+table:res448,42,table:res448
+table:res448,"44,",table:res448
+table:res448,0.830 ± 0.006,table:res448
+table:res448,0.395 ± 0.147,table:res448
+table:res448,0.040 ± 0.053,table:res448
+table:res448,0.238 ± 0.039,table:res448
+table:res448,0.378 ± 0.184,table:res448
+table:res448,0.989 ± 0.018,table:res448
+table:res448,1,table:res448
+table:res448,224,table:res448
+table:res448,224,table:res448
+table:res448,45,table:res448
+table:res448,"47,",table:res448
+table:res448,0.806 ± 0.005,table:res448
+table:res448,0.136 ± 0.021,table:res448
+table:res448,0.000 ± 0.000,table:res448
+table:res448,0.002 ± 0.004,table:res448
+table:res448,0.344 ± 0.241,table:res448
+table:res448,1.000 ± 0.000,table:res448
+table:res448,1,table:res448
+table:res448,448,table:res448
+table:res448,448,table:res448
+table:res448,42,table:res448
+table:res448,"44,",table:res448
+table:res448,0.837 ± 0.014,table:res448
+table:res448,0.305 ± 0.077,table:res448
+table:res448,0.022 ± 0.019,table:res448
+table:res448,0.087 ± 0.047,table:res448
+table:res448,0.389 ± 0.084,table:res448
+table:res448,0.986 ± 0.016,table:res448
+table:res448,2,table:res448
+table:res448,224,table:res448
+table:res448,224,table:res448
+table:res448,42,table:res448
+table:res448,"44,",table:res448
+table:res448,0.876 ± 0.013,table:res448
+table:res448,0.364 ± 0.148,table:res448
+table:res448,0.050 ± 0.046,table:res448
+table:res448,0.417 ± 0.112,table:res448
+table:res448,0.167 ± 0.000,table:res448
+table:res448,0.970 ± 0.008,table:res448
+table:res448,2,table:res448
+table:res448,224,table:res448
+table:res448,224,table:res448
+table:res448,45,table:res448
+table:res448,"47,",table:res448
+table:res448,0.836 ± 0.009,table:res448
+table:res448,0.336 ± 0.015,table:res448
+table:res448,−0.026 ± 0.056,table:res448
+table:res448,0.366 ± 0.024,table:res448
+table:res448,0.422 ± 0.019,table:res448
+table:res448,0.959 ± 0.063,table:res448
+table:res448,2,table:res448
+table:res448,448,table:res448
+table:res448,448,table:res448
+table:res448,42,table:res448
+table:res448,"44,",table:res448
+table:res448,0.871 ± 0.003,table:res448
+table:res448,0.616 ± 0.013,table:res448
+table:res448,0.045 ± 0.039,table:res448
+table:res448,0.380 ± 0.049,table:res448
+table:res448,0.467 ± 0.033,table:res448
+table:res448,0.249 ± 0.051,table:res448
+g1n:APTOS,30,external_grade1_recall_summary.csv
+g1n:APTOS,30,external_grade1_recall_summary.csv
+env:timm,1.0.29,environment.csv
+table:s_split,0,table:s_split
+table:s_split,1,table:s_split
+table:s_split,2,table:s_split
+table:s_split,3,table:s_split
+table:s_split,4,table:s_split
+table:s_split,"2,930",table:s_split
+table:s_split,"1,434",table:s_split
+table:s_split,300,table:s_split
+table:s_split,808,table:s_split
+table:s_split,154,table:s_split
+table:s_split,234,table:s_split
+table:s_split,0,table:s_split
+table:s_split,1,table:s_split
+table:s_split,2,table:s_split
+table:s_split,3,table:s_split
+table:s_split,4,table:s_split
+table:s_split,366,table:s_split
+table:s_split,172,table:s_split
+table:s_split,40,table:s_split
+table:s_split,104,table:s_split
+table:s_split,22,table:s_split
+table:s_split,28,table:s_split
+table:s_split,0,table:s_split
+table:s_split,1,table:s_split
+table:s_split,2,table:s_split
+table:s_split,3,table:s_split
+table:s_split,4,table:s_split
+table:s_split,366,table:s_split
+table:s_split,199,table:s_split
+table:s_split,30,table:s_split
+table:s_split,87,table:s_split
+table:s_split,17,table:s_split
+table:s_split,33,table:s_split
+table:s_split,0,table:s_split
+table:s_split,134,table:s_split
+table:s_split,84,table:s_split
+table:s_split,22,table:s_split
+table:s_split,23,table:s_split
+table:s_split,2,table:s_split
+table:s_split,1,table:s_split
+table:s_split,2,table:s_split
+table:s_split,0,table:s_split
+table:s_split,12,table:s_split
+table:s_split,24,table:s_split
+table:s_split,22,table:s_split
+table:s_regime,10,table:s_regime
+table:s_regime,20,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,1,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,2,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,3,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,80,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,43,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,500,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,80,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,43,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,500,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,-2,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,80,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,-2,table:s_regime
+table:s_regime,43,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,500,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,1,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,2,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,1,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,60,table:s_regime
+table:s_regime,9.40,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,8.84,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,1,table:s_regime
+table:s_regime,45,table:s_regime
+table:s_regime,47,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,1,table:s_regime
+table:s_regime,448,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,2,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,60,table:s_regime
+table:s_regime,9.40,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,8.84,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,2,table:s_regime
+table:s_regime,45,table:s_regime
+table:s_regime,47,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,2,table:s_regime
+table:s_regime,448,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,3,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,60,table:s_regime
+table:s_regime,9.40,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,8.84,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,3,table:s_regime
+table:s_regime,45,table:s_regime
+table:s_regime,47,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,60,table:s_regime
+table:s_regime,9.40,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,8.84,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,45,table:s_regime
+table:s_regime,47,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,800,table:s_regime
+table:s_regime,5,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,0,table:s_regime
+table:s_regime,42,table:s_regime
+table:s_regime,44,table:s_regime
+table:s_regime,4,table:s_regime
+table:s_regime,60,table:s_regime
+table:s_regime,9.40,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_regime,8.84,table:s_regime
+table:s_regime,10,table:s_regime
+table:s_coral,3,table:s_coral
+table:s_coral,42,table:s_coral
+table:s_coral,−0.932,table:s_coral
+table:s_coral,−0.408,table:s_coral
+table:s_coral,−0.341,table:s_coral
+table:s_coral,0.847,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,3,table:s_coral
+table:s_coral,43,table:s_coral
+table:s_coral,−1.197,table:s_coral
+table:s_coral,−0.468,table:s_coral
+table:s_coral,−0.092,table:s_coral
+table:s_coral,1.130,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,3,table:s_coral
+table:s_coral,44,table:s_coral
+table:s_coral,−1.248,table:s_coral
+table:s_coral,−0.478,table:s_coral
+table:s_coral,−0.042,table:s_coral
+table:s_coral,1.187,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,3,table:s_coral
+table:s_coral,45,table:s_coral
+table:s_coral,−1.440,table:s_coral
+table:s_coral,−0.528,table:s_coral
+table:s_coral,0.133,table:s_coral
+table:s_coral,1.387,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,3,table:s_coral
+table:s_coral,46,table:s_coral
+table:s_coral,−1.374,table:s_coral
+table:s_coral,−0.512,table:s_coral
+table:s_coral,0.072,table:s_coral
+table:s_coral,1.319,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,3,table:s_coral
+table:s_coral,47,table:s_coral
+table:s_coral,−1.376,table:s_coral
+table:s_coral,−0.511,table:s_coral
+table:s_coral,0.074,table:s_coral
+table:s_coral,1.322,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,0,table:s_coral
+table:s_coral,3,table:s_coral
+table:s_coral,42,table:s_coral
+table:s_coral,−1.880,table:s_coral
+table:s_coral,−0.637,table:s_coral
+table:s_coral,0.548,table:s_coral
+table:s_coral,1.877,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,0,table:s_coral
+table:s_coral,3,table:s_coral
+table:s_coral,43,table:s_coral
+table:s_coral,−1.709,table:s_coral
+table:s_coral,−0.596,table:s_coral
+table:s_coral,0.383,table:s_coral
+table:s_coral,1.701,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,0,table:s_coral
+table:s_coral,3,table:s_coral
+table:s_coral,44,table:s_coral
+table:s_coral,−1.820,table:s_coral
+table:s_coral,−0.624,table:s_coral
+table:s_coral,0.491,table:s_coral
+table:s_coral,1.814,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,4,table:s_coral
+table:s_coral,42,table:s_coral
+table:s_coral,−1.149,table:s_coral
+table:s_coral,−0.449,table:s_coral
+table:s_coral,−0.155,table:s_coral
+table:s_coral,1.074,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,4,table:s_coral
+table:s_coral,43,table:s_coral
+table:s_coral,−1.199,table:s_coral
+table:s_coral,−0.460,table:s_coral
+table:s_coral,−0.107,table:s_coral
+table:s_coral,1.133,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,4,table:s_coral
+table:s_coral,44,table:s_coral
+table:s_coral,−1.423,table:s_coral
+table:s_coral,−0.516,table:s_coral
+table:s_coral,0.110,table:s_coral
+table:s_coral,1.370,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,4,table:s_coral
+table:s_coral,45,table:s_coral
+table:s_coral,−1.442,table:s_coral
+table:s_coral,−0.520,table:s_coral
+table:s_coral,0.125,table:s_coral
+table:s_coral,1.390,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,4,table:s_coral
+table:s_coral,46,table:s_coral
+table:s_coral,−1.469,table:s_coral
+table:s_coral,−0.530,table:s_coral
+table:s_coral,0.154,table:s_coral
+table:s_coral,1.419,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,4,table:s_coral
+table:s_coral,47,table:s_coral
+table:s_coral,−1.498,table:s_coral
+table:s_coral,−0.535,table:s_coral
+table:s_coral,0.181,table:s_coral
+table:s_coral,1.451,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,0,table:s_coral
+table:s_coral,4,table:s_coral
+table:s_coral,42,table:s_coral
+table:s_coral,−1.822,table:s_coral
+table:s_coral,−0.622,table:s_coral
+table:s_coral,0.490,table:s_coral
+table:s_coral,1.816,table:s_coral
+table:s_coral,0.973,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,0,table:s_coral
+table:s_coral,4,table:s_coral
+table:s_coral,43,table:s_coral
+table:s_coral,−1.764,table:s_coral
+table:s_coral,−0.608,table:s_coral
+table:s_coral,0.435,table:s_coral
+table:s_coral,1.756,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,0,table:s_coral
+table:s_coral,4,table:s_coral
+table:s_coral,44,table:s_coral
+table:s_coral,−1.821,table:s_coral
+table:s_coral,−0.621,table:s_coral
+table:s_coral,0.489,table:s_coral
+table:s_coral,1.814,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1,table:s_coral
+table:s_coral,42,table:s_coral
+table:s_coral,−1.330,table:s_coral
+table:s_coral,−0.166,table:s_coral
+table:s_coral,0.145,table:s_coral
+table:s_coral,1.335,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1,table:s_coral
+table:s_coral,43,table:s_coral
+table:s_coral,−1.330,table:s_coral
+table:s_coral,−0.165,table:s_coral
+table:s_coral,0.142,table:s_coral
+table:s_coral,1.332,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1,table:s_coral
+table:s_coral,44,table:s_coral
+table:s_coral,−1.429,table:s_coral
+table:s_coral,−0.239,table:s_coral
+table:s_coral,0.224,table:s_coral
+table:s_coral,1.432,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_coral,1.000,table:s_coral
+table:s_master,-2,table:s_master
+table:s_master,1,table:s_master
+table:s_master,42,table:s_master
+table:s_master,18,table:s_master
+table:s_master,0.856,table:s_master
+table:s_master,0.825,table:s_master
+table:s_master,0.259,table:s_master
+table:s_master,0.000,table:s_master
+table:s_master,0.277,table:s_master
+table:s_master,0.167,table:s_master
+table:s_master,0.051,table:s_master
+table:s_master,0.049,table:s_master
+table:s_master,1.055,table:s_master
+table:s_master,1,table:s_master
+table:s_master,43,table:s_master
+table:s_master,19,table:s_master
+table:s_master,0.870,table:s_master
+table:s_master,0.829,table:s_master
+table:s_master,0.551,table:s_master
+table:s_master,0.020,table:s_master
+table:s_master,0.199,table:s_master
+table:s_master,0.467,table:s_master
+table:s_master,0.066,table:s_master
+table:s_master,0.062,table:s_master
+table:s_master,1.029,table:s_master
+table:s_master,1,table:s_master
+table:s_master,44,table:s_master
+table:s_master,20,table:s_master
+table:s_master,0.873,table:s_master
+table:s_master,0.837,table:s_master
+table:s_master,0.373,table:s_master
+table:s_master,0.099,table:s_master
+table:s_master,0.237,table:s_master
+table:s_master,0.500,table:s_master
+table:s_master,0.041,table:s_master
+table:s_master,0.065,table:s_master
+table:s_master,0.847,table:s_master
+table:s_master,1,table:s_master
+table:s_master,45,table:s_master
+table:s_master,19,table:s_master
+table:s_master,0.853,table:s_master
+table:s_master,0.812,table:s_master
+table:s_master,0.157,table:s_master
+table:s_master,0.000,table:s_master
+table:s_master,0.007,table:s_master
+table:s_master,0.467,table:s_master
+table:s_master,0.042,table:s_master
+table:s_master,0.038,table:s_master
+table:s_master,0.992,table:s_master
+table:s_master,1,table:s_master
+table:s_master,46,table:s_master
+table:s_master,20,table:s_master
+table:s_master,0.847,table:s_master
+table:s_master,0.802,table:s_master
+table:s_master,0.114,table:s_master
+table:s_master,0.000,table:s_master
+table:s_master,0.002,table:s_master
+table:s_master,0.500,table:s_master
+table:s_master,0.040,table:s_master
+table:s_master,0.038,table:s_master
+table:s_master,0.966,table:s_master
+table:s_master,1,table:s_master
+table:s_master,47,table:s_master
+table:s_master,13,table:s_master
+table:s_master,0.836,table:s_master
+table:s_master,0.805,table:s_master
+table:s_master,0.135,table:s_master
+table:s_master,0.000,table:s_master
+table:s_master,−0.002,table:s_master
+table:s_master,0.067,table:s_master
+table:s_master,0.049,table:s_master
+table:s_master,0.050,table:s_master
+table:s_master,1.006,table:s_master
+table:s_master,2,table:s_master
+table:s_master,42,table:s_master
+table:s_master,18,table:s_master
+table:s_master,0.859,table:s_master
+table:s_master,0.883,table:s_master
+table:s_master,0.533,table:s_master
+table:s_master,0.012,table:s_master
+table:s_master,0.503,table:s_master
+table:s_master,0.167,table:s_master
+table:s_master,0.058,table:s_master
+table:s_master,0.050,table:s_master
+table:s_master,1.128,table:s_master
+table:s_master,2,table:s_master
+table:s_master,43,table:s_master
+table:s_master,17,table:s_master
+table:s_master,0.874,table:s_master
+table:s_master,0.884,table:s_master
+table:s_master,0.306,table:s_master
+table:s_master,0.101,table:s_master
+table:s_master,0.458,table:s_master
+table:s_master,0.167,table:s_master
+table:s_master,0.051,table:s_master
+table:s_master,0.045,table:s_master
+table:s_master,1.121,table:s_master
+table:s_master,2,table:s_master
+table:s_master,44,table:s_master
+table:s_master,16,table:s_master
+table:s_master,0.864,table:s_master
+table:s_master,0.861,table:s_master
+table:s_master,0.254,table:s_master
+table:s_master,0.038,table:s_master
+table:s_master,0.291,table:s_master
+table:s_master,0.167,table:s_master
+table:s_master,0.047,table:s_master
+table:s_master,0.034,table:s_master
+table:s_master,1.088,table:s_master
+table:s_master,2,table:s_master
+table:s_master,45,table:s_master
+table:s_master,14,table:s_master
+table:s_master,0.844,table:s_master
+table:s_master,0.826,table:s_master
+table:s_master,0.327,table:s_master
+table:s_master,0.009,table:s_master
+table:s_master,0.345,table:s_master
+table:s_master,0.433,table:s_master
+table:s_master,0.045,table:s_master
+table:s_master,0.028,table:s_master
+table:s_master,0.928,table:s_master
+table:s_master,2,table:s_master
+table:s_master,46,table:s_master
+table:s_master,20,table:s_master
+table:s_master,0.848,table:s_master
+table:s_master,0.841,table:s_master
+table:s_master,0.354,table:s_master
+table:s_master,0.003,table:s_master
+table:s_master,0.359,table:s_master
+table:s_master,0.433,table:s_master
+table:s_master,0.040,table:s_master
+table:s_master,0.034,table:s_master
+table:s_master,1.036,table:s_master
+table:s_master,2,table:s_master
+table:s_master,47,table:s_master
+table:s_master,17,table:s_master
+table:s_master,0.851,table:s_master
+table:s_master,0.840,table:s_master
+table:s_master,0.328,table:s_master
+table:s_master,−0.090,table:s_master
+table:s_master,0.392,table:s_master
+table:s_master,0.400,table:s_master
+table:s_master,0.069,table:s_master
+table:s_master,0.063,table:s_master
+table:s_master,0.997,table:s_master
+table:s_master,3,table:s_master
+table:s_master,42,table:s_master
+table:s_master,19,table:s_master
+table:s_master,0.806,table:s_master
+table:s_master,0.818,table:s_master
+table:s_master,0.609,table:s_master
+table:s_master,0.045,table:s_master
+table:s_master,0.094,table:s_master
+table:s_master,0.667,table:s_master
+table:s_master,3,table:s_master
+table:s_master,43,table:s_master
+table:s_master,14,table:s_master
+table:s_master,0.796,table:s_master
+table:s_master,0.819,table:s_master
+table:s_master,0.243,table:s_master
+table:s_master,0.005,table:s_master
+table:s_master,0.017,table:s_master
+table:s_master,0.600,table:s_master
+table:s_master,3,table:s_master
+table:s_master,44,table:s_master
+table:s_master,13,table:s_master
+table:s_master,0.809,table:s_master
+table:s_master,0.827,table:s_master
+table:s_master,0.208,table:s_master
+table:s_master,0.002,table:s_master
+table:s_master,0.041,table:s_master
+table:s_master,0.300,table:s_master
+table:s_master,3,table:s_master
+table:s_master,45,table:s_master
+table:s_master,12,table:s_master
+table:s_master,0.804,table:s_master
+table:s_master,0.807,table:s_master
+table:s_master,0.115,table:s_master
+table:s_master,−0.001,table:s_master
+table:s_master,0.009,table:s_master
+table:s_master,0.167,table:s_master
+table:s_master,3,table:s_master
+table:s_master,46,table:s_master
+table:s_master,17,table:s_master
+table:s_master,0.790,table:s_master
+table:s_master,0.813,table:s_master
+table:s_master,0.364,table:s_master
+table:s_master,0.000,table:s_master
+table:s_master,0.029,table:s_master
+table:s_master,0.367,table:s_master
+table:s_master,3,table:s_master
+table:s_master,47,table:s_master
+table:s_master,17,table:s_master
+table:s_master,0.786,table:s_master
+table:s_master,0.802,table:s_master
+table:s_master,0.306,table:s_master
+table:s_master,−0.004,table:s_master
+table:s_master,0.015,table:s_master
+table:s_master,0.300,table:s_master
+table:s_master,4,table:s_master
+table:s_master,42,table:s_master
+table:s_master,15,table:s_master
+table:s_master,0.848,table:s_master
+table:s_master,0.854,table:s_master
+table:s_master,0.687,table:s_master
+table:s_master,0.098,table:s_master
+table:s_master,0.280,table:s_master
+table:s_master,0.633,table:s_master
+table:s_master,4,table:s_master
+table:s_master,43,table:s_master
+table:s_master,14,table:s_master
+table:s_master,0.823,table:s_master
+table:s_master,0.829,table:s_master
+table:s_master,0.639,table:s_master
+table:s_master,−0.055,table:s_master
+table:s_master,0.260,table:s_master
+table:s_master,0.667,table:s_master
+table:s_master,4,table:s_master
+table:s_master,44,table:s_master
+table:s_master,10,table:s_master
+table:s_master,0.844,table:s_master
+table:s_master,0.831,table:s_master
+table:s_master,0.369,table:s_master
+table:s_master,−0.071,table:s_master
+table:s_master,0.202,table:s_master
+table:s_master,0.133,table:s_master
+table:s_master,4,table:s_master
+table:s_master,45,table:s_master
+table:s_master,12,table:s_master
+table:s_master,0.825,table:s_master
+table:s_master,0.857,table:s_master
+table:s_master,0.542,table:s_master
+table:s_master,−0.127,table:s_master
+table:s_master,0.167,table:s_master
+table:s_master,0.400,table:s_master
+table:s_master,4,table:s_master
+table:s_master,46,table:s_master
+table:s_master,11,table:s_master
+table:s_master,0.827,table:s_master
+table:s_master,0.845,table:s_master
+table:s_master,0.450,table:s_master
+table:s_master,−0.181,table:s_master
+table:s_master,0.235,table:s_master
+table:s_master,0.400,table:s_master
+table:s_master,4,table:s_master
+table:s_master,47,table:s_master
+table:s_master,10,table:s_master
+table:s_master,0.834,table:s_master
+table:s_master,0.848,table:s_master
+table:s_master,0.590,table:s_master
+table:s_master,−0.109,table:s_master
+table:s_master,0.262,table:s_master
+table:s_master,0.433,table:s_master
+table:s_batch,42,table:s_batch
+table:s_batch,44,table:s_batch
+table:s_batch,45,table:s_batch
+table:s_batch,47,table:s_batch
+table:s_batch,1,table:s_batch
+table:s_batch,0.830 ± 0.006,table:s_batch
+table:s_batch,0.806 ± 0.005,table:s_batch
+table:s_batch,1,table:s_batch
+table:s_batch,0.395 ± 0.147,table:s_batch
+table:s_batch,0.136 ± 0.021,table:s_batch
+table:s_batch,1,table:s_batch
+table:s_batch,-2,table:s_batch
+table:s_batch,0.040 ± 0.053,table:s_batch
+table:s_batch,0.000 ± 0.000,table:s_batch
+table:s_batch,1,table:s_batch
+table:s_batch,0.238 ± 0.039,table:s_batch
+table:s_batch,0.002 ± 0.004,table:s_batch
+table:s_batch,1,table:s_batch
+table:s_batch,0.378 ± 0.184,table:s_batch
+table:s_batch,0.344 ± 0.241,table:s_batch
+table:s_batch,2,table:s_batch
+table:s_batch,0.876 ± 0.013,table:s_batch
+table:s_batch,0.836 ± 0.009,table:s_batch
+table:s_batch,2,table:s_batch
+table:s_batch,0.364 ± 0.148,table:s_batch
+table:s_batch,0.336 ± 0.015,table:s_batch
+table:s_batch,2,table:s_batch
+table:s_batch,-2,table:s_batch
+table:s_batch,0.050 ± 0.046,table:s_batch
+table:s_batch,−0.026 ± 0.056,table:s_batch
+table:s_batch,2,table:s_batch
+table:s_batch,0.417 ± 0.112,table:s_batch
+table:s_batch,0.366 ± 0.024,table:s_batch
+table:s_batch,2,table:s_batch
+table:s_batch,0.167 ± 0.000,table:s_batch
+table:s_batch,0.422 ± 0.019,table:s_batch
+table:s_batch,3,table:s_batch
+table:s_batch,0.821 ± 0.005,table:s_batch
+table:s_batch,0.807 ± 0.006,table:s_batch
+table:s_batch,3,table:s_batch
+table:s_batch,0.353 ± 0.222,table:s_batch
+table:s_batch,0.262 ± 0.130,table:s_batch
+table:s_batch,3,table:s_batch
+table:s_batch,-2,table:s_batch
+table:s_batch,0.017 ± 0.024,table:s_batch
+table:s_batch,−0.002 ± 0.002,table:s_batch
+table:s_batch,3,table:s_batch
+table:s_batch,0.050 ± 0.039,table:s_batch
+table:s_batch,0.017 ± 0.010,table:s_batch
+table:s_batch,3,table:s_batch
+table:s_batch,0.522 ± 0.195,table:s_batch
+table:s_batch,0.278 ± 0.102,table:s_batch
+table:s_batch,4,table:s_batch
+table:s_batch,0.838 ± 0.014,table:s_batch
+table:s_batch,0.850 ± 0.006,table:s_batch
+table:s_batch,4,table:s_batch
+table:s_batch,0.565 ± 0.172,table:s_batch
+table:s_batch,0.527 ± 0.071,table:s_batch
+table:s_batch,4,table:s_batch
+table:s_batch,-2,table:s_batch
+table:s_batch,−0.009 ± 0.093,table:s_batch
+table:s_batch,−0.139 ± 0.038,table:s_batch
+table:s_batch,4,table:s_batch
+table:s_batch,0.247 ± 0.040,table:s_batch
+table:s_batch,0.221 ± 0.049,table:s_batch
+table:s_batch,4,table:s_batch
+table:s_batch,0.478 ± 0.299,table:s_batch
+table:s_batch,0.411 ± 0.019,table:s_batch
+table:s_dedup,1,table:s_dedup
+table:s_dedup,1,table:s_dedup
+table:s_dedup,42,table:s_dedup
+table:s_dedup,"44,",table:s_dedup
+table:s_dedup,366,table:s_dedup
+table:s_dedup,0.830 ± 0.006,table:s_dedup
+table:s_dedup,0.378 ± 0.184,table:s_dedup
+table:s_dedup,0.524 ± 0.068,table:s_dedup
+table:s_dedup,0.773 ± 0.021,table:s_dedup
+table:s_dedup,0.929 ± 0.055,table:s_dedup
+table:s_dedup,0.913 ± 0.039,table:s_dedup
+table:s_dedup,0.977 ± 0.001,table:s_dedup
+table:s_dedup,0.052 ± 0.013,table:s_dedup
+table:s_dedup,0.577 ± 0.042,table:s_dedup
+table:s_dedup,0.301 ± 0.018,table:s_dedup
+table:s_dedup,1,table:s_dedup
+table:s_dedup,42,table:s_dedup
+table:s_dedup,"44,",table:s_dedup
+table:s_dedup,342,table:s_dedup
+table:s_dedup,0.829 ± 0.007,table:s_dedup
+table:s_dedup,0.357 ± 0.189,table:s_dedup
+table:s_dedup,0.512 ± 0.072,table:s_dedup
+table:s_dedup,0.788 ± 0.019,table:s_dedup
+table:s_dedup,0.917 ± 0.065,table:s_dedup
+table:s_dedup,0.914 ± 0.035,table:s_dedup
+table:s_dedup,0.974 ± 0.001,table:s_dedup
+table:s_dedup,0.052 ± 0.015,table:s_dedup
+table:s_dedup,0.552 ± 0.044,table:s_dedup
+table:s_dedup,0.284 ± 0.020,table:s_dedup
+table:s_dedup,1,table:s_dedup
+table:s_dedup,45,table:s_dedup
+table:s_dedup,"47,",table:s_dedup
+table:s_dedup,366,table:s_dedup
+table:s_dedup,0.806 ± 0.005,table:s_dedup
+table:s_dedup,0.344 ± 0.241,table:s_dedup
+table:s_dedup,0.488 ± 0.036,table:s_dedup
+table:s_dedup,0.769 ± 0.026,table:s_dedup
+table:s_dedup,0.915 ± 0.055,table:s_dedup
+table:s_dedup,0.905 ± 0.054,table:s_dedup
+table:s_dedup,0.971 ± 0.002,table:s_dedup
+table:s_dedup,0.043 ± 0.005,table:s_dedup
+table:s_dedup,0.614 ± 0.052,table:s_dedup
+table:s_dedup,0.312 ± 0.025,table:s_dedup
+table:s_dedup,1,table:s_dedup
+table:s_dedup,45,table:s_dedup
+table:s_dedup,"47,",table:s_dedup
+table:s_dedup,342,table:s_dedup
+table:s_dedup,0.810 ± 0.013,table:s_dedup
+table:s_dedup,0.321 ± 0.217,table:s_dedup
+table:s_dedup,0.477 ± 0.038,table:s_dedup
+table:s_dedup,0.785 ± 0.028,table:s_dedup
+table:s_dedup,0.903 ± 0.069,table:s_dedup
+table:s_dedup,0.910 ± 0.045,table:s_dedup
+table:s_dedup,0.968 ± 0.002,table:s_dedup
+table:s_dedup,0.045 ± 0.008,table:s_dedup
+table:s_dedup,0.582 ± 0.054,table:s_dedup
+table:s_dedup,0.294 ± 0.026,table:s_dedup
+table:s_dedup,2,table:s_dedup
+table:s_dedup,42,table:s_dedup
+table:s_dedup,"44,",table:s_dedup
+table:s_dedup,366,table:s_dedup
+table:s_dedup,0.876 ± 0.013,table:s_dedup
+table:s_dedup,0.167 ± 0.000,table:s_dedup
+table:s_dedup,0.536 ± 0.026,table:s_dedup
+table:s_dedup,0.789 ± 0.016,table:s_dedup
+table:s_dedup,0.995 ± 0.004,table:s_dedup
+table:s_dedup,0.892 ± 0.005,table:s_dedup
+table:s_dedup,0.982 ± 0.003,table:s_dedup
+table:s_dedup,0.052 ± 0.006,table:s_dedup
+table:s_dedup,0.565 ± 0.022,table:s_dedup
+table:s_dedup,0.293 ± 0.010,table:s_dedup
+table:s_dedup,2,table:s_dedup
+table:s_dedup,42,table:s_dedup
+table:s_dedup,"44,",table:s_dedup
+table:s_dedup,342,table:s_dedup
+table:s_dedup,0.873 ± 0.013,table:s_dedup
+table:s_dedup,0.167 ± 0.021,table:s_dedup
+table:s_dedup,0.523 ± 0.026,table:s_dedup
+table:s_dedup,0.797 ± 0.014,table:s_dedup
+table:s_dedup,0.994 ± 0.005,table:s_dedup
+table:s_dedup,0.893 ± 0.008,table:s_dedup
+table:s_dedup,0.980 ± 0.003,table:s_dedup
+table:s_dedup,0.051 ± 0.013,table:s_dedup
+table:s_dedup,0.549 ± 0.023,table:s_dedup
+table:s_dedup,0.280 ± 0.012,table:s_dedup
+table:s_dedup,2,table:s_dedup
+table:s_dedup,45,table:s_dedup
+table:s_dedup,"47,",table:s_dedup
+table:s_dedup,366,table:s_dedup
+table:s_dedup,0.836 ± 0.009,table:s_dedup
+table:s_dedup,0.422 ± 0.019,table:s_dedup
+table:s_dedup,0.557 ± 0.020,table:s_dedup
+table:s_dedup,0.791 ± 0.004,table:s_dedup
+table:s_dedup,0.898 ± 0.007,table:s_dedup
+table:s_dedup,0.927 ± 0.003,table:s_dedup
+table:s_dedup,0.973 ± 0.001,table:s_dedup
+table:s_dedup,0.052 ± 0.016,table:s_dedup
+table:s_dedup,0.561 ± 0.008,table:s_dedup
+table:s_dedup,0.288 ± 0.001,table:s_dedup
+table:s_dedup,2,table:s_dedup
+table:s_dedup,45,table:s_dedup
+table:s_dedup,"47,",table:s_dedup
+table:s_dedup,342,table:s_dedup
+table:s_dedup,0.829 ± 0.011,table:s_dedup
+table:s_dedup,0.381 ± 0.021,table:s_dedup
+table:s_dedup,0.532 ± 0.026,table:s_dedup
+table:s_dedup,0.801 ± 0.009,table:s_dedup
+table:s_dedup,0.883 ± 0.005,table:s_dedup
+table:s_dedup,0.926 ± 0.003,table:s_dedup
+table:s_dedup,0.971 ± 0.001,table:s_dedup
+table:s_dedup,0.051 ± 0.016,table:s_dedup
+table:s_dedup,0.537 ± 0.003,table:s_dedup
+table:s_dedup,0.272 ± 0.002,table:s_dedup
+table:s_dedup,3,table:s_dedup
+table:s_dedup,42,table:s_dedup
+table:s_dedup,"44,",table:s_dedup
+table:s_dedup,366,table:s_dedup
+table:s_dedup,0.821 ± 0.005,table:s_dedup
+table:s_dedup,0.522 ± 0.195,table:s_dedup
+table:s_dedup,0.425 ± 0.027,table:s_dedup
+table:s_dedup,0.641 ± 0.013,table:s_dedup
+table:s_dedup,0.866 ± 0.084,table:s_dedup
+table:s_dedup,0.932 ± 0.031,table:s_dedup
+table:s_dedup,0.975 ± 0.007,table:s_dedup
+table:s_dedup,3,table:s_dedup
+table:s_dedup,42,table:s_dedup
+table:s_dedup,"44,",table:s_dedup
+table:s_dedup,342,table:s_dedup
+table:s_dedup,0.817 ± 0.009,table:s_dedup
+table:s_dedup,0.500 ± 0.189,table:s_dedup
+table:s_dedup,0.427 ± 0.029,table:s_dedup
+table:s_dedup,0.669 ± 0.012,table:s_dedup
+table:s_dedup,0.849 ± 0.090,table:s_dedup
+table:s_dedup,0.933 ± 0.027,table:s_dedup
+table:s_dedup,0.973 ± 0.007,table:s_dedup
+table:s_dedup,3,table:s_dedup
+table:s_dedup,45,table:s_dedup
+table:s_dedup,"47,",table:s_dedup
+table:s_dedup,366,table:s_dedup
+table:s_dedup,0.807 ± 0.006,table:s_dedup
+table:s_dedup,0.278 ± 0.102,table:s_dedup
+table:s_dedup,0.400 ± 0.009,table:s_dedup
+table:s_dedup,0.642 ± 0.014,table:s_dedup
+table:s_dedup,0.920 ± 0.007,table:s_dedup
+table:s_dedup,0.900 ± 0.023,table:s_dedup
+table:s_dedup,0.964 ± 0.009,table:s_dedup
+table:s_dedup,3,table:s_dedup
+table:s_dedup,45,table:s_dedup
+table:s_dedup,"47,",table:s_dedup
+table:s_dedup,342,table:s_dedup
+table:s_dedup,0.807 ± 0.007,table:s_dedup
+table:s_dedup,0.262 ± 0.090,table:s_dedup
+table:s_dedup,0.393 ± 0.004,table:s_dedup
+table:s_dedup,0.667 ± 0.013,table:s_dedup
+table:s_dedup,0.909 ± 0.013,table:s_dedup
+table:s_dedup,0.907 ± 0.019,table:s_dedup
+table:s_dedup,0.963 ± 0.008,table:s_dedup
+table:s_dedup,4,table:s_dedup
+table:s_dedup,42,table:s_dedup
+table:s_dedup,"44,",table:s_dedup
+table:s_dedup,366,table:s_dedup
+table:s_dedup,0.838 ± 0.014,table:s_dedup
+table:s_dedup,0.478 ± 0.299,table:s_dedup
+table:s_dedup,0.454 ± 0.050,table:s_dedup
+table:s_dedup,0.671 ± 0.026,table:s_dedup
+table:s_dedup,0.852 ± 0.081,table:s_dedup
+table:s_dedup,0.948 ± 0.046,table:s_dedup
+table:s_dedup,0.978 ± 0.008,table:s_dedup
+table:s_dedup,4,table:s_dedup
+table:s_dedup,42,table:s_dedup
+table:s_dedup,"44,",table:s_dedup
+table:s_dedup,342,table:s_dedup
+table:s_dedup,0.834 ± 0.013,table:s_dedup
+table:s_dedup,0.488 ± 0.300,table:s_dedup
+table:s_dedup,0.447 ± 0.049,table:s_dedup
+table:s_dedup,0.691 ± 0.024,table:s_dedup
+table:s_dedup,0.840 ± 0.077,table:s_dedup
+table:s_dedup,0.950 ± 0.041,table:s_dedup
+table:s_dedup,0.977 ± 0.007,table:s_dedup
+table:s_dedup,4,table:s_dedup
+table:s_dedup,45,table:s_dedup
+table:s_dedup,"47,",table:s_dedup
+table:s_dedup,366,table:s_dedup
+table:s_dedup,0.850 ± 0.006,table:s_dedup
+table:s_dedup,0.411 ± 0.019,table:s_dedup
+table:s_dedup,0.483 ± 0.003,table:s_dedup
+table:s_dedup,0.679 ± 0.007,table:s_dedup
+table:s_dedup,0.932 ± 0.023,table:s_dedup
+table:s_dedup,0.924 ± 0.003,table:s_dedup
+table:s_dedup,0.974 ± 0.003,table:s_dedup
+table:s_dedup,4,table:s_dedup
+table:s_dedup,45,table:s_dedup
+table:s_dedup,"47,",table:s_dedup
+table:s_dedup,342,table:s_dedup
+table:s_dedup,0.846 ± 0.012,table:s_dedup
+table:s_dedup,0.393 ± 0.036,table:s_dedup
+table:s_dedup,0.484 ± 0.014,table:s_dedup
+table:s_dedup,0.705 ± 0.013,table:s_dedup
+table:s_dedup,0.923 ± 0.031,table:s_dedup
+table:s_dedup,0.926 ± 0.005,table:s_dedup
+table:s_dedup,0.972 ± 0.003,table:s_dedup
+boot:n,"2,000",table_C_qwk_bootstrap_ci.csv
+mess:n,"1,744",messidor_pred0_n6_per_run.csv

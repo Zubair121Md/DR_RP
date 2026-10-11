@@ -1,0 +1,48 @@
+item,value
+CPU,Apple M2
+RAM (GB),8
+CPU cores,8
+OS,macOS 26.3
+Python,3.13.2
+Python interpreter,/Library/Frameworks/Python.framework/Versions/3.13/bin/python3
+torch version,2.7.1
+"torch install date (metadata mtime, UTC)",2025-06-21
+torchvision version,0.22.1
+"torchvision install date (metadata mtime, UTC)",2025-07-23
+timm version,1.0.29
+"timm install date (metadata mtime, UTC)",2026-09-19
+opencv-python version,4.12.0.88
+"opencv-python install date (metadata mtime, UTC)",2025-07-23
+numpy version,2.4.4
+"numpy install date (metadata mtime, UTC)",2026-05-03
+pillow version,11.2.1
+"pillow install date (metadata mtime, UTC)",2025-06-20
+scikit-learn version,1.8.0
+"scikit-learn install date (metadata mtime, UTC)",2026-05-03
+pandas version,2.3.3
+"pandas install date (metadata mtime, UTC)",2026-05-03
+matplotlib version,3.10.9
+"matplotlib install date (metadata mtime, UTC)",2026-05-03
+interpreter in hybrid_2x2_phase_g.log,/Library/Frameworks/Python.framework/Versions/3.13/bin/python3
+interpreter in hybrid_2x2_phase_s43.log,/Library/Frameworks/Python.framework/Versions/3.13/bin/python3
+interpreter in hybrid_2x2_phase_s44.log,/Library/Frameworks/Python.framework/Versions/3.13/bin/python3
+interpreter in paper_v3.log,/Library/Frameworks/Python.framework/Versions/3.13/bin/python3
+"seeds 42-44: resumes per run (min-max, from v1 logs)",239-240
+seeds 42-44: runs with resume records,12
+v3 runs: number,36
+"MobileViT-S 224 (seeds 45-47) training time per run, hours (median)",2.1
+"MobileViT-S 224 (seeds 45-47) training time per run, hours (range)",2.0-2.2
+v3 run dates (UTC),2026-09-29 to 2026-10-04
+"seeds 42-44 completion dates (train_summary mtime, UTC)",2026-09-22 to 2026-09-24
+APTOS rgb cache: files,3663
+APTOS rgb cache: written (UTC),2026-09-19 to 2026-09-19
+APTOS green_clahe cache: files,3663
+APTOS green_clahe cache: written (UTC),2026-09-19 to 2026-09-19
+src/train.py last modified (UTC),2026-09-26
+src/dataset.py last modified (UTC),2026-09-24
+src/preprocessing.py last modified (UTC),2026-09-19
+src/models.py last modified (UTC),2026-10-04
+src/losses.py last modified (UTC),2026-09-29
+src/utils.py last modified (UTC),2026-09-24
+src/metrics.py last modified (UTC),2026-09-24
+version control,none (no git repository)

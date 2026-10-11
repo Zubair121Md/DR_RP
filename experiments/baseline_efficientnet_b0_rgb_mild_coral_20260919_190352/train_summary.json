@@ -1,0 +1,98 @@
+{
+  "run_id": "baseline_efficientnet_b0_rgb_mild_coral_20260919_190352",
+  "experiment_name": "baseline_efficientnet_b0_rgb_mild_coral",
+  "device": "mps",
+  "epochs": 20,
+  "best_epoch": 10,
+  "best_selection_metric": "quadratic_weighted_kappa",
+  "best_selection_score": 0.8482898955849708,
+  "best_val_metrics": {
+    "n_samples": 366,
+    "accuracy": 0.6284153005464481,
+    "macro_f1": 0.4545673868532525,
+    "quadratic_weighted_kappa": 0.8482898955849708,
+    "mae": 0.4644808743169399,
+    "per_class_precision": [
+      0.9941860465116279,
+      0.8571428571428571,
+      0.4090909090909091,
+      0.14285714285714285,
+      0.4230769230769231
+    ],
+    "per_class_recall": [
+      0.9941860465116279,
+      0.15,
+      0.17307692307692307,
+      0.5909090909090909,
+      0.7857142857142857
+    ],
+    "per_class_f1": [
+      0.9941860465116279,
+      0.2553191489361702,
+      0.24324324324324326,
+      0.23008849557522124,
+      0.55
+    ],
+    "mild_dr_recall": 0.15,
+    "mild_dr_precision": 0.8571428571428571,
+    "mild_dr_f1": 0.2553191489361702,
+    "grade1_f1": 0.2553191489361702,
+    "confusion_matrix": [
+      [
+        171,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        24,
+        8,
+        2
+      ],
+      [
+        1,
+        1,
+        18,
+        65,
+        19
+      ],
+      [
+        0,
+        0,
+        0,
+        13,
+        9
+      ],
+      [
+        0,
+        0,
+        1,
+        5,
+        22
+      ]
+    ],
+    "confusion_0_1": {
+      "0_predicted_as_1": 0,
+      "1_predicted_as_0": 0,
+      "total_bidirectional": 0
+    },
+    "confusion_1_2": {
+      "1_predicted_as_2": 24,
+      "2_predicted_as_1": 1,
+      "total_bidirectional": 25
+    },
+    "loss": 1.2095457514127095
+  },
+  "final_train_loss": 1.0825998536918475,
+  "final_val_loss": 1.2066767911116283,
+  "elapsed_sec": 2306.005753993988,
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/baseline_efficientnet_b0_rgb_mild_coral_20260919_190352/best.pt",
+  "results_dir": "/Users/zubairishaq/Desktop/dr- research/results/baseline_efficientnet_b0_rgb_mild_coral_20260919_190352",
+  "experiments_dir": "/Users/zubairishaq/Desktop/dr- research/experiments/baseline_efficientnet_b0_rgb_mild_coral_20260919_190352",
+  "aptos_train_size": 2930,
+  "aptos_val_size": 366,
+  "note": "IDRiD / Messidor-2 / DeepDRiD were not used for training or validation."
+}

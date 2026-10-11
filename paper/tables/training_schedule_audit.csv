@@ -1,0 +1,61 @@
+family,seed,model,loss,input,image_size,train_device,eval_device,batch_size,freeze_bn,chunk_steps,trainer,lr_epoch1,lr_epoch10,lr_final,lr_schedule,epochs,run_dir
+MobileViT-S H1,42,mobilevit_s,cross_entropy,rgb,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h1_s42_v1
+MobileViT-S H1,43,mobilevit_s,cross_entropy,rgb,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h1_s43_v1
+MobileViT-S H1,44,mobilevit_s,cross_entropy,rgb,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h1_s44_v1
+MobileViT-S H1,45,mobilevit_s,cross_entropy,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h1_s45_v3
+MobileViT-S H1,46,mobilevit_s,cross_entropy,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h1_s46_v3
+MobileViT-S H1,47,mobilevit_s,cross_entropy,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h1_s47_v3
+MobileViT-S H2,42,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h2_s42_v1
+MobileViT-S H2,43,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h2_s43_v1
+MobileViT-S H2,44,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h2_s44_v1
+MobileViT-S H2,45,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h2_s45_v3
+MobileViT-S H2,46,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h2_s46_v3
+MobileViT-S H2,47,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h2_s47_v3
+MobileViT-S H3,42,mobilevit_s,mild_aware_coral,rgb,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h3_s42_v1
+MobileViT-S H3,43,mobilevit_s,mild_aware_coral,rgb,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h3_s43_v1
+MobileViT-S H3,44,mobilevit_s,mild_aware_coral,rgb,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h3_s44_v1
+MobileViT-S H3,45,mobilevit_s,mild_aware_coral,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h3_s45_v3
+MobileViT-S H3,46,mobilevit_s,mild_aware_coral,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h3_s46_v3
+MobileViT-S H3,47,mobilevit_s,mild_aware_coral,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h3_s47_v3
+MobileViT-S H4,42,mobilevit_s,mild_aware_coral,green_clahe,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h4_s42_v1
+MobileViT-S H4,43,mobilevit_s,mild_aware_coral,green_clahe,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h4_s43_v1
+MobileViT-S H4,44,mobilevit_s,mild_aware_coral,green_clahe,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/hybrid_h4_s44_v1
+MobileViT-S H4,45,mobilevit_s,mild_aware_coral,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h4_s45_v3
+MobileViT-S H4,46,mobilevit_s,mild_aware_coral,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h4_s46_v3
+MobileViT-S H4,47,mobilevit_s,mild_aware_coral,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h4_s47_v3
+EfficientNet-B0 matched H1,42,efficientnet_b0,cross_entropy,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h1_s42_v3
+EfficientNet-B0 matched H1,43,efficientnet_b0,cross_entropy,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h1_s43_v3
+EfficientNet-B0 matched H1,44,efficientnet_b0,cross_entropy,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h1_s44_v3
+EfficientNet-B0 matched H2,42,efficientnet_b0,cross_entropy,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h2_s42_v3
+EfficientNet-B0 matched H2,43,efficientnet_b0,cross_entropy,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h2_s43_v3
+EfficientNet-B0 matched H2,44,efficientnet_b0,cross_entropy,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h2_s44_v3
+EfficientNet-B0 matched H3,42,efficientnet_b0,mild_aware_coral,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h3_s42_v3
+EfficientNet-B0 matched H3,43,efficientnet_b0,mild_aware_coral,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h3_s43_v3
+EfficientNet-B0 matched H3,44,efficientnet_b0,mild_aware_coral,rgb,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h3_s44_v3
+EfficientNet-B0 matched H4,42,efficientnet_b0,mild_aware_coral,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h4_s42_v3
+EfficientNet-B0 matched H4,43,efficientnet_b0,mild_aware_coral,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h4_s43_v3
+EfficientNet-B0 matched H4,44,efficientnet_b0,mild_aware_coral,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/matched_b0_h4_s44_v3
+MobileViT-S D1,42,mobilevit_s,coral,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_d1_coral_clahe_s42_v3
+MobileViT-S D2,42,mobilevit_s,mild_weighted_ce,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_d2_mildce_clahe_s42_v3
+MobileViT-S H1 448,42,mobilevit_s,cross_entropy,rgb,448,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h1_448_s42_v3
+MobileViT-S H2 448,42,mobilevit_s,cross_entropy,green_clahe,448,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h2_448_s42_v3
+Swin-Tiny,42,swin_tiny,cross_entropy,green_clahe,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/phase_o_swin_tiny_s42_v1
+LODO holdout idrid,42,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,80,src/train_lodo.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/phase_p_lodo_holdout_idrid_s42_v1
+LODO holdout messidor2,42,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,80,src/train_lodo.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/phase_p_lodo_holdout_messidor2_s42_v1
+LODO holdout deepdrid,42,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,80,src/train_lodo.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/phase_p_lodo_holdout_deepdrid_s42_v1
+MobileViT-S D1,43,mobilevit_s,coral,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_d1_coral_clahe_s43_v3
+MobileViT-S D2,43,mobilevit_s,mild_weighted_ce,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_d2_mildce_clahe_s43_v3
+MobileViT-S H1 448,43,mobilevit_s,cross_entropy,rgb,448,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h1_448_s43_v3
+MobileViT-S H2 448,43,mobilevit_s,cross_entropy,green_clahe,448,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h2_448_s43_v3
+Swin-Tiny,43,swin_tiny,cross_entropy,green_clahe,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/phase_o_swin_tiny_s43_v1
+LODO holdout idrid,43,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,500,src/train_lodo.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/phase_p_lodo_holdout_idrid_s43_v1
+LODO holdout messidor2,43,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,500,src/train_lodo.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/phase_p_lodo_holdout_messidor2_s43_v1
+LODO holdout deepdrid,43,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,500,src/train_lodo.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/phase_p_lodo_holdout_deepdrid_s43_v1
+MobileViT-S D1,44,mobilevit_s,coral,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_d1_coral_clahe_s44_v3
+MobileViT-S D2,44,mobilevit_s,mild_weighted_ce,green_clahe,224,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_d2_mildce_clahe_s44_v3
+MobileViT-S H1 448,44,mobilevit_s,cross_entropy,rgb,448,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h1_448_s44_v3
+MobileViT-S H2 448,44,mobilevit_s,cross_entropy,green_clahe,448,cpu,mps,4,True,800,src/train.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/hybrid_h2_448_s44_v3
+Swin-Tiny,44,swin_tiny,cross_entropy,green_clahe,224,cpu,mps,4,True,60,src/train.py,9.938e-05,9.401e-05,8.838e-05,truncated (final LR 8.84e-05),20,results/phase_o_swin_tiny_s44_v1
+LODO holdout idrid,44,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,500,src/train_lodo.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/phase_p_lodo_holdout_idrid_s44_v1
+LODO holdout messidor2,44,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,500,src/train_lodo.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/phase_p_lodo_holdout_messidor2_s44_v1
+LODO holdout deepdrid,44,mobilevit_s,cross_entropy,green_clahe,224,cpu,mps,4,True,500,src/train_lodo.py,9.938e-05,5.000e-05,0.000e+00,full cosine (final LR 0),20,results/phase_p_lodo_holdout_deepdrid_s44_v1

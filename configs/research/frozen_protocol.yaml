@@ -1,0 +1,130 @@
+# Frozen experimental protocol — DR grading paper study
+# Locked after Phases A–E audits. Do not change without a new protocol version.
+
+protocol:
+  name: frozen_protocol_v1
+  date: "2026-09-22"
+  research_question: >
+    Under a fixed preprocessing budget and deployable compute constraints,
+    do lightweight retina-specific preprocessing pipelines consistently improve
+    cross-dataset generalization of CNN–Transformer hybrids for DR grading,
+    and does a mild-stage-aware ordinal head preserve these gains and calibration
+    across unseen domains?
+
+data:
+  train: aptos_train
+  validation: aptos_val
+  internal_test: aptos_test
+  external_tests: [idrid, messidor2, deepdrid]
+  num_classes: 5
+  selection_never_uses: [aptos_test, idrid, messidor2, deepdrid]
+  temperature_fit_on: aptos_val
+
+preprocessing:
+  variants:
+    - name: rgb
+      steps: [rgb_convert, resize_224, imagenet_normalize]
+    - name: green_clahe
+      steps: [rgb_convert, green_channel, clahe, stack_3ch, resize_224, imagenet_normalize]
+      clahe_clip_limit: 2.0
+      clahe_tile_grid_size: [8, 8]
+      note: "No FOV crop in current implementation (documented gap vs some protocol texts)."
+  image_size: 224
+  cache_root: datasets/cache
+  train_augmentations:
+    - random_horizontal_flip_0.5
+    - random_rotation_10
+    - color_jitter_brightness_contrast_0.1
+  eval_augmentations: []
+
+models:
+  efficientnet_b0:
+    source: torchvision
+    pretrained: imagenet
+  mobilevit_s:
+    source: timm
+    pretrained: imagenet
+    aliases: [cnn_transformer_hybrid]
+  transformer_baseline:
+    status: implemented_optional
+    name: swin_tiny
+    timm: swin_tiny_patch4_window7_224
+    note: "Phase O optional — CNN vs Hybrid vs Transformer (matched green_clahe×CE)."
+  lodo:
+    status: optional
+    note: "Phase P — train on APTOS+non-held-out externals; val APTOS; eval held-out."
+
+losses:
+  - cross_entropy
+  - coral
+  - mild_aware_coral
+  mild_aware_coral_defaults:
+    mild_class: 1
+    mild_sample_weight: 2.0
+    threshold_weights: [2.0, 2.0, 1.0, 1.0]
+
+training:
+  optimizer: adamw
+  learning_rate: 1.0e-4
+  weight_decay: 1.0e-4
+  scheduler: cosine
+  epochs: 20
+  batch_size: 8
+  batch_size_notes: >
+    CRITICAL: MobileViT-S MUST use batch_size>=16 (prefer 32 when RAM allows; 16 on
+    constrained MacBook Air). Historical batch_size=1 hybrid runs are invalid
+    (BatchNorm) and REQUIRES RERUN.
+  freeze_bn: true  # MobileViT Phase G/H on constrained RAM; keeps ImageNet BN stats
+  device_notes: >
+    Prefer MPS when stable. On this MacBook Air, Phase G uses CPU + batch_size=16
+    because MPS jetsams mid-epoch even at bs=16. CPU+bs16 remains BN-valid.
+  num_workers: 0
+  amp: false
+  selection_metric: quadratic_weighted_kappa
+  selection_split: aptos_val
+  seeds: [42, 43, 44]
+
+hybrid_2x2:
+  architecture_fixed: mobilevit_s
+  cells:
+    H1: {preprocess: rgb, loss: cross_entropy, head: ce}
+    H2: {preprocess: green_clahe, loss: cross_entropy, head: ce}
+    H3: {preprocess: rgb, loss: mild_aware_coral, head: coral}
+    H4: {preprocess: green_clahe, loss: mild_aware_coral, head: coral}
+  note: "CORAL-only cells excluded from primary 2×2; optional ablation separately."
+
+evaluation:
+  metrics:
+    - accuracy
+    - macro_f1
+    - weighted_f1
+    - quadratic_weighted_kappa
+    - mae
+    - per_class_precision
+    - per_class_recall
+    - per_class_f1
+    - mild_dr_precision
+    - mild_dr_recall
+    - mild_dr_f1
+    - confusion_matrix
+    - confusion_0_1
+    - confusion_1_2
+    - ece
+  calibration:
+    ece_bins: 15
+    temperature_scaling: true
+    fit_on: aptos_val
+  bootstrap:
+    n_boot: 1000
+    seed: 42
+
+efficiency:
+  measure: [params, flops, latency_ms]
+  hardware_note: "Compare only measurements from identical hardware."
+
+invalid_prior_runs:
+  - pattern: hybrid_mobilevit_s_*_s42_stable
+    reason: batch_size=1 + CPU BatchNorm confound
+    action: REQUIRES_RERUN_under_this_protocol
+
+version: 1

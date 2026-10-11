@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or cite the exploratory study, please use the metadata below (update DOI after Zenodo release)."
+title: "Green-Channel CLAHE and a Mild-Weighted Threshold Objective for Cross-Dataset Diabetic Retinopathy Grading with MobileViT-S: An Exploratory Evaluation"
+type: software
+authors:
+  - family-names: Ishaq
+    given-names: Zubair Md
+    email: zubairishaq12@gmail.com
+    affiliation: Independent researcher
+abstract: >-
+  Exploratory APTOS-only MobileViT-S evaluation of RGB versus green-channel CLAHE
+  and cross-entropy versus a mild-weighted shared-weight threshold objective, with
+  external testing on IDRiD, Messidor-2 and DeepDRiD. Results are schedule-stratified
+  (seeds 42-44 truncated LR versus 45-47 full cosine). Threshold-head outputs were
+  non-monotonic; calibration is reported only for cross-entropy models.
+version: 1.0.0-exploratory
+license: MIT
+date-released: "2026-10-11"
+repository-code: "https://github.com/Zubair121Md/DR_RP"
+keywords:
+  - diabetic retinopathy
+  - MobileViT
+  - CLAHE
+  - exploratory evaluation
+  - external validation
+identifiers: []

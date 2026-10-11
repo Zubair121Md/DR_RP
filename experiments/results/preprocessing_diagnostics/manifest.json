@@ -1,0 +1,93 @@
+{
+  "samples": [
+    {
+      "tag": "aptos_train",
+      "id": "1b329a127307",
+      "label": 1,
+      "path": "/Users/zubairishaq/Desktop/dr- research/datasets/archive/train_images/train_images/1b329a127307.png",
+      "panel": "experiments/results/preprocessing_diagnostics/aptos_train_1b329a127307_y1.png",
+      "green_224_shape": [
+        224,
+        224,
+        3
+      ],
+      "green_channels_equal": true,
+      "n_dataset": 2930
+    },
+    {
+      "tag": "aptos_val",
+      "id": "0024cdab0c1e",
+      "label": 1,
+      "path": "/Users/zubairishaq/Desktop/dr- research/datasets/archive/val_images/val_images/0024cdab0c1e.png",
+      "panel": "experiments/results/preprocessing_diagnostics/aptos_val_0024cdab0c1e_y1.png",
+      "green_224_shape": [
+        224,
+        224,
+        3
+      ],
+      "green_channels_equal": true,
+      "n_dataset": 366
+    },
+    {
+      "tag": "aptos_test",
+      "id": "e55188915f9d",
+      "label": 1,
+      "path": "/Users/zubairishaq/Desktop/dr- research/datasets/archive/test_images/test_images/e55188915f9d.png",
+      "panel": "experiments/results/preprocessing_diagnostics/aptos_test_e55188915f9d_y1.png",
+      "green_224_shape": [
+        224,
+        224,
+        3
+      ],
+      "green_channels_equal": true,
+      "n_dataset": 366
+    },
+    {
+      "tag": "idrid",
+      "id": "IDRiD_021",
+      "label": 1,
+      "path": "/Users/zubairishaq/Desktop/dr- research/datasets/idrid/B. Disease Grading/1. Original Images/a. Training Set/IDRiD_021.jpg",
+      "panel": "experiments/results/preprocessing_diagnostics/idrid_IDRiD_021_y1.png",
+      "green_224_shape": [
+        224,
+        224,
+        3
+      ],
+      "green_channels_equal": true,
+      "n_dataset": 516
+    },
+    {
+      "tag": "messidor2",
+      "id": "20051020_43832_0100_PP",
+      "label": 1,
+      "path": "/Users/zubairishaq/Desktop/dr- research/Messidor /IMAGES/20051020_43832_0100_PP.png",
+      "panel": "experiments/results/preprocessing_diagnostics/messidor2_20051020_43832_0100_PP_y1.png",
+      "green_224_shape": [
+        224,
+        224,
+        3
+      ],
+      "green_channels_equal": true,
+      "n_dataset": 1744
+    },
+    {
+      "tag": "deepdrid",
+      "id": "3_l1",
+      "label": 1,
+      "path": "/Users/zubairishaq/Desktop/dr- research/datasets/DeepDRiD/regular_fundus_images/regular-fundus-training/Images/3/3_l1.jpg",
+      "panel": "experiments/results/preprocessing_diagnostics/deepdrid_3_l1_y1.png",
+      "green_224_shape": [
+        224,
+        224,
+        3
+      ],
+      "green_channels_equal": true,
+      "n_dataset": 1589
+    }
+  ],
+  "notes": [
+    "P1 green_clahe has NO retinal FOV crop in src/preprocessing.py (protocol text mentions FOV crop; implementation does green+CLAHE only).",
+    "Eval pipelines use train=False (no random augs).",
+    "Channel order: PIL RGB; green = channel index 1."
+  ]
+}

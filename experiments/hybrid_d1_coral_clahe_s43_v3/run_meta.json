@@ -1,0 +1,19 @@
+{
+  "run_id": "hybrid_d1_coral_clahe_s43_v3",
+  "group": "decomp",
+  "family": "hybrid_decomp",
+  "cell": "D1",
+  "seed": 43,
+  "stage": "train",
+  "git_commit": "unknown",
+  "config_hash": "d64887ca52414bec",
+  "config_rel": "configs/paper_v3/hybrid_d1_coral_clahe_s43_v3.yaml",
+  "batch_size": 4,
+  "device": "cpu",
+  "freeze_bn": true,
+  "image_size": 224,
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "date_utc": "2026-10-01T14:58:30Z"
+}

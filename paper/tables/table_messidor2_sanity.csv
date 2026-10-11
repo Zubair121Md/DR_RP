@@ -1,0 +1,13 @@
+cell,seed,n,qwk,true_n0,true_n1,true_n2,true_n3,true_n4,pred_n0,pred_n1,pred_n2,pred_n3,pred_n4,pred_frac_grade0,source_metrics,source_preds
+H1,42,1744,0.000000,1017,270,347,75,35,1744,0,0,0,0,1.000000,results/hybrid_h1_s42_v1/messidor2_external_metrics.json,results/hybrid_h1_s42_v1/messidor2_external_predictions.json
+H1,43,1744,0.020054,1017,270,347,75,35,1741,0,0,3,0,0.998280,results/hybrid_h1_s43_v1/messidor2_external_metrics.json,results/hybrid_h1_s43_v1/messidor2_external_predictions.json
+H1,44,1744,0.099295,1017,270,347,75,35,1687,0,5,46,6,0.967317,results/hybrid_h1_s44_v1/messidor2_external_metrics.json,results/hybrid_h1_s44_v1/messidor2_external_predictions.json
+H2,42,1744,0.011551,1017,270,347,75,35,1706,0,25,13,0,0.978211,results/hybrid_h2_s42_v1/messidor2_external_metrics.json,results/hybrid_h2_s42_v1/messidor2_external_predictions.json
+H2,43,1744,0.100815,1017,270,347,75,35,1686,0,31,9,18,0.966743,results/hybrid_h2_s43_v1/messidor2_external_metrics.json,results/hybrid_h2_s43_v1/messidor2_external_predictions.json
+H2,44,1744,0.037923,1017,270,347,75,35,1681,0,18,43,2,0.963876,results/hybrid_h2_s44_v1/messidor2_external_metrics.json,results/hybrid_h2_s44_v1/messidor2_external_predictions.json
+H3,42,1744,0.044765,1017,270,347,75,35,1656,83,1,3,1,0.949541,results/hybrid_h3_s42_v1/messidor2_external_metrics.json,results/hybrid_h3_s42_v1/messidor2_external_predictions.json
+H3,43,1744,0.004768,1017,270,347,75,35,1665,79,0,0,0,0.954702,results/hybrid_h3_s43_v1/messidor2_external_metrics.json,results/hybrid_h3_s43_v1/messidor2_external_predictions.json
+H3,44,1744,0.001547,1017,270,347,75,35,1743,1,0,0,0,0.999427,results/hybrid_h3_s44_v1/messidor2_external_metrics.json,results/hybrid_h3_s44_v1/messidor2_external_predictions.json
+H4,42,1744,0.097759,1017,270,347,75,35,1216,423,40,45,20,0.697248,results/hybrid_h4_s42_v1/messidor2_external_metrics.json,results/hybrid_h4_s42_v1/messidor2_external_predictions.json
+H4,43,1744,-0.054786,1017,270,347,75,35,807,604,116,170,47,0.462729,results/hybrid_h4_s43_v1/messidor2_external_metrics.json,results/hybrid_h4_s43_v1/messidor2_external_predictions.json
+H4,44,1744,-0.070618,1017,270,347,75,35,1418,295,23,7,1,0.813073,results/hybrid_h4_s44_v1/messidor2_external_metrics.json,results/hybrid_h4_s44_v1/messidor2_external_predictions.json

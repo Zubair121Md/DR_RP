@@ -1,0 +1,88 @@
+{
+  "run_id": "baseline_efficientnet_b0_green_clahe_coral_s44_20260919_135331",
+  "experiment_name": "baseline_efficientnet_b0_green_clahe_coral_s44",
+  "device": "mps",
+  "epochs": 20,
+  "best_epoch": 9,
+  "best_selection_metric": "quadratic_weighted_kappa",
+  "best_selection_score": 0.8995698952177964,
+  "best_val_metrics": {
+    "n_samples": 366,
+    "accuracy": 0.76775956284153,
+    "macro_f1": 0.6211383471973798,
+    "quadratic_weighted_kappa": 0.8995698952177964,
+    "mae": 0.27049180327868855,
+    "per_class_precision": [
+      0.9661016949152542,
+      0.6538461538461539,
+      0.7303370786516854,
+      0.23404255319148937,
+      0.6296296296296297
+    ],
+    "per_class_recall": [
+      0.9941860465116279,
+      0.425,
+      0.625,
+      0.5,
+      0.6071428571428571
+    ],
+    "mild_dr_recall": 0.425,
+    "confusion_matrix": [
+      [
+        171,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        17,
+        15,
+        3,
+        1
+      ],
+      [
+        2,
+        8,
+        65,
+        26,
+        3
+      ],
+      [
+        0,
+        0,
+        5,
+        11,
+        6
+      ],
+      [
+        0,
+        0,
+        4,
+        7,
+        17
+      ]
+    ],
+    "confusion_0_1": {
+      "0_predicted_as_1": 1,
+      "1_predicted_as_0": 4,
+      "total_bidirectional": 5
+    },
+    "confusion_1_2": {
+      "1_predicted_as_2": 15,
+      "2_predicted_as_1": 8,
+      "total_bidirectional": 23
+    },
+    "loss": 0.7116363346576691
+  },
+  "final_train_loss": 0.6340903989646746,
+  "final_val_loss": 0.7053586393594742,
+  "elapsed_sec": 2304.390599012375,
+  "checkpoint": "/Users/zubairishaq/Desktop/dr- research/checkpoints/baseline_efficientnet_b0_green_clahe_coral_s44_20260919_135331/best.pt",
+  "results_dir": "/Users/zubairishaq/Desktop/dr- research/results/baseline_efficientnet_b0_green_clahe_coral_s44_20260919_135331",
+  "experiments_dir": "/Users/zubairishaq/Desktop/dr- research/experiments/baseline_efficientnet_b0_green_clahe_coral_s44_20260919_135331",
+  "aptos_train_size": 2930,
+  "aptos_val_size": 366,
+  "note": "IDRiD was not used for training or validation."
+}

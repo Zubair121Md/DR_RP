@@ -1,0 +1,19 @@
+{
+  "run_id": "hybrid_h2_s45_v3",
+  "group": "core",
+  "family": "hybrid",
+  "cell": "H2",
+  "seed": 45,
+  "stage": "train",
+  "git_commit": "unknown",
+  "config_hash": "6fd3a8972a6cc8db",
+  "config_rel": "configs/paper_v3/hybrid_h2_s45_v3.yaml",
+  "batch_size": 4,
+  "device": "cpu",
+  "freeze_bn": true,
+  "image_size": 224,
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "date_utc": "2026-09-30T11:50:26Z"
+}
