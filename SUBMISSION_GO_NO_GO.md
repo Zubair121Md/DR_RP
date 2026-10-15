@@ -19,9 +19,9 @@
 - [x] Numbers audit completed (`NUMBERS_AUDIT.csv`; 0 mismatches, 0 untraced).
 - [x] Figure audit completed.
 - [x] Table audit completed.
-- [x] Code pushed to GitHub (https://github.com/Zubair121Md/DR_RP, currently **private**), with a fresh history containing no dataset pixels.
+- [x] Code pushed to GitHub (https://github.com/Zubair121Md/DR_RP), with a fresh history containing no dataset pixels.
 - [x] GitHub release `v1.0.0-exploratory` created.
-- [ ] Repository made public.
+- [x] Repository made public.
 - [ ] Zenodo DOI obtained and inserted into Code availability, README, `CITATION.cff` and the cover letter.
 - [x] Cover letter prepared (`submission/02_Cover_Letter.docx`).
 - [x] Blinded manuscript prepared (`submission/07_Blinded_Manuscript.docx`; identity tokens and docx metadata checked by script).
@@ -35,6 +35,6 @@ All boxes checked **and** the chosen journal's official APC, scope and indexing 
 
 ## Remaining blockers (author actions)
 
-1. Make the GitHub repo public, enable the Zenodo GitHub integration, and re-publish (or create a new) release so Zenodo archives it; record the DOI.
-2. Replace "will be made public and archived on Zenodo" in Code availability with the DOI, restore or regenerate the fundus figures locally (see README), then rerun `scripts/build_manuscript_md.py`, `scripts/build_manuscript_docx.py`, `paper/check_manuscript.py` and `scripts/build_submission_package.py`.
+1. Enable the Zenodo GitHub integration, flip the existing `v1.0.0-exploratory` release (or create a new patch tag) so Zenodo archives it; record the DOI.
+2. Insert the Zenodo DOI into Code availability, README, `CITATION.cff` and the cover letter; restore or regenerate the fundus figures locally (see README), then rerun `scripts/build_manuscript_md.py`, `scripts/build_manuscript_docx.py`, `paper/check_manuscript.py` and `scripts/build_submission_package.py`.
 3. Verify the target journal's APC, scope and indexing on its official pages.

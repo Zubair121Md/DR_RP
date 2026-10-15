@@ -268,7 +268,7 @@ In an exploratory APTOS-only MobileViT-S evaluation, green-channel CLAHE and a m
 
 **Data availability.** The APTOS 2019 partition used here is the third-party Kaggle “APTOS-2019 dataset” (version 3) [25], a train/validation/test split of the APTOS 2019 Blindness Detection images. IDRiD [26], Messidor-2 images [27,28] with the adjudicated grades associated with [29], and DeepDRiD [30] are publicly available from their providers under their respective licences. No images are redistributed with this study; checksums of the label files used are provided with the code release.
 
-**Code availability.** The training and evaluation code, the configuration file of every run, the seed list, the metric files, the environment record and the scripts that generate every table and figure are maintained at https://github.com/Zubair121Md/DR_RP and will be made public and archived on Zenodo (release v1.0.0-exploratory) before publication. Per-image predictions and logits are available from the author on reasonable request (zubairishaq12@gmail.com).
+**Code availability.** The training and evaluation code, the configuration file of every run, the seed list, the metric files, the environment record and the scripts that generate every table and figure are public at https://github.com/Zubair121Md/DR_RP (release v1.0.0-exploratory) and will be archived on Zenodo with a DOI before publication. Per-image predictions and logits are available from the author on reasonable request (zubairishaq12@gmail.com).
 
 ---
 
@@ -400,7 +400,7 @@ In an exploratory APTOS-only MobileViT-S evaluation, green-channel CLAHE and a m
 
 ![Figure S9. APTOS test metrics.](figures/supp/figS09_aptos_metrics.png)
 
-**Figure S9.** Accuracy, macro-F1, QWK and mild-stage precision, recall and F1 on the APTOS test split for seeds 42–47, plotted with schedule groups distinguished. Small points are seeds; large points and bars show the mean ± standard deviation within each plotted series.
+**Figure S9.** Accuracy, macro-F1, QWK and mild-stage precision, recall and F1 on the APTOS test split. Seeds 42–44 (truncated schedule) and 45–47 (full cosine schedule) are plotted as separate series; the six seeds are not pooled. Small points are seeds; large points and bars show the mean ± standard deviation within each schedule group.
 
 ![Figure S10. Effect of temperature scaling.](figures/supp/figS10_temperature_scaling.png)
 
@@ -424,7 +424,7 @@ In an exploratory APTOS-only MobileViT-S evaluation, green-channel CLAHE and a m
 
 ![Figure S15. Predicted grades on Messidor-2.](figures/supp/figS15_messidor_prediction_distribution.png)
 
-**Figure S15.** Share of each predicted grade on Messidor-2. Each bar is one primary MobileViT-S run (cells H1–H4, seeds 42–47), with bar segments giving the fraction of the {{mess:n}} gradable images assigned to grades 0–4. The top bar shows the reference grade distribution.
+**Figure S15.** Share of each predicted grade on Messidor-2. Each bar is one primary MobileViT-S run (cells H1–H4), ordered within each cell as seeds 42–44 (truncated schedule) then 45–47 (full cosine schedule); the two schedule groups are not pooled into a single bar. Bar segments give the fraction of the {{mess:n}} gradable images assigned to grades 0–4. The top bar shows the reference grade distribution.
 
 ![Figure S16. Referable-DR performance.](figures/supp/figS16_referable_dr.png)
 

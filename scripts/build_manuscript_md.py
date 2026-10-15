@@ -1167,8 +1167,11 @@ def check_claims() -> list[str]:
     r448 = {c: res448_row(c) for c in ("H1", "H2")}
     claim(pm_mean(r448["H2"]["448 IDRiD"]) > pm_mean(r448["H2"]["224 IDRiD"]) and
           pm_mean(r448["H2"]["448 IDRiD"]) > pm_mean(smc("H2", "IDRiD", "QWK")), "H2 IDRiD higher at 448 than both 224 sets")
-    claim(pm_mean(r448["H2"]["448 mild recall"]) > pm_mean(r448["H2"]["224 mild recall"]) and
-          pm_mean(r448["H2"]["448 mild recall"]) > pm_mean(smc("H2", "APTOS", "mild recall")), "H2 mild recall higher at 448 than both")
+    # Mild-recall gain holds clearly vs truncated 224 only; vs full-cosine 224 it is within noise.
+    claim(pm_mean(r448["H2"]["448 mild recall"]) > pm_mean(r448["H2"]["224 mild recall"]) + 0.2,
+          "H2 448 mild recall clearly above truncated-schedule 224")
+    claim(abs(pm_mean(r448["H2"]["448 mild recall"]) - pm_mean(smc("H2", "APTOS", "mild recall"))) < 0.05,
+          "H2 448 mild recall within 0.05 of full-cosine 224 (no clear gain)")
     claim(pm_mean(r448["H1"]["448 IDRiD"]) < pm_mean(r448["H1"]["224 IDRiD"]) and
           pm_mean(r448["H1"]["448 DeepDRiD"]) < pm_mean(r448["H1"]["224 DeepDRiD"]), "H1 declines on IDRiD and DeepDRiD vs 42–44")
     claim(pm_mean(r448["H1"]["448 IDRiD"]) > pm_mean(smc("H1", "IDRiD", "QWK")) and
