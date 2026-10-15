@@ -1,7 +1,7 @@
 # Submission go / no-go checklist
 
-**Date:** 2026-10-11  
-**Overall recommendation:** **CONDITIONAL GO.** The manuscript, audits and submission pack are ready. Two items must be done by the author before upload: a public code release with a Zenodo DOI, and same-day verification of the chosen journal.
+**Date:** 2026-10-15  
+**Overall recommendation:** **CONDITIONAL GO.** Manuscript, audits and local submission pack are ready. Remaining author clicks: Zenodo DOI (then re-insert), optional preprint, PLOS ONE portal upload + fee-assistance decision.
 
 ## Checklist
 
@@ -25,9 +25,9 @@
 - [ ] Zenodo DOI obtained and inserted into Code availability, README, `CITATION.cff` and the cover letter.
 - [x] Cover letter prepared (`submission/02_Cover_Letter.docx`).
 - [x] Blinded manuscript prepared (`submission/07_Blinded_Manuscript.docx`; identity tokens and docx metadata checked by script).
-- [ ] Journal APC verified on submission day.
-- [ ] Journal scope verified for chosen target.
-- [ ] Journal indexing verified for chosen target.
+- [x] Journal APC verified snapshot (PLOS ONE ~US$2,477 list; re-check on submit day) — see JOURNAL_VERIFICATION.md.
+- [x] Journal scope verified for PLOS ONE (exploratory/negative results in scope) — see JOURNAL_VERIFICATION.md.
+- [x] Journal indexing verified for PLOS ONE (PubMed/MEDLINE/Scopus/WoS) — see JOURNAL_VERIFICATION.md.
 
 ## Go criteria
 

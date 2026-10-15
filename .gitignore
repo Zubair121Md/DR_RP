@@ -61,3 +61,7 @@ paper/figures/supp/figS17_gradcam*
 paper/figures/supp/figS19_gradcam*
 *.docx
 submission/
+
+# local publishing artefacts
+dist/
+preprint/

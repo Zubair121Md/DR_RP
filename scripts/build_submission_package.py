@@ -62,9 +62,9 @@ def cover_letter(path: Path, title: str, code: str) -> None:
     st = doc.styles["Normal"]
     st.font.name, st.font.size = "Times New Roman", Pt(12)
     paras = [
-        "11 October 2026",
+        "15 October 2026",
         "Dear Editor,",
-        f"Please consider the enclosed manuscript, “{title}”, for publication as an original research article.",
+        f"Please consider the enclosed manuscript, “{title}”, for publication as an original research article in PLOS ONE.",
         "Problem addressed. Deep-learning systems for diabetic retinopathy (DR) grading often lose accuracy on "
         "images from datasets they were not trained on. Green-channel contrast-limited adaptive histogram "
         "equalisation (CLAHE) and threshold-based ordinal objectives are common design choices, but their "
